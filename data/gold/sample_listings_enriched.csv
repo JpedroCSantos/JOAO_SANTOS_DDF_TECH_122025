@@ -1,0 +1,1001 @@
+SK_LISTING,SK_HOST,NM_BAIRRO,NR_LATITUDE,NR_LONGITUDE,DS_TIPO_QUARTO,VLR_DIARIA_BRL,QTD_MIN_NOITES,QTD_TOTAL_AVALIACOES,QTD_DIAS_DISPONIVEIS,SAMPLE_ORIGIN,categoria_vibe,tipo_vista,ponto_forte,principal_caracteristica
+17878,68997,Copacabana,-22.96599,-43.1794,Entire home/apt,356.0,5,341,235,RELATED_TO_REVIEW,Moderno,Urbana,Varanda e WiFi,Conforto
+48305,70933,Ipanema,-22.98591,-43.20302,Entire home/apt,2343.0,7,183,301,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Penthouse
+51703,238091,Copacabana,-22.981731,-43.190571,Entire home/apt,250.0,1,325,282,RELATED_TO_REVIEW,Luxo,Mar,Vista para mar,Localização
+86670,474221,Leblon,-22.9835398,-43.2160536,Entire home/apt,438.0,2,132,5,RELATED_TO_REVIEW,Luxo,Mar,Vista Maravilhosa Leblon,Reformado
+89981,488707,Ipanema,-22.98088,-43.20042,Private room,215.0,3,167,210,RELATED_TO_REVIEW,Econômico,Sem Vista,Conforto e privacidade,Praticidade
+109747,554897,Ipanema,-22.98697,-43.19751,Entire home/apt,1094.0,2,250,268,RELATED_TO_REVIEW,Luxo,Mar,Piscina na cobertura,Exclusividade
+132832,652627,Copacabana,-22.98282,-43.18935,Private room,1351.0,2,5,26,RELATED_TO_REVIEW,Padrão,Mar,Vista Praia Copa,Quarto
+137002,635510,Leblon,-22.98251,-43.22108,Entire home/apt,871.0,2,40,115,RELATED_TO_REVIEW,Luxo,Urbana,Sofisticação na localização,Elegância
+174101,259815,Copacabana,-22.98015,-43.19098,Entire home/apt,554.0,3,242,106,RELATED_TO_REVIEW,Luxo,Urbana,Terraço Privativo Arejado,Penthouse
+313223,792218,Ipanema,-22.98377,-43.20067,Entire home/apt,265.0,2,203,302,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Ipanema,Conforto
+342874,829630,Leme,-22.96392,-43.17263,Entire home/apt,204.0,2,239,141,RELATED_TO_REVIEW,Econômico,Mar,Conforto na praia,Conforto
+347820,235496,Copacabana,-22.98287,-43.18972,Entire home/apt,947.0,2,400,282,RELATED_TO_REVIEW,Luxo,Mar,Frente à praia,Exclusividade
+355197,524101,Centro,-22.90941,-43.1935,Entire home/apt,139.0,2,26,126,RELATED_TO_REVIEW,Econômico,Urbana,Conforto no Centro,Estúdio
+368146,1858602,Ipanema,-22.98657,-43.19549,Entire home/apt,360.0,3,345,103,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização em Ipanema,Apartamento
+371950,1858602,Ipanema,-22.98485,-43.1972,Entire home/apt,452.0,3,484,96,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada bairro,Apartamento
+400326,1998370,Copacabana,-22.96714,-43.18372,Entire home/apt,282.0,1,158,136,RELATED_TO_REVIEW,Econômico,Urbana,Aconchegante e moderno,Praticidade
+466477,4307081,Copacabana,-22.98495,-43.1926,Private room,376.0,3,18,351,RELATED_TO_REVIEW,Luxo,Mar,Localização privilegiada praia,Apartamento
+484267,2385085,Copacabana,-22.9857,-43.19045,Entire home/apt,723.0,2,266,61,RELATED_TO_REVIEW,Padrão,Urbana,Localização privilegiada varanda,Varanda
+507900,2502969,Cosme Velho,-22.94433,-43.20504,Entire home/apt,170.0,3,104,279,RELATED_TO_REVIEW,Econômico,Natureza,Suíte independente natureza,Suíte
+519097,2554622,Ipanema,-22.985536575317383,-43.19681930541992,Private room,270.0,2,318,202,RELATED_TO_REVIEW,Luxo,Mar,Privacidade perto praia,Conforto
+178833,856145,Copacabana,-22.98026,-43.19109,Private room,270.0,3,145,292,RELATED_TO_REVIEW,Luxo,Urbana,Melhor internet veranda,Penthouse
+193317,937397,Ipanema,-22.98467,-43.19714,Private room,212.0,3,189,59,RELATED_TO_REVIEW,Econômico,Sem Vista,Perto da praia,Localização
+202778,529105,Copacabana,-22.96582,-43.17786,Entire home/apt,353.0,3,243,360,RELATED_TO_REVIEW,Moderno,Urbana,Localização em Copacabana,Studio
+223073,503995,Ipanema,-22.9828,-43.20467,Entire home/apt,261.0,1,505,308,RELATED_TO_REVIEW,Moderno,Urbana,Localização em Ipanema,Loft
+238802,235496,Copacabana,-22.96386,-43.17757,Entire home/apt,686.0,2,141,309,RELATED_TO_REVIEW,Familiar,Sem Vista,Perto da praia,Localização
+239531,792218,Copacabana,-22.96434,-43.17563,Entire home/apt,203.0,2,138,260,RELATED_TO_REVIEW,Luxo,Mar,Quarto com vista,Vista
+248756,804664,Copacabana,-22.98029,-43.19054,Entire home/apt,665.0,3,176,69,RELATED_TO_REVIEW,Econômico,Urbana,Próximo à praia,Localização
+249323,1306210,Copacabana,-22.976,-43.18838,Entire home/apt,571.0,2,175,289,RELATED_TO_REVIEW,Luxo,Mar,Design frente mar,Designer
+249842,1309444,Copacabana,-22.96794,-43.18969,Private room,146.0,2,226,135,RELATED_TO_REVIEW,Econômico,Urbana,Central perto praia,Localização
+256323,1348172,Santa Teresa,-22.91742,-43.1833,Entire home/apt,200.0,3,264,255,RELATED_TO_REVIEW,Econômico | Moderno,Sem Vista,Conforto e Praticidade,Studio
+272335,7506316,Copacabana,-22.9623,-43.17389,Entire home/apt,177.0,3,402,309,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização Excelente,Apartamento
+273463,319672,Lagoa,-22.97542,-43.19857,Entire home/apt,523.0,3,677,307,RELATED_TO_REVIEW,Familiar,Natureza,Vista para lagoa,Apartamento
+525890,2286711,Glória,-22.92119,-43.17719,Entire home/apt,230.0,2,132,90,RELATED_TO_REVIEW,Econômico,Urbana,Localização muito prática,Próximo
+555606,2704494,Botafogo,-22.9492,-43.18457,Entire home/apt,220.0,2,360,362,RELATED_TO_REVIEW,Econômico,Urbana,Próximo ao metrô,Conveniência
+577253,2838933,Copacabana,-22.96626,-43.17985,Private room,341.0,2,149,345,RELATED_TO_REVIEW,Padrão,Urbana,Localização Excelente,Localização
+588751,2903813,Ipanema,-22.98385,-43.20041,Entire home/apt,912.0,5,30,24,RELATED_TO_REVIEW,Padrão,Sem Vista,Conforto e espaço,Confortável
+634422,474000,Centro,-22.91178,-43.17856,Entire home/apt,142.0,1,479,21,RELATED_TO_REVIEW,Padrão,Urbana,Vista Arcos Lapa,Silencioso
+672835,3413077,Copacabana,-22.97344,-43.18813,Entire home/apt,363.0,1,413,27,RELATED_TO_REVIEW,Econômico | Padrão,Mar,Localização próxima praia,Apart hotel
+844070,2422154,Joá,-23.01128,-43.29399,Entire home/apt,103.0,3,85,75,RELATED_TO_REVIEW,Luxo,Natureza,Exclusividade para poucos,Privacidade
+855137,894588,Copacabana,-22.969697952270508,-43.18413162231445,Entire home/apt,531.0,2,63,146,RELATED_TO_REVIEW,Econômico,Urbana,Proximidade com praia,Localização
+873890,4613553,Copacabana,-22.98252,-43.19156,Entire home/apt,1871.0,2,136,174,RELATED_TO_REVIEW,Luxo,Urbana,Amplo Duplex Vista,Penthouse
+874722,4630101,Copacabana,-22.98188,-43.1947,Private room,139.0,3,345,58,RELATED_TO_REVIEW,Padrão,Urbana,Conforto e localização,suíte
+886300,4698706,Urca,-22.95539,-43.16666,Entire home/apt,341.0,2,541,42,RELATED_TO_REVIEW,Luxo,Natureza,Vista Pão Açúcar,Localização
+913581,674409,Copacabana,-22.98468,-43.18993,Private room,173.0,2,177,28,RELATED_TO_REVIEW,Econômico,Mar,Localização em Copacabana,Quarto
+915090,2479468,Copacabana,-22.986971,-43.191235,Entire home/apt,343.0,6,133,122,RELATED_TO_REVIEW,Padrão,Sem Vista,Dois quartos localização,Prático
+925802,4981026,Praça da Bandeira,-22.91247,-43.21582,Private room,99.0,3,74,283,RELATED_TO_REVIEW,Econômico,Urbana,Localização central estratégica,Conveniência
+675035,2448303,Botafogo,-22.94135,-43.1784,Entire home/apt,153.0,1,401,115,RELATED_TO_REVIEW,Econômico,Urbana,Aconchegante e agradável,Apartamento
+716516,3665789,Gávea,-22.98253,-43.23719,Entire home/apt,1019.0,3,74,358,RELATED_TO_REVIEW,Padrão,Sem Vista,Seguro e espaçoso,Segurança
+727379,3767558,Copacabana,-22.96554,-43.17929,Entire home/apt,208.0,2,485,143,RELATED_TO_REVIEW,Padrão,Urbana,Localização central privilegiada,Localização
+749237,3937029,Ipanema,-22.98454,-43.20809,Entire home/apt,1000.0,3,61,315,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Localização
+762988,3962758,Leme,-22.96222,-43.17022,Private room,169.0,2,239,330,RELATED_TO_REVIEW,Econômico,Mar,Melhor vista garantida,Vista
+770452,4064364,Ipanema,-22.98535,-43.20054,Entire home/apt,265.0,3,373,98,RELATED_TO_REVIEW,Luxo,Mar,Praia renovada moderna,Renovado
+772144,1921729,Copacabana,-22.98662,-43.18973,Entire home/apt,782.0,5,297,151,RELATED_TO_REVIEW,Romântico,Sem Vista,Localização Perfeita,Charmoso
+780813,4020659,Copacabana,-22.96527,-43.17621,Entire home/apt,194.0,2,71,264,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Localização
+825329,4331226,Copacabana,-22.96073,-43.1756,Entire home/apt,393.0,4,100,43,RELATED_TO_REVIEW,Moderno,Natureza,Vista para floresta,AptHotel
+960461,5228078,Santa Teresa,-22.92379,-43.18276,Entire home/apt,207.0,2,351,317,RELATED_TO_REVIEW,Padrão,Sem Vista,Estacionamento Reservado,Comodidade
+996602,5475732,Copacabana,-22.97176551818848,-43.19038391113281,Entire home/apt,168.0,2,638,230,RELATED_TO_REVIEW,Econômico,Urbana,Proximidade à praia,Localização
+1017703,5600818,Copacabana,-22.96687,-43.18474,Entire home/apt,425.0,3,207,286,RELATED_TO_REVIEW,Padrão,Mar,Localização estratégica marítima,Charmoso
+1033727,5689207,Leblon,-22.98491,-43.22132,Entire home/apt,462.0,3,180,245,RELATED_TO_REVIEW,Econômico,Urbana,Localização estratégica Leblon,Custo-benefício
+1063491,1381764,Copacabana,-22.96397,-43.17518,Entire home/apt,268.0,1,184,312,RELATED_TO_REVIEW,Luxo,Mar,Vista lateral mar,Proximidade
+1065597,5862587,Ipanema,-22.98474,-43.21464,Entire home/apt,432.0,2,19,357,RELATED_TO_REVIEW,Econômico,Urbana,Próximo à praia,Localização
+1458993,7821561,Centro,-22.91346,-43.1879,Entire home/apt,251.0,10,35,66,RELATED_TO_REVIEW,Moderno,Urbana,Localização central ideal,Loft
+1578335,8388535,Copacabana,-22.9827,-43.19418,Entire home/apt,203.0,2,326,105,RELATED_TO_REVIEW,Luxo,Mar,Apartamento de praia,Imaculada
+1578414,8389064,Ipanema,-22.9854,-43.20233,Entire home/apt,266.0,4,124,13,RELATED_TO_REVIEW,Luxo,Urbana,Espaçoso e elegante,flat
+1583179,8428615,Leblon,-22.983369827270508,-43.21887969970703,Entire home/apt,682.0,2,189,118,RELATED_TO_REVIEW,Luxo,Urbana,Vista maravilhosa flat,Elegância
+1632682,8674010,Ipanema,-22.98335,-43.19819,Entire home/apt,1200.0,2,152,90,RELATED_TO_REVIEW,Luxo,Urbana,Localização em Ipanema,Apartamento
+1640669,4631556,Copacabana,-22.97809,-43.19165,Entire home/apt,303.0,3,281,287,RELATED_TO_REVIEW,Familiar | Romântico,Urbana,Apartamento 2 quartos,Charmoso
+1687505,3746246,Ipanema,-22.98627,-43.19454,Entire home/apt,254.0,4,126,298,RELATED_TO_REVIEW,Moderno,Urbana,Novo e aconchegante,Novo
+1713671,7525886,Ipanema,-22.984304428100582,-43.20834732055664,Entire home/apt,395.0,2,378,286,RELATED_TO_REVIEW,Luxo | Moderno,Urbana,Localização privilegiada nobre,Studio
+1721278,6044275,Leblon,-22.98366,-43.22035,Entire home/apt,4074.0,4,5,16,RELATED_TO_REVIEW,Luxo,Urbana,Localização nobre Leblon,Exclusividade
+1723791,713797,Humaitá,-22.96013,-43.19982,Private room,290.0,1,47,240,RELATED_TO_REVIEW,Luxo,Urbana,Vista Cristo Redentor,Suíte
+1724741,9090719,Copacabana,-22.96501,-43.17614,Entire home/apt,250.0,3,72,354,RELATED_TO_REVIEW,Luxo,Mar,Vista lateral mar,Vista
+1732191,9124808,Copacabana,-22.98609,-43.19232,Entire home/apt,576.0,3,340,186,RELATED_TO_REVIEW,Econômico,Urbana,Localização entre bairros,Flat
+1732266,9126532,Copacabana,-22.98352,-43.19044,Entire home/apt,90.0,2,112,118,RELATED_TO_REVIEW,Padrão,Urbana,Ótima localização central,Localização
+1763815,9270905,Ipanema,-22.98634,-43.20033,Entire home/apt,403.0,1,74,295,RELATED_TO_REVIEW,Luxo,Urbana,Cobertura Exclusiva Moderna,Penthouse
+1110592,5695975,Copacabana,-22.98396,-43.19364,Entire home/apt,200.0,4,311,257,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada,Flat
+1118497,6138630,Copacabana,-22.98394,-43.19047,Entire home/apt,239.0,2,395,94,RELATED_TO_REVIEW,Econômico,Mar,Proximidade com praia,Studio
+1130596,2989144,Ipanema,-22.98765,-43.19378,Entire home/apt,791.0,10,200,276,RELATED_TO_REVIEW,Luxo,Sem Vista,Amplo estilo residencial,Casa
+1146944,4555781,Laranjeiras,-22.93556,-43.18094,Entire home/apt,177.0,2,284,198,RELATED_TO_REVIEW,Padrão,Urbana,Localização em Copacabana,Apartamento
+1149627,6301967,Ipanema,-22.98398,-43.20823,Entire home/apt,780.0,3,91,210,RELATED_TO_REVIEW,Luxo,Urbana,Localização exclusiva,Raridade
+1150993,6308478,Barra de Guaratiba,-23.0662,-43.5659,Entire home/apt,752.0,3,24,360,RELATED_TO_REVIEW,Padrão,Mar,Estilo Boêmio Tropical,Praia
+1173981,3962758,Leme,-22.9607,-43.16962,Private room,158.0,2,29,105,RELATED_TO_REVIEW,Luxo,Mar,Melhor vista garantida,Vista
+1174302,3962758,Copacabana,-22.95944,-43.17349,Private room,170.0,2,124,330,RELATED_TO_REVIEW,Luxo,Mar,Melhor vista Copa,Suíte
+1190324,6506235,Leblon,-22.98598,-43.22426,Private room,292.0,1,239,182,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Suite
+1274695,6938417,Ipanema,-22.98376,-43.2001,Entire home/apt,893.0,30,21,210,RELATED_TO_REVIEW,Romântico,Mar,Charmoso perto praia,Charme
+1280058,1834286,Copacabana,-22.9856,-43.19,Entire home/apt,510.0,2,458,267,RELATED_TO_REVIEW,Luxo,Mar,Localização em Copacabana,Apartamento
+1288017,6338641,Flamengo,-22.93898,-43.17313,Entire home/apt,294.0,2,229,59,RELATED_TO_REVIEW,Econômico,Mar,Vista Cristo Redentor,Localização
+1791848,2893741,Ipanema,-22.9866943359375,-43.19386672973633,Entire home/apt,258.0,4,241,78,RELATED_TO_REVIEW,Moderno,Mar,Localização privilegiada praia,Boêmio
+1847188,474000,Centro,-22.91196,-43.17873,Entire home/apt,129.0,1,407,34,RELATED_TO_REVIEW,Econômico,Sem Vista,Aconchegante e confortável,Conforto
+1768456,56451628,Copacabana,-22.97531,-43.18971,Entire home/apt,227.0,3,357,99,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Copa,Praticidade
+2046481,10491355,Leblon,-22.98223,-43.22319,Entire home/apt,293.0,1,157,242,RELATED_TO_REVIEW,Econômico,Sem Vista,Perto da praia,Studio
+2053687,10520880,Copacabana,-22.96507,-43.19335,Entire home/apt,800.0,3,51,267,RELATED_TO_REVIEW,Moderno,Urbana,Localização em Copacabana,Praticidade
+2078559,2704494,Ipanema,-22.9847,-43.19919,Entire home/apt,205.0,2,444,341,RELATED_TO_REVIEW,Padrão,Urbana,Próximo ao metrô,Conforto
+2138728,10914284,Leme,-22.96313,-43.17,Private room,235.0,2,421,226,RELATED_TO_REVIEW,Econômico,Mar,Vista incrível mar,Privacidade
+2152945,4284876,Leblon,-22.98314,-43.22818,Entire home/apt,324.0,5,256,76,RELATED_TO_REVIEW,Moderno,Urbana,Bem iluminado,Luminoso
+2155838,10471406,Leblon,-22.98279,-43.22193,Entire home/apt,727.0,3,228,320,RELATED_TO_REVIEW,Luxo,Urbana,Localização muito boa,Loft
+2160137,11022352,Catete,-22.92891,-43.17738,Entire home/apt,200.0,3,304,236,RELATED_TO_REVIEW,Familiar,Sem Vista,Próximo ao lazer,Localização
+2165011,5972450,Copacabana,-22.96472,-43.18065,Entire home/apt,273.0,3,36,260,RELATED_TO_REVIEW,Romântico,Sem Vista,Charmoso e Aconchegante,apartamento
+2168353,11062664,Centro,-22.91164,-43.18518,Entire home/apt,241.0,2,188,266,RELATED_TO_REVIEW,Luxo | Moderno,Urbana,Localização cultural excelente,Apartamento
+1892398,9836825,Copacabana,-22.97408,-43.18982,Entire home/apt,371.0,2,126,340,RELATED_TO_REVIEW,Padrão,Urbana,Localização central privilegiada,Localização
+1892918,9838755,Copacabana,-22.98478,-43.1906,Entire home/apt,292.0,2,170,120,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Copacabana,studio
+1895099,9847358,Leblon,-22.97961,-43.22336,Entire home/apt,622.0,3,192,65,RELATED_TO_REVIEW,Luxo,Urbana,Jacuzzi com vista,Rooftop
+1912695,4613553,Copacabana,-22.97621,-43.18937,Entire home/apt,1378.0,2,134,285,RELATED_TO_REVIEW,Luxo,Mar,Piscina Privativa Exclusiva,Penthouse
+1943837,10054467,Copacabana,-22.98054,-43.19094,Private room,90.0,1,243,54,RELATED_TO_REVIEW,Econômico,Sem Vista,Privacidade e aconchego,Praticidade
+1964140,10147371,Barra da Tijuca,-23.01008,-43.34924,Entire home/apt,350.0,5,236,92,RELATED_TO_REVIEW,Econômico,Mar,Perto da praia,apart-hotel
+1966732,10158511,Copacabana,-22.9646595,-43.1748024,Entire home/apt,284.0,2,229,111,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Localização
+1977864,1500231,Botafogo,-22.95676,-43.18238,Private room,313.0,3,18,347,RELATED_TO_REVIEW,Luxo,Urbana,Varanda espaçosa duplex,Duplex
+2003574,4455538,Barra da Tijuca,-23.01128,-43.36015,Entire home/apt,302.0,2,292,328,RELATED_TO_REVIEW,Padrão,Mar,Frente para praia,Apartamento
+2015458,4417808,Botafogo,-22.95266,-43.17707,Entire home/apt,323.0,3,138,163,RELATED_TO_REVIEW,Charmoso,Natureza,Vista Pão Açúcar,Localização
+2248466,11482984,Copacabana,-22.97475,-43.18754,Entire home/apt,684.0,5,214,70,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização excelente brilhante,Iluminação
+2196318,10104753,Santa Teresa,-22.93749,-43.20506,Entire home/apt,348.0,3,104,280,RELATED_TO_REVIEW,Luxo,Urbana,Vista panorâmica incrível,Terraço
+2217005,11309673,Copacabana,-22.9647,-43.17796,Entire home/apt,189.0,2,166,326,RELATED_TO_REVIEW,Econômico,Urbana,Localização próxima praia,Praticidade
+2370226,12108736,Laranjeiras,-22.94228,-43.19327,Private room,340.0,2,142,345,RELATED_TO_REVIEW,Econômico,Sem Vista,Privacidade e conforto,Privativo
+2379205,10649854,Leblon,-22.984442,-43.232979,Entire home/apt,1244.0,2,132,297,RELATED_TO_REVIEW,Familiar,Urbana,Vista Urbana Vista,Vista
+2383310,319672,Ipanema,-22.98418,-43.19454,Entire home/apt,478.0,3,489,358,RELATED_TO_REVIEW,Luxo,Urbana,Amplo e iluminado,Espaçoso
+2395010,12234661,Leblon,-22.97952,-43.22022,Entire home/apt,650.0,3,155,61,RELATED_TO_REVIEW,Luxo,Urbana,Localização nobre Leblon,Apartamento
+2397791,12251658,Copacabana,-22.971942901611328,-43.19195175170898,Entire home/apt,468.0,5,45,269,RELATED_TO_REVIEW,Luxo,Mar,Localização privilegiada praia,Exclusividade
+2411803,7507394,Santa Teresa,-22.9209,-43.18121,Entire home/apt,270.0,7,11,88,RELATED_TO_REVIEW,Moderno,Mar,Vista Baía Conforto,Espaço
+2415735,12347511,Copacabana,-22.96834,-43.18569,Entire home/apt,158.0,2,478,90,RELATED_TO_REVIEW,Econômico,Sem Vista,Prático e aconchegante,Studio
+2416600,12351117,Ipanema,-22.98596,-43.19904,Entire home/apt,501.0,6,35,261,RELATED_TO_REVIEW,Romântico,Mar,Charmoso flat praia,Conforto
+2426248,12351670,Laranjeiras,-22.932525634765625,-43.183048248291016,Private room,120.0,3,44,74,RELATED_TO_REVIEW,Econômico,Urbana,Quarto aconchegante bem localizado,Conforto
+2445702,12498389,Copacabana,-22.96819,-43.18199,Entire home/apt,215.0,6,52,173,RELATED_TO_REVIEW,Padrão,Mar,Quadra da praia,Localização
+2452761,12080407,Centro,-22.91456,-43.1864,Entire home/apt,180.0,2,200,260,RELATED_TO_REVIEW,Padrão,Urbana,Localização cultural privilegiada,Apartamento
+2258247,10066751,Ipanema,-22.98161,-43.19894,Entire home/apt,458.0,3,134,349,RELATED_TO_REVIEW,Familiar,Urbana,Conforto e localização,Apartamento
+2258593,1076452,Copacabana,-22.97361,-43.1894,Entire home/apt,220.0,5,58,345,RELATED_TO_REVIEW,Luxo,Mar,Localização à beira-mar,Apartamento
+2273956,11609657,Ipanema,-22.98058,-43.20341,Entire home/apt,550.0,2,61,120,RELATED_TO_REVIEW,Luxo,Natureza,Vista Lagoa Cristo,Vista
+2298212,11631956,Copacabana,-22.96219,-43.17802,Entire home/apt,345.0,3,88,156,RELATED_TO_REVIEW,Luxo,Mar,Vista espetacular praia,Penthouse
+2301415,1404492,Laranjeiras,-22.9379,-43.18894,Entire home/apt,363.0,3,38,64,RELATED_TO_REVIEW,Luxo,Urbana,Segurança e panorama,Refúgio
+2325788,10661466,Copacabana,-22.98008,-43.19198,Entire home/apt,360.0,4,28,300,RELATED_TO_REVIEW,Luxo,Mar,Localização privilegiada praia,Apartamento
+2330221,11901508,Ipanema,-22.98433,-43.1974,Entire home/apt,238.0,3,191,184,RELATED_TO_REVIEW,Luxo,Mar,Localização privilegiada praia,Exclusividade
+2349343,11997903,Glória,-22.92028,-43.17777,Entire home/apt,200.0,2,427,323,RELATED_TO_REVIEW,Econômico,Urbana,Compacto e Charmoso,Miniapartamento
+2508774,172059617,Ipanema,-22.9879,-43.19496,Private room,156.0,1,206,333,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada Ipanema,Quarto
+2461715,4428126,Copacabana,-22.96644,-43.18141,Entire home/apt,969.0,2,163,220,RELATED_TO_REVIEW,Moderno,Urbana,Design e Vista,Design
+2473323,12650247,Barra da Tijuca,-23.00443,-43.32676,Private room,140.0,1,398,310,RELATED_TO_REVIEW,Padrão,Urbana,Localização privilegiada Barra,Localização
+2489727,172059617,Ipanema,-22.98703,-43.19502,Private room,154.0,1,245,343,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Ipanema,Privativo
+2657131,13596474,Ipanema,-22.98485,-43.20936,Entire home/apt,258.0,2,44,208,RELATED_TO_REVIEW,Luxo,Urbana,Vista Cristo Redentor,Localização
+2666977,3462794,Leme,-22.96275,-43.1727,Entire home/apt,471.0,3,294,49,RELATED_TO_REVIEW,Luxo,Mar,Apartamento luxuoso praia,Luxuoso
+2716091,13898744,Ipanema,-22.98546,-43.20377,Entire home/apt,331.0,2,350,221,RELATED_TO_REVIEW,Moderno,Urbana,Localização em Ipanema,Apartamento
+2717072,13903917,Barra de Guaratiba,-23.07262,-43.56787,Entire home/apt,790.0,2,129,352,RELATED_TO_REVIEW,Luxo,Mar,Vista Mar Deslumbrante,Casa
+2726547,13952932,Copacabana,-22.98427,-43.19282,Entire home/apt,234.0,2,331,51,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada,Studio
+2546631,13020068,Copacabana,-22.96862,-43.18644,Entire home/apt,242.0,3,455,202,RELATED_TO_REVIEW,Padrão,Urbana,Localização em Copacabana,Residência
+2550510,13058091,Ipanema,-22.98532,-43.20402,Entire home/apt,540.0,4,67,128,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Localização
+2560321,13108170,Copacabana,-22.96543502807617,-43.17399215698242,Entire home/apt,708.0,2,209,137,RELATED_TO_REVIEW,Luxo,Mar,Localização e conforto,Suítes
+2632743,13482680,Ipanema,-22.98134,-43.19855,Entire home/apt,475.0,3,326,271,RELATED_TO_REVIEW,Luxo | Moderno,Mar,Vista espetacular mar,Loft
+2758806,476162,Copacabana,-22.9796,-43.19085,Entire home/apt,179.0,5,96,273,RELATED_TO_REVIEW,Moderno,Urbana,Design Aberto Moderno,Loft
+2759691,14115818,Flamengo,-22.928,-43.17543,Entire home/apt,1192.0,2,27,352,RELATED_TO_REVIEW,Moderno,Urbana,Amplo perto metrô,Espaçoso
+2946520,13392098,Ipanema,-22.9832,-43.19619,Entire home/apt,280.0,4,22,250,RELATED_TO_REVIEW,Luxo,Urbana,Localização em Ipanema,Flat
+2947331,15045399,Ipanema,-22.98358,-43.19645,Entire home/apt,390.0,5,120,147,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização em Ipanema,Localização
+2950011,15059402,Ipanema,-22.98584,-43.19893,Entire home/apt,457.0,4,67,200,RELATED_TO_REVIEW,Luxo | Romântico,Mar | Urbana,Localização privilegiada praia,Exclusividade
+2966973,13596474,Ipanema,-22.98436,-43.2095,Entire home/apt,265.0,2,33,250,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização em Ipanema,Apartamento
+2995089,15268463,Copacabana,-22.9761478,-43.1899004,Entire home/apt,213.0,4,123,98,RELATED_TO_REVIEW,Padrão,Sem Vista,Proximidade com praia,Localização
+2817475,14279272,Copacabana,-22.97733,-43.1902,Entire home/apt,223.0,2,85,16,RELATED_TO_REVIEW,Padrão,Urbana,Próximo à praia,Localização
+2829064,14447555,São Cristóvão,-22.90505,-43.21977,Entire home/apt,242.0,1,164,291,RELATED_TO_REVIEW,Econômico,Urbana,Capacidade para seis,Praticidade
+2838382,14520502,Copacabana,-22.97803,-43.18901,Entire home/apt,335.0,1,53,315,RELATED_TO_REVIEW,Luxo,Mar,Vista para o mar,Vista
+2897255,11572985,Copacabana,-22.98574,-43.19027,Entire home/apt,877.0,2,71,219,RELATED_TO_REVIEW,Luxo,Mar,Jacuzzi e churrasqueira,Penthouse
+3183776,16141644,Ipanema,-22.98606,-43.19719,Entire home/apt,276.0,1,77,335,RELATED_TO_REVIEW,Econômico,Sem Vista,Compacto e funcional,Studio
+3228852,16342013,Flamengo,-22.92712,-43.1737,Entire home/apt,204.0,2,166,33,RELATED_TO_REVIEW,Romântico,Sem Vista,Ambiente acolhedor iluminado,Luz
+3230385,16323335,Leme,-22.962833,-43.169964,Entire home/apt,299.0,4,371,132,RELATED_TO_REVIEW,Romântico,Mar,Studio com vista,Charmoso
+3234193,16367873,Ipanema,-22.986822,-43.194298,Entire home/apt,251.0,6,261,70,RELATED_TO_REVIEW,Econômico,Mar,Vista mar parcial,Estúdio
+3245831,400293,Copacabana,-22.97873,-43.19129,Private room,218.0,3,240,57,RELATED_TO_REVIEW,Econômico,Urbana,Banheiro Privativo Incluso,Quarto
+3302906,6506235,Leblon,-22.98481,-43.22518,Private room,261.0,1,380,143,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Localização
+3069393,11656828,Leme,-22.9627,-43.16859,Private room,193.0,3,360,129,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Privacidade
+3074520,15646327,Leblon,-22.98278,-43.21964,Entire home/apt,514.0,5,399,110,RELATED_TO_REVIEW,Luxo,Mar,Design Praia Leblon,Apartamento
+3079210,15670158,Flamengo,-22.93779,-43.17348,Entire home/apt,212.0,2,403,313,RELATED_TO_REVIEW,Familiar,Sem Vista,Conforto e silêncio,Próximo
+3079245,15670256,Copacabana,-22.96948,-43.18954,Entire home/apt,316.0,2,81,92,RELATED_TO_REVIEW,Padrão,Urbana,Conforto e localização,Confortável
+3112310,149407,São Conrado,-22.99924,-43.27303,Entire home/apt,8500.0,1,24,365,RELATED_TO_REVIEW,Luxo,Natureza,Espaço e conforto,Mansão
+3136464,15925374,Barra da Tijuca,-23.0056828,-43.3299375,Entire home/apt,276.0,2,33,248,RELATED_TO_REVIEW,Econômico,Sem Vista,Piscina no condomínio,Condomínio
+3154366,500892,Copacabana,-22.96884,-43.1812,Entire home/apt,279.0,3,53,75,RELATED_TO_REVIEW,Luxo,Mar,Localização Privilegiada Praia,Estúdio
+3462690,3549189,Ipanema,-22.98792,-43.193,Entire home/apt,437.0,2,453,247,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada praia,Exclusividade
+3512791,5584753,Flamengo,-22.93498,-43.17501,Entire home/apt,112.0,3,88,34,RELATED_TO_REVIEW,Padrão,Sem Vista,Conexão Local Tranquila,Residência
+3533170,14417792,Leblon,-22.985769,-43.224655,Entire home/apt,705.0,2,40,238,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Leblon,Localização
+4314382,22397127,Ipanema,-22.98555,-43.20136,Private room,95.0,7,167,149,RELATED_TO_REVIEW,Padrão,Urbana,Quarto grande espaçoso,Espaço
+4354095,18151909,Santa Teresa,-22.92198,-43.18664,Entire home/apt,356.0,3,217,70,RELATED_TO_REVIEW,Luxo,Natureza,Piscina jardim privado,Bungalow
+4387531,293254659,Copacabana,-22.96514,-43.17448,Entire home/apt,1075.0,1,164,278,RELATED_TO_REVIEW,Luxo,Mar,Vista Panorâmica Mar,Vista
+4455820,2444956,Vidigal,-22.99078,-43.23341,Entire home/apt,252.0,2,593,176,RELATED_TO_REVIEW,Luxo,Mar,Frente para mar,Praia
+3162011,16040532,Copacabana,-22.98501,-43.19147,Entire home/apt,289.0,5,139,51,RELATED_TO_REVIEW,Moderno,Mar,Localização privilegiada Arpoador,Studio
+3167773,14964711,Leblon,-22.98337,-43.22241,Entire home/apt,354.0,10,51,85,RELATED_TO_REVIEW,Moderno,Urbana,WiFi para trabalho,Design
+3735424,10122044,Ipanema,-22.98146,-43.21029,Entire home/apt,440.0,3,157,99,RELATED_TO_REVIEW,Luxo,Urbana,Localização nobre exclusiva,Prestígio
+3880347,20059424,Copacabana,-22.96824,-43.18881,Entire home/apt,276.0,2,239,209,RELATED_TO_REVIEW,Padrão,Mar,Bright view flat,Apartamento
+3919056,10288605,Copacabana,-22.975709915161133,-43.19119644165039,Entire home/apt,293.0,2,75,192,RELATED_TO_REVIEW,Luxo,Urbana,Vista incrível urbana,Localização
+3921691,3321901,Leme,-22.96438,-43.17152,Entire home/apt,920.0,3,197,146,RELATED_TO_REVIEW,Luxo,Mar,Detalhes bem cuidados,Exclusividade
+4000148,9270905,Ipanema,-22.98681,-43.199,Entire home/apt,349.0,1,39,351,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização em Ipanema,Praticidade
+4024384,10796926,Santa Teresa,-22.91854,-43.18131,Entire home/apt,234.0,1,156,203,RELATED_TO_REVIEW,Luxo,Sem Vista,Loft com terraço,Loft
+4067282,21091053,Ipanema,-22.98576,-43.19857,Entire home/apt,924.0,3,325,225,RELATED_TO_REVIEW,Luxo,Mar,Localização Praia Nobre,Exclusividade
+4124661,17647213,Copacabana,-22.9686,-43.18234,Entire home/apt,1853.0,5,14,252,RELATED_TO_REVIEW,Padrão,Sem Vista,Próximo à praia,Espaçoso
+4497142,4284876,Copacabana,-22.97963,-43.18951,Entire home/apt,257.0,6,64,111,RELATED_TO_REVIEW,Romântico,Urbana,Ideal para casal,Aconchegante
+4580561,16346613,Glória,-22.91773,-43.17711,Entire home/apt,232.0,2,132,354,RELATED_TO_REVIEW,Econômico,Urbana,Conforto e praticidade,Aconchego
+4618680,23925443,Flamengo,-22.93269,-43.17496,Entire home/apt,240.0,3,188,127,RELATED_TO_REVIEW,Padrão,Sem Vista,Beleza e Conforto,Apartamento
+4705601,16545585,Copacabana,-22.97558,-43.18884,Entire home/apt,930.0,4,19,168,RELATED_TO_REVIEW,Padrão,Mar,Varanda com vista,Varanda
+5213429,26215552,Ipanema,-22.98434578447408,-43.19962961928292,Entire home/apt,1134.0,1,33,344,RELATED_TO_REVIEW,Luxo,Urbana,Espaço e conforto,Garagem
+4178518,6187963,Ipanema,-22.98194,-43.2052,Entire home/apt,333.0,3,136,71,RELATED_TO_REVIEW,Luxo,Urbana,Entrada Sem Contato,Penthouse
+4244093,22022407,Copacabana,-22.96847,-43.1863,Entire home/apt,185.0,3,260,134,RELATED_TO_REVIEW,Moderno,Urbana,Espaço Criativo Único,Atelier
+4295030,22296412,Copacabana,-22.97664,-43.19247,Entire home/apt,210.0,14,213,182,RELATED_TO_REVIEW,Econômico,Urbana,Proximidade com praia,Localização
+4824307,792218,Ipanema,-22.98356,-43.19806,Entire home/apt,591.0,3,77,330,RELATED_TO_REVIEW,Luxo,Urbana,Melhor de Ipanema,garagem
+4830589,24867609,Barra da Tijuca,-23.01047,-43.36486,Entire home/apt,388.0,3,32,255,RELATED_TO_REVIEW,Padrão,Urbana,Localização na Barra,Apartamento
+4891376,25130130,Leblon,-22.98422,-43.22403,Entire home/apt,1000.0,2,171,74,RELATED_TO_REVIEW,Padrão,Urbana,Localização privilegiada Leblon,Conforto
+4899215,25216603,Copacabana,-22.964636219787987,-43.17402304749883,Entire home/apt,224.0,3,119,300,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Copacabana,Studio
+4947124,24008123,Copacabana,-22.96868,-43.18444,Entire home/apt,286.0,3,280,82,RELATED_TO_REVIEW,Econômico,Urbana,Localização central estratégica,Praticidade
+4976652,25310243,Copacabana,-22.96991,-43.18802,Entire home/apt,212.0,3,243,145,RELATED_TO_REVIEW,Econômico,Mar,Localização perto praia,Studio
+4991490,10383312,Leblon,-22.98275,-43.22428,Entire home/apt,383.0,3,232,75,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada,ApartHotel
+5010911,153721,Copacabana,-22.96369,-43.17392,Entire home/apt,1040.0,1,66,28,RELATED_TO_REVIEW,Luxo,Urbana,Próximo à praia,Espaçosa
+5027530,25947504,Copacabana,-22.96448,-43.17589,Entire home/apt,100.0,5,13,193,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Aconchegante
+5055579,26103486,Lagoa,-22.969732,-43.205776,Entire home/apt,289.0,1,213,56,RELATED_TO_REVIEW,Luxo,Natureza,vista deslumbrante lagoa,vista
+5255723,10796926,Santa Teresa,-22.91873,-43.18178,Entire home/apt,245.0,1,147,188,RELATED_TO_REVIEW,Familiar,Sem Vista,Três quartos amplos,Apartamento
+5285438,27365057,Copacabana,-22.98624,-43.1891,Entire home/apt,194.0,3,178,259,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Localização
+5402875,3447596,Santa Teresa,-22.93561,-43.19991,Entire home/apt,744.0,1,512,283,RELATED_TO_REVIEW,Luxo | Moderno,Urbana,Vista icônica privilegiada,Loft
+5439975,28217959,Copacabana,-22.98414,-43.19164,Entire home/apt,1431.0,4,14,361,RELATED_TO_REVIEW,Luxo,Mar,Localização entre praia,Exclusividade
+5494517,28492577,Copacabana,-22.97544,-43.1898,Entire home/apt,195.0,4,119,59,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Apartamento
+5503931,836828,Ipanema,-22.981258,-43.200554,Entire home/apt,409.0,4,193,206,RELATED_TO_REVIEW,Econômico,Urbana,Localização central tranquila,Tranquilidade
+5616158,13635061,Ipanema,-22.98599,-43.19451,Entire home/apt,2224.0,90,91,358,RELATED_TO_REVIEW,Luxo,Sem Vista,Quartos espaçosos muitos,Flat
+5684986,29475411,Barra da Tijuca,-23.00527,-43.34176,Entire home/apt,328.0,1,164,216,RELATED_TO_REVIEW,Padrão,Sem Vista,Acomoda até quatro,Flat
+5757334,10548523,Santa Teresa,-22.9153,-43.18261,Private room,139.0,3,118,269,RELATED_TO_REVIEW,Familiar,Urbana,Casa colonial charmosa,Colonial
+5777808,23218244,Santa Teresa,-22.92366,-43.18795,Entire home/apt,1310.0,1,33,167,RELATED_TO_REVIEW,Luxo,Urbana,Charme Histórico Sofisticado,Vintage
+5794726,30062527,Copacabana,-22.97533,-43.19171,Entire home/apt,400.0,4,24,219,RELATED_TO_REVIEW,Padrão,Mar,Localização privilegiada praia,Apartamento
+5874459,30504885,Barra da Tijuca,-23.01013,-43.35923,Entire home/apt,462.0,2,193,243,RELATED_TO_REVIEW,Luxo,Mar,Vista panorâmica múltipla,Penthouse
+5056696,23218244,Santa Teresa,-22.92366,-43.18795,Private room,240.0,1,238,118,RELATED_TO_REVIEW,Luxo | Romântico,Urbana | Natureza,Charme histórico local,Suíte
+5077628,26221547,Copacabana,-22.98516,-43.19295,Entire home/apt,223.0,3,35,229,RELATED_TO_REVIEW,Romântico,Urbana,Localização privilegiada Ipanema,Charmoso
+5088701,20370177,Leme,-22.9622,-43.17006,Entire home/apt,270.0,5,16,238,RELATED_TO_REVIEW,Luxo,Mar,Vista deslumbrante mar,Apartamento
+5112148,15024916,Leme,-22.96305,-43.17045,Entire home/apt,270.0,2,352,159,RELATED_TO_REVIEW,Luxo,Mar,Ampla área externa,Penthouse
+5115403,11148144,Joá,-23.01054,-43.29505,Entire home/apt,355.0,2,77,80,RELATED_TO_REVIEW,Luxo,Mar | Natureza,Mar Montanha Mata,Studio
+5144873,503995,Ipanema,-22.9828,-43.20467,Entire home/apt,213.0,1,315,335,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Ipanema,Studio
+5145685,26603603,Leblon,-22.98235,-43.21823,Entire home/apt,285.0,3,94,328,RELATED_TO_REVIEW,Padrão,Sem Vista,Áreas bem cuidadas,Conveniência
+6064724,31479007,Copacabana,-22.9828,-43.18997,Entire home/apt,183.0,4,160,277,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Studio
+6128209,6355551,Centro,-22.91077,-43.18532,Entire home/apt,131.0,2,186,162,RELATED_TO_REVIEW,Moderno,Urbana,Localização cultural privilegiada,Loft
+6325356,30669035,Leme,-22.96457,-43.17252,Entire home/apt,220.0,4,8,0,RELATED_TO_REVIEW,Luxo,Mar,Vista total praia,Apartamento
+7220985,31314269,Ipanema,-22.98696,-43.19603,Entire home/apt,290.0,1,333,275,RELATED_TO_REVIEW,Luxo,Mar,Vista para mar,Residência
+7240684,23342524,Ipanema,-22.98164,-43.21382,Entire home/apt,750.0,3,291,292,RELATED_TO_REVIEW,Luxo,Mar,Localização privilegiada,Apartamento
+7285108,38149291,Ipanema,-22.98219,-43.20013,Entire home/apt,540.0,3,170,40,RELATED_TO_REVIEW,Luxo | Moderno,Mar,Vista espetacular mar,Flat
+7342274,13580277,Copacabana,-22.98174,-43.19002,Entire home/apt,631.0,3,104,65,RELATED_TO_REVIEW,Luxo,Mar,Varanda com vista,Apartamento
+7578378,16458468,Botafogo,-22.95263,-43.18317,Entire home/apt,366.0,80,110,352,RELATED_TO_REVIEW,Econômico | Moderno,Urbana,Estilo artístico diferenciado,Studio
+7583220,24865795,Copacabana,-22.978209086749487,-43.18983770644493,Private room,204.0,3,46,36,RELATED_TO_REVIEW,Econômico,Mar,Quarto privado praia,Localização
+7601163,2989144,Ipanema,-22.98768,-43.19394,Entire home/apt,526.0,10,176,292,RELATED_TO_REVIEW,Econômico,Mar,Perto da Praia,Silencioso
+7608916,9631559,Copacabana,-22.97842,-43.18986,Entire home/apt,333.0,4,173,108,RELATED_TO_REVIEW,Familiar,Urbana,Localização em Copacabana,Apartamento
+7770078,38561318,Ipanema,-22.98004,-43.20111,Private room,200.0,2,292,44,RELATED_TO_REVIEW,Romântico,Urbana,Localização em Ipanema,Suíte
+6453494,33701230,Copacabana,-22.97737,-43.19385,Entire home/apt,373.0,4,201,18,RELATED_TO_REVIEW,Familiar | Padrão,Urbana,Localização próximo metrô,Praticidade
+6466298,13127599,Copacabana,-22.96158,-43.17495,Entire home/apt,238.0,2,126,210,RELATED_TO_REVIEW,Econômico,Mar,Próximo praia Copacabana,Studio
+6613696,34611028,Gávea,-22.97495,-43.22742,Entire home/apt,1020.0,3,13,337,RELATED_TO_REVIEW,Romântico,Urbana,Charme e aconchego,Apartamento
+6835820,35376374,Copacabana,-22.97532,-43.18885,Entire home/apt,270.0,2,145,334,RELATED_TO_REVIEW,Econômico | Moderno,Urbana,Localização em Copacabana,Studio
+6843088,35858223,Copacabana,-22.978174209594727,-43.189239501953125,Entire home/apt,450.0,2,213,290,RELATED_TO_REVIEW,Luxo,Mar,Frente para praia,Localização
+6901513,36166628,Copacabana,-22.97313,-43.18721,Entire home/apt,305.0,2,496,70,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Conforto
+7873549,41048062,Copacabana,-22.973484759069407,-43.19129922769808,Entire home/apt,217.0,3,97,131,RELATED_TO_REVIEW,Econômico,Urbana,Próximo ao metrô,Conveniência
+7909738,41627862,Copacabana,-22.98399,-43.19203,Entire home/apt,450.0,4,266,267,RELATED_TO_REVIEW,Padrão,Urbana,Localização central privilegiada,Apartamento
+7920552,11236899,Gávea,-22.97723,-43.22777,Private room,300.0,2,67,353,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada praia,Suíte
+7995967,1982737,Leblon,-22.98539,-43.22251,Private room,300.0,1,153,221,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Flat
+8001426,42239586,Flamengo,-22.9379548,-43.1763772,Private room,150.0,2,60,356,RELATED_TO_REVIEW,Econômico,Urbana,Localização próxima metro,Praticidade
+8045391,10507162,Copacabana,-22.98633,-43.18972,Entire home/apt,317.0,4,36,19,RELATED_TO_REVIEW,Econômico,Urbana,Studio Compacto Econômico,Studio
+8096290,8976372,Botafogo,-22.95321,-43.18343,Entire home/apt,180.0,15,96,259,RELATED_TO_REVIEW,Padrão,Urbana,Vista Cristo Redentor,Localização
+8716271,15646397,Leblon,-22.98169,-43.22397,Entire home/apt,654.0,5,53,98,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Leblon,Cobertura
+8759956,45937819,Tijuca,-22.93207,-43.24157,Private room,302.0,2,29,331,RELATED_TO_REVIEW,Padrão,Urbana,Próximo ao metrô,Vintage
+8781522,45269832,Copacabana,-22.97814,-43.19019,Entire home/apt,298.0,3,27,311,RELATED_TO_REVIEW,Luxo,Mar,Localização frente mar,Exclusividade
+8816092,24839656,Copacabana,-22.96992,-43.19134,Entire home/apt,659.0,2,193,55,RELATED_TO_REVIEW,Luxo,Mar,Silêncio e verde,Privê
+8904127,46575037,Copacabana,-22.98148,-43.19265,Entire home/apt,300.0,5,22,353,RELATED_TO_REVIEW,Econômico,Sem Vista,Ótima localização central,Localização
+9025011,47114278,Glória,-22.92170524597168,-43.17794799804688,Entire home/apt,234.0,3,138,79,RELATED_TO_REVIEW,Moderno,Urbana,Recém reformado metrô,Conforto
+9064452,14044951,São Conrado,-22.99075,-43.25879,Private room,110.0,1,10,365,RELATED_TO_REVIEW,Familiar,Urbana,Localização central privilegiada,Aconchego
+9642367,49860452,Ipanema,-22.98116683959961,-43.2000846862793,Entire home/apt,648.0,3,202,183,RELATED_TO_REVIEW,Familiar,Urbana,Silêncio e conforto,Tranquilidade
+8302345,43774261,Leblon,-22.98444,-43.22774,Entire home/apt,586.0,2,201,278,RELATED_TO_REVIEW,Luxo,Mar,Proximidade praia Leblon,Apart Hotel
+8322142,43866799,Flamengo,-22.9375,-43.1764,Entire home/apt,850.0,2,60,165,RELATED_TO_REVIEW,Familiar,Sem Vista,Conforto e acolhimento,Aconchego
+8335829,4255118,Copacabana,-22.98515,-43.18914,Entire home/apt,2926.0,3,72,80,RELATED_TO_REVIEW,Luxo,Mar,Vista privilegiada mar,Penthouse
+8370836,33603644,Copacabana,-22.98394,-43.19388,Entire home/apt,218.0,2,167,245,RELATED_TO_REVIEW,Familiar,Sem Vista,"Bem-vindo, aconchegante, casa",acolhedor
+8488307,1558302,Leblon,-22.98323,-43.22163,Entire home/apt,386.0,7,133,14,RELATED_TO_REVIEW,Econômico,Mar,Localização privilegiada praia,Studio
+8489194,24766519,Centro,-22.9103,-43.17382,Entire home/apt,162.0,2,97,105,RELATED_TO_REVIEW,Econômico,Urbana,Localização e transporte,Acessibilidade
+8499916,27149197,Copacabana,-22.98211,-43.18945,Entire home/apt,518.0,4,232,81,RELATED_TO_REVIEW,Luxo,Mar,Frente ao mar,Sea Front
+9672192,11892746,Barra da Tijuca,-23.01047777032385,-43.35870833178148,Entire home/apt,188.0,2,161,209,RELATED_TO_REVIEW,Luxo,Mar,Suíte com vista,Orla
+9696990,6080771,Copacabana,-22.9805,-43.1908,Entire home/apt,698.0,2,67,338,RELATED_TO_REVIEW,Familiar,Mar,Espaço e conforto,Amplo
+9702336,44036521,Barra da Tijuca,-23.0153,-43.30848,Entire home/apt,455.0,2,95,310,RELATED_TO_REVIEW,Padrão,Mar,Localização na praia,Apartamento
+9702863,10122044,Recreio dos Bandeirantes,-23.03047,-43.47532,Entire home/apt,589.0,4,83,78,RELATED_TO_REVIEW,Luxo,Mar,Frente para mar,Pontal
+9704463,50109403,Copacabana,-22.97846,-43.1906,Entire home/apt,393.0,3,238,69,RELATED_TO_REVIEW,Luxo,Mar,Frente para mar,Exclusividade
+9775007,2163079,São Conrado,-22.99693,-43.27019,Private room,321.0,1,16,117,RELATED_TO_REVIEW,Econômico,Sem Vista,Quarto aconchegante simples,Quarto
+9793472,27282645,Copacabana,-22.96376037597656,-43.17512893676758,Entire home/apt,238.0,4,396,10,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Localização
+9853331,50141940,Leblon,-22.98135,-43.22085,Entire home/apt,588.0,3,275,171,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Leblon,apartamento
+9934813,51063385,Copacabana,-22.97044,-43.18796,Entire home/apt,376.0,4,127,125,RELATED_TO_REVIEW,Padrão,Sem Vista,Lindo e novo,Apartamento
+9949905,402398924,Barra da Tijuca,-23.00249,-43.30749,Entire home/apt,180.0,2,76,365,RELATED_TO_REVIEW,Luxo,Mar,Exclusividade Ilha Gigóia,Iate
+9954216,50020036,Leblon,-22.98215,-43.22442,Entire home/apt,347.0,2,214,70,RELATED_TO_REVIEW,Luxo,Urbana,Localização nobre Leblon,Flat
+9964602,51205230,Copacabana,-22.96878,-43.18111,Entire home/apt,185.0,4,127,265,RELATED_TO_REVIEW,Padrão,Urbana,Localização em Copacabana,Apartamento
+9493577,49194316,Copacabana,-22.9772,-43.18984,Entire home/apt,656.0,3,252,144,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Localização
+9583474,16828885,Leblon,-22.9829,-43.22235,Entire home/apt,478.0,3,307,52,RELATED_TO_REVIEW,Luxo,Sem Vista,Localização privilegiada praia,Apartamento
+9625523,49787543,Leblon,-22.98331,-43.21699,Entire home/apt,437.0,2,248,151,RELATED_TO_REVIEW,Luxo,Mar,Próximo à praia,Localização
+10030512,51227019,Copacabana,-22.97286,-43.18671,Entire home/apt,274.0,2,236,62,RELATED_TO_REVIEW,Econômico,Urbana,Próximo à praia,Localização
+9994189,29849369,Ipanema,-22.98531,-43.19627,Entire home/apt,325.0,3,184,139,RELATED_TO_REVIEW,Padrão,Mar,Próximo à praia,Apartamento
+10447269,53819334,Copacabana,-22.97887,-43.19091,Entire home/apt,673.0,5,155,26,RELATED_TO_REVIEW,Padrão,Mar,Frente para praia,Localização
+10548128,54398007,Barra da Tijuca,-23.01092,-43.36828,Entire home/apt,331.0,2,385,67,RELATED_TO_REVIEW,Luxo,Mar,Vista panorâmica incrível,Vista
+10720790,55406034,Copacabana,-22.98336,-43.18966,Entire home/apt,408.0,2,65,317,RELATED_TO_REVIEW,Econômico,Mar,Vista para mar,Studio
+10121866,29868718,Centro,-22.91643,-43.18824,Entire home/apt,177.0,6,23,148,RELATED_TO_REVIEW,Luxo,Urbana,Localização área nobre,Studio
+10136622,52020611,Barra da Tijuca,-22.99999,-43.32578,Entire home/apt,2125.0,3,77,229,RELATED_TO_REVIEW,Luxo,Sem Vista,Exclusividade e conforto,Mansão
+10177444,52259473,Leblon,-22.980736,-43.225098,Entire home/apt,325.0,3,368,8,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Leblon,Charme
+10234880,7238238,Copacabana,-22.96179,-43.17498,Entire home/apt,346.0,3,110,112,RELATED_TO_REVIEW,Luxo,Mar,Serviço completo inclusivo,Hotel
+10728663,54309306,Copacabana,-22.97735,-43.19085,Entire home/apt,237.0,2,331,143,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Copa,Studio
+10730455,24875639,Copacabana,-22.9657027,-43.1788626,Private room,122.0,1,760,64,RELATED_TO_REVIEW,Econômico,Urbana,Praia e metrô,Custo-benefício
+11020104,5634807,Santa Teresa,-22.92554,-43.18804,Entire home/apt,159.0,3,207,298,RELATED_TO_REVIEW,Luxo,Urbana,Vista deslumbrante Santa Teresa,Exclusividade
+11020590,36744189,Ipanema,-22.98546,-43.2025,Entire home/apt,370.0,2,352,232,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada,Novo
+11068448,8208184,Copacabana,-22.97708,-43.19016,Entire home/apt,269.0,4,211,66,RELATED_TO_REVIEW,Padrão,Mar,Próximo à praia,Localização
+10809296,4215606,Barra da Tijuca,-23.00092,-43.38536,Entire home/apt,450.0,7,60,57,RELATED_TO_REVIEW,Familiar,Urbana,Espaço e conforto,Apartamento
+10836394,56115615,Ipanema,-22.98012,-43.19939,Entire home/apt,389.0,2,289,72,RELATED_TO_REVIEW,Luxo,Mar,Vista mar deslumbrante,Exclusividade
+10858343,56242332,Centro,-22.91331,-43.18274,Entire home/apt,117.0,5,185,8,RELATED_TO_REVIEW,Moderno,Urbana,Design minimalista elegante,Simplicidade
+10872696,56328966,Copacabana,-22.97471,-43.19055,Entire home/apt,362.0,2,81,239,RELATED_TO_REVIEW,Luxo,Mar,Vista deslumbrante mar,Localização
+10970864,56179426,Barra da Tijuca,-23.01091,-43.32688,Entire home/apt,812.0,2,102,89,RELATED_TO_REVIEW,Familiar,Mar,Localização privilegiada praia,Praia
+10982521,56980344,Leblon,-22.98082,-43.22246,Entire home/apt,360.0,5,61,166,RELATED_TO_REVIEW,Econômico,Mar,Próximo praia Leblon,Localização
+10983914,6876310,Santa Teresa,-22.92131,-43.18095,Private room,110.0,2,108,210,RELATED_TO_REVIEW,Econômico,Sem Vista,Ótimo para férias,Quarto
+10986866,16992056,Recreio dos Bandeirantes,-23.0309,-43.47318,Entire home/apt,372.0,4,94,75,RELATED_TO_REVIEW,Luxo,Mar,Frente ao mar,Cobertura
+10988183,10684128,Botafogo,-22.95072,-43.18284,Entire home/apt,117.0,1,446,33,RELATED_TO_REVIEW,Econômico,Urbana,Localização Centralizada,Studio
+11247747,58665080,Ipanema,-22.985757805618025,-43.19670297905249,Entire home/apt,1074.0,2,209,145,RELATED_TO_REVIEW,Luxo,Mar,Localização frente praias,Penthouse
+11256105,58738550,Copacabana,-22.986730575561523,-43.19035720825195,Entire home/apt,297.0,3,70,40,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada,Localização
+11655166,3602571,Jardim Botânico,-22.96465,-43.22558,Entire home/apt,643.0,1,102,356,RELATED_TO_REVIEW,Luxo,Natureza,"Privada, Exclusiva, Verde",Villa
+11687248,26161863,Barra da Tijuca,-23.01011,-43.32923,Entire home/apt,485.0,5,205,11,RELATED_TO_REVIEW,Luxo,Mar,Localização frente mar,Beira-mar
+11825042,55248222,Santa Teresa,-22.91792,-43.17922,Private room,99.0,2,95,304,RELATED_TO_REVIEW,Econômico,Sem Vista,Cama de casal,Conforto
+11843735,54359187,Recreio dos Bandeirantes,-23.02926,-43.47618,Entire home/apt,515.0,3,72,207,RELATED_TO_REVIEW,Luxo,Mar,Frente para mar,Cobertura
+11847123,14808936,Copacabana,-22.96146,-43.17585,Entire home/apt,274.0,2,26,143,RELATED_TO_REVIEW,Luxo,Mar,Fogos de Copacabana,Vista
+11900219,63474843,Copacabana,-22.97476,-43.19169,Entire home/apt,200.0,4,214,304,RELATED_TO_REVIEW,Padrão,Urbana,Proximidade com praia,Localização
+11911914,63552168,Botafogo,-22.95369,-43.18294,Entire home/apt,122.0,1,176,329,RELATED_TO_REVIEW,Luxo,Urbana,Apartamento mobiliado excelente,Conforto
+11387611,59716957,Recreio dos Bandeirantes,-23.02227,-43.46188,Entire home/apt,300.0,2,200,141,RELATED_TO_REVIEW,Familiar,Mar,Localização junto praia,Lazer
+11429699,60046583,Copacabana,-22.96777,-43.17968,Private room,650.0,2,17,352,RELATED_TO_REVIEW,Familiar,Urbana,Localização em Copacabana,Conforto
+11532333,4418553,Copacabana,-22.96265,-43.17459,Entire home/apt,249.0,3,91,80,RELATED_TO_REVIEW,Luxo,Mar,Melhor localização garantida,Exclusividade
+12084032,46226066,Copacabana,-22.98253,-43.19535,Entire home/apt,130.0,2,128,9,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada,Praticidade
+11948645,20407614,Recreio dos Bandeirantes,-23.02346056691439,-43.49188687486877,Entire home/apt,208.0,1,117,283,RELATED_TO_REVIEW,Familiar,Sem Vista,Segurança para famílias,Segurança
+12000688,11739,Copacabana,-22.97129,-43.18667,Entire home/apt,210.0,3,56,17,RELATED_TO_REVIEW,Econômico,Urbana,Localização excelente conforto,Estúdio
+12495749,62779805,Jacarepaguá,-22.97018,-43.40651,Entire home/apt,522.0,1,37,365,RELATED_TO_REVIEW,Econômico,Urbana,Localização estratégica jogos,Proximidade
+12616098,49609669,Copacabana,-22.96431,-43.1761,Entire home/apt,272.0,2,300,329,RELATED_TO_REVIEW,Luxo,Mar,Exclusividade em Copacabana,Exclusividade
+12655739,13456017,Copacabana,-22.97515,-43.19285,Entire home/apt,321.0,2,244,122,RELATED_TO_REVIEW,Econômico,Urbana,Conforto em Copacabana,Conforto
+12703406,69053426,Maracanã,-22.91743,-43.23278,Entire home/apt,574.0,3,60,346,RELATED_TO_REVIEW,Econômico,Urbana,Proximidade Estádio Maracanã,Localização
+12710354,64056904,Guaratiba,-23.00903,-43.53262,Entire home/apt,532.0,2,123,358,RELATED_TO_REVIEW,Familiar,Natureza,Casa em sítio,Sítio
+12093885,28463256,São Cristóvão,-22.90241,-43.22531,Entire home/apt,265.0,2,138,344,RELATED_TO_REVIEW,Familiar,Sem Vista,Área lazer ampla,arejada
+12126910,61241580,Copacabana,-22.97125,-43.18746,Entire home/apt,421.0,3,164,268,RELATED_TO_REVIEW,Padrão,Urbana,Localização Central Copacabana,Localização
+12169557,65372548,Barra da Tijuca,-22.99604,-43.40298,Entire home/apt,275.0,2,96,299,RELATED_TO_REVIEW,Econômico,Urbana,Próximo eventos olímpicos,Studio
+12189489,57059088,Leme,-22.96133,-43.16865,Entire home/apt,199.0,3,106,88,RELATED_TO_REVIEW,Padrão,Mar,Próximo à praia,Apartamento
+12210268,65670091,Ipanema,-22.98377,-43.21148,Entire home/apt,446.0,90,1,115,RELATED_TO_REVIEW,Padrão,Urbana,Localização perto praia,Praticidade
+12223628,65753155,Barra da Tijuca,-23.01394,-43.30301,Entire home/apt,1858.0,2,72,98,RELATED_TO_REVIEW,Padrão,Urbana,Localização privilegiada Barra,Localização
+12290090,65925985,Jacarepaguá,-22.96719,-43.39154,Private room,400.0,1,25,365,RELATED_TO_REVIEW,Econômico,Urbana,Localização próxima importante,Suíte
+12307400,32168832,Botafogo,-22.95428,-43.19294,Private room,210.0,1,86,58,RELATED_TO_REVIEW,Econômico,Sem Vista,Cama de casal,Conforto
+12331820,20579353,Copacabana,-22.98357,-43.19009,Entire home/apt,1200.0,1,214,271,RELATED_TO_REVIEW,Luxo,Mar,Frente ao mar,Atlântica
+12812625,44958461,Ipanema,-22.98377,-43.21045,Entire home/apt,324.0,90,37,263,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada Ipanema,Localização
+12848544,4708373,Santa Teresa,-22.91512,-43.18741,Entire home/apt,85.0,2,149,273,RELATED_TO_REVIEW,Econômico,Urbana,Localização histórica central,Flat
+13112627,70061428,Ipanema,-22.98259,-43.20083,Entire home/apt,543.0,4,205,206,RELATED_TO_REVIEW,Econômico,Urbana,Piscina e terraço,Flat
+12925602,56312023,Copacabana,-22.96389,-43.178432,Entire home/apt,250.0,3,164,252,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização muito boa,Localização
+12953923,71183568,Ipanema,-22.98015,-43.2028,Entire home/apt,396.0,2,45,89,RELATED_TO_REVIEW,Luxo | Econômico | Familiar | Romântico | Moderno,Urbana | Mar,Localização privilegiada diária,Apartamento
+13002003,67482645,Ipanema,-22.986832,-43.193962,Entire home/apt,260.0,5,190,213,RELATED_TO_REVIEW,Luxo,Mar,Quadra da praia,Localização
+13002662,3767558,Copacabana,-22.96327,-43.17749,Entire home/apt,198.0,2,363,110,RELATED_TO_REVIEW,Familiar,Urbana,Rua tranquila Copacabana,Tranquilidade
+13032033,22776502,Copacabana,-22.96769,-43.18425,Entire home/apt,822.0,3,75,263,RELATED_TO_REVIEW,Luxo,Mar,Luxo e localização,Exclusividade
+13052555,3890087,Centro,-22.90457,-43.18093,Entire home/apt,289.0,5,25,18,RELATED_TO_REVIEW,Padrão,Urbana,Vista Cristo Redentor,Localização
+13247059,66267116,Copacabana,-22.96771,-43.18951,Entire home/apt,335.0,2,252,283,RELATED_TO_REVIEW,Luxo,Mar,Localização em Copacabana,Apartamento
+13261537,74652696,Barra da Tijuca,-22.97343,-43.38996,Entire home/apt,252.0,4,57,361,RELATED_TO_REVIEW,Moderno,Natureza,Em frente parque,Localização
+13265793,37702771,Santa Teresa,-22.93354,-43.19825,Private room,380.0,2,54,4,RELATED_TO_REVIEW,Econômico,Sem Vista,Quartos compartilhados banheiro,Compartilhado
+13522460,77521959,Flamengo,-22.93746,-43.177299,Private room,114.0,1,128,328,RELATED_TO_REVIEW,Econômico,Urbana,Localização próxima metrô,Praticidade
+13544020,77932812,Copacabana,-22.96816635131836,-43.18248748779297,Entire home/apt,196.0,3,325,30,RELATED_TO_REVIEW,Econômico,Mar,Localização próxima praia,Studio
+13549789,45133557,Andaraí,-22.92465,-43.24643,Entire home/apt,188.0,3,126,213,RELATED_TO_REVIEW,Moderno,Sem Vista,Internet rápida completa,Tecnologia
+13332993,64757298,Glória,-22.92306,-43.17345,Entire home/apt,111.0,1,234,344,RELATED_TO_REVIEW,Econômico,Natureza,Vista Flamengo Park,Varanda
+13342024,496656,Botafogo,-22.94169,-43.18703,Private room,340.0,7,5,364,RELATED_TO_REVIEW,Econômico,Sem Vista,Ambiente aconchegante simples,Quarto
+13435640,59714670,Leblon,-22.98273,-43.22214,Entire home/apt,1340.0,4,20,179,RELATED_TO_REVIEW,Luxo,Mar,Localização nobre Leblon,Cobertura
+13617460,78847592,Ipanema,-22.98536,-43.20017,Entire home/apt,374.0,2,314,273,RELATED_TO_REVIEW,Padrão,Sem Vista,Próximo à praia,Flat
+13641776,62372027,Copacabana,-22.978235244750977,-43.19210815429688,Entire home/apt,540.0,3,52,96,RELATED_TO_REVIEW,Familiar,Urbana,Localização muito boa,Espaçoso
+13810527,44209696,Humaitá,-22.95852637563035,-43.20126503705978,Entire home/apt,400.0,7,56,134,RELATED_TO_REVIEW,Luxo,Urbana,Vista Cristo Redentor,Vista
+13829809,81538824,Barra da Tijuca,-23.0084,-43.34309,Entire home/apt,380.0,2,86,179,RELATED_TO_REVIEW,Luxo,Mar,Frente para mar,Flat
+13847080,10296603,Barra da Tijuca,-23.00918,-43.35455,Entire home/apt,465.0,2,158,338,RELATED_TO_REVIEW,Luxo,Mar,Vista para mar,Apartamento
+13849161,1982737,Leblon,-22.98482,-43.22436,Entire home/apt,513.0,1,106,167,RELATED_TO_REVIEW,Luxo | Moderno,Urbana | Mar,Localização nobre Leblon,Conforto
+13665762,72184256,Barra da Tijuca,-22.99828,-43.34713,Entire home/apt,318.0,3,159,142,RELATED_TO_REVIEW,Luxo,Urbana,Conforto e lazer,Resort
+13668982,79489744,Copacabana,-22.97389,-43.189198,Entire home/apt,500.0,3,95,91,RELATED_TO_REVIEW,Luxo,Urbana,Espaçoso e mobiliado,Conforto
+13682645,15135033,Copacabana,-22.97135,-43.18766,Entire home/apt,800.0,3,12,177,RELATED_TO_REVIEW,Econômico,Mar,Localização Frente Mar,Studio
+13749304,415036522,Alto da Boa Vista,-22.97487,-43.2755,Entire home/apt,641.0,2,210,294,RELATED_TO_REVIEW,Familiar,Natureza,Casa colonial natural,Colonial
+13915144,49609288,Santa Teresa,-22.92034,-43.18481,Entire home/apt,258.0,3,103,208,RELATED_TO_REVIEW,Romântico,Urbana,Charme histórico encantador,Charmoso
+13924280,82686696,Copacabana,-22.96414,-43.17679,Entire home/apt,215.0,2,80,81,RELATED_TO_REVIEW,Econômico,Sem Vista,Próximo à praia,Localização
+14030256,6000862,Vidigal,-22.99503,-43.23519,Entire home/apt,387.0,2,162,75,RELATED_TO_REVIEW,Moderno,Mar,Vista Maravilhosa Presente,Apartamento
+14035016,28248312,Copacabana,-22.98241,-43.19197,Entire home/apt,175.0,4,157,248,RELATED_TO_REVIEW,Moderno,Mar,Localização privilegiada mar,Flat
+13765319,67482645,Ipanema,-22.98567,-43.19636,Entire home/apt,329.0,5,165,207,RELATED_TO_REVIEW,Padrão,Sem Vista,Localização Próxima Metro,Localização
+13941852,54106314,Santa Teresa,-22.91603,-43.18962,Entire home/apt,90.0,5,123,251,RELATED_TO_REVIEW,Econômico,Urbana,Localização Central Prática,Kitnet
+13942977,82949230,Leme,-22.9623643,-43.1701559,Entire home/apt,222.0,3,20,33,RELATED_TO_REVIEW,Romântico | Padrão,Mar,Localização privilegiada Leme,Exclusividade
+14057383,52220707,Centro,-22.91025,-43.17547,Entire home/apt,263.0,3,74,132,RELATED_TO_REVIEW,Luxo,Urbana,Vista Rio Centro,Localização
+14093339,84787585,Barra da Tijuca,-23.0052,-43.29554,Entire home/apt,394.0,2,75,89,RELATED_TO_REVIEW,Econômico | Moderno,Mar,Localização e lazer,Loft
+13990438,446245344,Ipanema,-22.98436164855957,-43.19435119628906,Entire home/apt,389.0,2,259,244,RELATED_TO_REVIEW,Moderno,Urbana,Design com estilo,Loft
+14122253,85139579,Copacabana,-22.98405,-43.19406,Entire home/apt,220.0,3,146,345,RELATED_TO_REVIEW,Luxo,Urbana,Estilo e Conforto,Conforto
+14142088,82937083,Ipanema,-22.98445,-43.20958,Entire home/apt,600.0,5,58,69,RELATED_TO_REVIEW,Luxo,Mar,Primeira Linha Mar,Exclusividade
+14216305,86340471,Jacarepaguá,-22.96986,-43.39819,Entire home/apt,237.0,2,71,200,RELATED_TO_REVIEW,Moderno,Urbana,Localização estratégica Rio,Conveniência
+14226433,77888190,Copacabana,-22.97093,-43.18774,Entire home/apt,225.0,1,350,280,RELATED_TO_REVIEW,Econômico,Urbana,Localização Central Privilegiada,Studio
+14549684,90038840,Recreio dos Bandeirantes,-23.02819,-43.50581,Entire home/apt,1023.0,3,91,78,RELATED_TO_REVIEW,Luxo,Natureza,Beleza Natural Exuberante,Paraíso
+14592653,90468506,Copacabana,-22.96398,-43.18145,Entire home/apt,304.0,3,284,23,RELATED_TO_REVIEW,Luxo,Mar,Localização Imperdível Praia,Exclusividade
+14155271,27758411,São Francisco Xavier,-22.90693,-43.24286,Entire home/apt,228.0,1,216,77,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada,Praticidade
+14168488,84909629,Itanhangá,-23.00048,-43.30856,Private room,128.0,2,18,90,RELATED_TO_REVIEW,Familiar,Natureza,Suíte confortável charmosa,Ilha
+14294524,87255583,Vila Valqueire,-22.87906,-43.36979,Private room,95.0,3,47,364,RELATED_TO_REVIEW,Familiar,Sem Vista,União familiar forte,Convivência
+14317799,26231746,Ipanema,-22.98372,-43.1996,Entire home/apt,433.0,2,159,55,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada Ipanema,Praticidade
+14322383,32279943,Centro,-22.90796,-43.18386,Entire home/apt,190.0,4,45,133,RELATED_TO_REVIEW,Econômico | Padrão,Urbana,Aconchego e localização,Aconchegante
+14745679,71562053,Catete,-22.92736,-43.17814,Entire home/apt,164.0,1,76,61,RELATED_TO_REVIEW,Econômico,Natureza,Próximo ao Parque,Localização
+14785804,92315479,Copacabana,-22.97536,-43.18828,Entire home/apt,396.0,4,121,78,RELATED_TO_REVIEW,Romântico | Padrão,Urbana | Mar,Charmoso e Aconchegante,Conforto
+14824047,11959625,Copacabana,-22.98362159729004,-43.19500732421875,Entire home/apt,116.0,3,127,83,RELATED_TO_REVIEW,Familiar,Sem Vista,Conforto e aconchego,Conforto
+14872664,34602073,Copacabana,-22.97664,-43.18858,Entire home/apt,650.0,3,115,269,RELATED_TO_REVIEW,Luxo,Urbana,Exclusividade e charme,Elegância
+14942294,94008265,Copacabana,-22.975589752197266,-43.18870162963867,Entire home/apt,213.0,3,279,32,RELATED_TO_REVIEW,Padrão,Mar,Localização privilegiada praia,Proximidade
+15845624,102646434,Copacabana,-22.98482,-43.19192,Entire home/apt,2000.0,3,91,78,RELATED_TO_REVIEW,Moderno,Urbana,Localização privilegiada,Studio
+14349999,87933679,Copacabana,-22.97346,-43.18843,Entire home/apt,353.0,2,247,84,RELATED_TO_REVIEW,Luxo | Moderno,Mar,Exclusividade à beira,Residencial
+14385014,78960552,Copacabana,-22.98006,-43.19073,Private room,303.0,20,73,270,RELATED_TO_REVIEW,Familiar,Mar,Próxima à praia,Localização
+14992196,20370177,Copacabana,-22.96431,-43.17907,Entire home/apt,810.0,4,48,221,RELATED_TO_REVIEW,Luxo,Urbana,Localização e conforto,Standing
+15007102,2312911,Copacabana,-22.98422,-43.18941,Entire home/apt,412.0,2,289,103,RELATED_TO_REVIEW,Padrão,Mar,Quadra praia perfeita,Localização
+15015363,63419886,Barra da Tijuca,-23.01531,-43.30372,Entire home/apt,443.0,2,174,229,RELATED_TO_REVIEW,Moderno,Mar,Moderno e equipado,Loft
+15024669,85974796,Jacarepaguá,-22.97284,-43.39496,Private room,152.0,1,98,220,RELATED_TO_REVIEW,Econômico,Urbana,Localização Olímpica Privilegiada,Quarto
+15037941,1321287,Ipanema,-22.98252,-43.19899,Entire home/apt,470.0,3,117,135,RELATED_TO_REVIEW,Luxo,Urbana,Localização em Ipanema,Flat
+15091164,95521072,Ipanema,-22.98396682739257,-43.20748901367188,Entire home/apt,529.0,2,100,19,RELATED_TO_REVIEW,Luxo,Urbana,Localização e conforto,Apartamento
+15115528,10676779,Copacabana,-22.96731,-43.18333,Entire home/apt,226.0,3,62,101,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Copacabana,Studio
+15232495,62895661,Copacabana,-22.9791,-43.19025,Entire home/apt,210.0,2,362,354,RELATED_TO_REVIEW,Econômico,Mar,Vista para Copacabana,Estúdio
+15238919,21461274,Ipanema,-22.984804,-43.195518,Entire home/apt,288.0,4,70,85,RELATED_TO_REVIEW,Familiar | Romântico,Urbana,Lindo e aconchegante,Apartamento
+15935986,103425138,Botafogo,-22.94861,-43.18176,Entire home/apt,136.0,2,248,9,RELATED_TO_REVIEW,Econômico | Romântico,Mar,Localização privilegiada praia,Estúdio
+15936745,99500285,Copacabana,-22.97259,-43.18866,Entire home/apt,241.0,3,254,13,RELATED_TO_REVIEW,Econômico,Urbana,Localização privilegiada facilidade,Studio
+16036940,39731483,Leblon,-22.98361,-43.21608,Entire home/apt,835.0,2,268,104,RELATED_TO_REVIEW,Econômico | Romântico,Mar | Natureza,Proximidade com natureza,Conforto
+16054309,357307,Ipanema,-22.98501,-43.20623,Entire home/apt,995.0,1,411,255,RELATED_TO_REVIEW,Luxo,Urbana,Localização privilegiada segura,Exclusividade
+16079120,104778808,Copacabana,-22.96742,-43.18259,Entire home/apt,319.0,3,96,296,RELATED_TO_REVIEW,Familiar,Mar,Perto da praia,Espaçoso
+16112187,76394416,Leblon,-22.9858,-43.22621,Entire home/apt,499.0,3,44,171,RELATED_TO_REVIEW,Econômico,Urbana,Localização excelente,Studio
+16132269,385834583,Ipanema,-22.985279919062982,-43.197743035981176,Entire home/apt,690.0,2,110,254,RELATED_TO_REVIEW,Luxo,Urbana,Localização Ideal Ipanema,Penthouse
+16178461,66655195,Copacabana,-22.97642,-43.18793,Entire home/apt,214.0,2,90,122,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Localização
+16200321,65975604,Ipanema,-22.9822006225586,-43.19999313354492,Private room,225.0,2,25,332,RELATED_TO_REVIEW,Econômico,Urbana,Localização em Ipanema,Quarto
+15307683,96474135,Copacabana,-22.96669,-43.17882,Private room,103.0,1,320,50,RELATED_TO_REVIEW,Econômico,Mar,Próximo à praia,Quarto
+15483501,99408870,Flamengo,-22.94005,-43.17567,Entire home/apt,1234.0,2,100,251,RELATED_TO_REVIEW,Luxo,Sem Vista,Piscina privativa exclusiva,Penthouse
+15621889,100074191,Copacabana,-22.97537,-43.18933,Entire home/apt,136.0,1,190,266,RELATED_TO_REVIEW,Econômico,Urbana,Recém reformado silencioso,Reformado
+15654082,101032323,Copacabana,-22.96528,-43.17533,Entire home/apt,220.0,1,401,80,RELATED_TO_REVIEW,Econômico,Mar,Proximidade com mar,Localização
+15702553,21218739,Copacabana,-22.96504,-43.1771,Entire home/apt,481.0,5,158,112,RELATED_TO_REVIEW,Luxo,Mar,Vista Maravilhosa Copacabana,Vista
+15773791,85538673,Grajaú,-22.92466,-43.25773,Entire home/apt,130.0,2,70,299,RELATED_TO_REVIEW,Moderno,Sem Vista,Amplo e seguro,Loft
+15778437,1356134,Santa Teresa,-22.91606,-43.18033,Private room,95.0,1,599,313,RELATED_TO_REVIEW,Moderno,Sem Vista,Design artístico criativo,Arte
+1494181948424014615,715123207,Copacabana,-22.973589010581208,-43.18740521000285,Entire home/apt,286.0,1,0,260,RANDOM_FILL,Luxo,Mar,Beira Mar Exclusiva,Luxuoso
+14100945,29896922,Jacarepaguá,-22.96666,-43.38424,Entire home/apt,615.0,30,0,268,RANDOM_FILL,Luxo,Urbana,Mobiliado para Olimpíadas,Localização
+556267470059806323,115075111,Santa Teresa,-22.91528,-43.18281,Private room,80.0,1,13,365,RANDOM_FILL,Econômico,Urbana,Localização Central Lapa,Casa
+15037900,14349783,Jacarepaguá,-22.97022,-43.39057,Entire home/apt,1342.0,6,0,362,RANDOM_FILL,Familiar,Sem Vista,Amplo espaço interno,Apartamento
+1055360943854929993,88740002,Copacabana,-22.9658187,-43.1807133,Entire home/apt,300.0,5,0,89,RANDOM_FILL,Moderno,Urbana,Próximo da praia,Loft
+1015898683094034477,128785191,Copacabana,-22.96991,-43.18802,Entire home/apt,150.0,2,31,152,RANDOM_FILL,Padrão,Urbana,Localização central privilegiada,Localização
+22733320,157081146,Recreio dos Bandeirantes,-23.02389,-43.51303,Private room,166.0,2,3,210,RANDOM_FILL,Econômico,Natureza,Natureza bem próxima,Verde
+1147985258245035685,392083762,Copacabana,-22.96381,-43.1775,Entire home/apt,626.0,3,40,66,RANDOM_FILL,Luxo,Mar,Vista deslumbrante mar,Apartamento
+1507544151839572200,514560708,Recreio dos Bandeirantes,-23.0273995,-43.4736991,Entire home/apt,127.0,1,0,361,RANDOM_FILL,Econômico,Mar,Próximo à praia,aconchegante
+50632952,102761308,Barra da Tijuca,-22.98783,-43.35357,Entire home/apt,400.0,2,33,178,RANDOM_FILL,Luxo | Familiar | Moderno,Mar,Lazer completo próximo,Condomínio
+13221400,474000,Centro,-22.91099,-43.17773,Entire home/apt,121.0,1,429,45,RANDOM_FILL,Econômico,Urbana,Central e acolhedor,Aconchegante
+31902161,225894302,Vidigal,-22.99398,-43.23521,Private room,180.0,1,0,365,RANDOM_FILL,Romântico,Mar,Vista Maravilhosa Matinal,Vista
+1125609723572225149,569958633,Copacabana,-22.9726433,-43.187861,Private room,257.0,1,19,248,RANDOM_FILL,Econômico,Urbana,2 quartos compartilhados,Compartilhado
+16724817,110874279,Irajá,-22.84099,-43.32092,Private room,376.0,1,0,89,RANDOM_FILL,Moderno,Urbana,Localização estratégica norte,Brilho
+53970086,14969641,Leblon,-22.980091094970703,-43.21970748901367,Entire home/apt,5000.0,4,0,365,RANDOM_FILL,Padrão,Urbana,Localização central privilegiada,Apartamento
+558063117557594607,83617349,Recreio dos Bandeirantes,-23.0037197,-43.4475404,Entire home/apt,143.0,2,75,270,RANDOM_FILL,Econômico,Mar,"WiFi, Ar Condicionado",Conforto
+1359567591636420083,29876088,Copacabana,-22.980965384105065,-43.19037029204787,Entire home/apt,589.0,2,17,176,RANDOM_FILL,Padrão,Mar,Próximo à praia,Apartamento
+14746494,91369088,Ipanema,-22.98349,-43.20846,Entire home/apt,416.0,3,0,40,RANDOM_FILL,Luxo,Mar,Localização Perfeita Ipanema,Localização
+1132737372824777002,515342183,Leblon,-22.982469411007884,-43.21761299239587,Entire home/apt,819.0,1,37,157,RANDOM_FILL,Econômico,Sem Vista,Localização perfeita praia,Flat
+648655963625300600,4255118,Ipanema,-22.98304,-43.20191,Entire home/apt,931.0,4,68,187,RANDOM_FILL,Luxo | Moderno,Urbana,Espaço moderno luxuoso,luxo
+4244543,7700207,Catete,-22.92821994482552,-43.179050392012186,Entire home/apt,232.0,2,14,353,RANDOM_FILL,Padrão,Sem Vista,Ótima localização conforto,Apartamento
+1388758822044635166,158736573,Botafogo,-22.952689534209785,-43.18218091468047,Entire home/apt,206.0,4,11,314,RANDOM_FILL,Padrão,Urbana,Localização em Botafogo,Apartamento
+1202127104187342372,24524977,Copacabana,-22.97115992414728,-43.18973500560376,Private room,118.0,1,0,22,RANDOM_FILL,Econômico,Urbana,Localização Central Privada,Quarto
+796557454051359688,415296850,Copacabana,-22.96603,-43.17743,Entire home/apt,556.0,2,13,159,RANDOM_FILL,Econômico,Mar,Proximidade com mar,Localização
+1399378259444570596,668179208,Copacabana,-22.9679067,-43.1817465,Entire home/apt,378.0,1,0,309,RANDOM_FILL,Padrão,Sem Vista,Localização em Copacabana,Apartamento
+1230357131681849831,598001577,Copacabana,-22.974626726366736,-43.18956134548199,Private room,450.0,2,5,363,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Praticidade
+928345808293869225,411347482,Copacabana,-22.97802,-43.19128,Entire home/apt,556.0,3,2,47,RANDOM_FILL,Padrão,Mar,Próximo à praia,Localização
+679555238345208961,10423223,Ipanema,-22.98504,-43.20907,Entire home/apt,1700.0,4,7,350,RANDOM_FILL,Luxo,Mar,Frente para praia,Localização
+816017002025135151,429672995,Laranjeiras,-22.93137745525097,-43.18675462156534,Entire home/apt,221.0,1,18,229,RANDOM_FILL,Padrão,Urbana,Localização Centralizada,Apartamento
+835749224161307287,496494386,Ipanema,-22.98350493939332,-43.19851771826327,Entire home/apt,469.0,2,89,211,RANDOM_FILL,Luxo,Urbana,Espaço e conforto,Suítes
+1482802680801258907,712204827,Copacabana,-22.9647553,-43.1755406,Entire home/apt,256.0,7,0,363,RANDOM_FILL,Padrão,Mar,Vista panorâmica mar,Vista
+1515515135324472629,461094665,Jacarepaguá,-22.96370902529351,-43.397075682878494,Private room,203.0,3,0,180,RANDOM_FILL,Econômico,Urbana,Localização privilegiada evento,Proximidade
+1356121526090242056,230501884,Copacabana,-22.96567824946252,-43.18406168371439,Entire home/apt,488.0,3,3,110,RANDOM_FILL,Familiar,Sem Vista,Conforto e praticidade,Próximo
+1320513433018168434,214631783,Centro,-22.90973,-43.18954,Entire home/apt,150.0,1,13,353,RANDOM_FILL,Econômico,Sem Vista,Praticidade e conforto,Compacto
+1241698125390767950,528121771,Copacabana,-22.96466106010785,-43.17573610693216,Entire home/apt,301.0,1,1,290,RANDOM_FILL,Padrão,Mar,Esquina Praia Vista,Localização
+1052222141929310859,428413144,Copacabana,-22.979493721985623,-43.1898072264085,Entire home/apt,238.0,2,11,81,RANDOM_FILL,Econômico,Urbana,Localização em Copa,Studio
+1513026606401478581,444618426,Camorim,-22.98208005774923,-43.42187041727355,Entire home/apt,415.0,2,0,111,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Praticidade
+1266920099822343145,185946297,Barra da Tijuca,-23.01181957847944,-43.32148606931153,Entire home/apt,475.0,3,22,251,RANDOM_FILL,Luxo,Mar | Natureza,Vista deslumbrante dupla,Exclusividade
+18154297,261954,Leblon,-22.98459,-43.23111,Private room,300.0,1,36,358,RANDOM_FILL,Luxo,Urbana,Localização e charme,Exclusividade
+1309353078822164911,479939951,Barra da Tijuca,-23.00804350776381,-43.43525115375285,Entire home/apt,284.0,2,14,150,RANDOM_FILL,Familiar,Sem Vista,Conforto e localização,Confortável
+828730516699843324,1342536,Copacabana,-22.9696849,-43.1855841,Entire home/apt,206.0,3,44,184,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+1181285455482657006,159286644,Barra da Tijuca,-23.00883,-43.35813,Entire home/apt,492.0,1,30,43,RANDOM_FILL,Econômico,Mar,Em frente praia,Localização
+1354384536297497846,541746677,Recreio dos Bandeirantes,-23.0282882,-43.4714491,Entire home/apt,172.0,1,7,351,RANDOM_FILL,Familiar,Sem Vista,Próximo à praia,Térreo
+1306687134789989522,218512955,Copacabana,-22.973351,-43.1914614,Entire home/apt,142.0,2,9,246,RANDOM_FILL,Econômico,Sem Vista,Ambiente acolhedor simples,Aconchego
+1488653680273862062,713739036,Ipanema,-22.9852898,-43.2100454,Entire home/apt,1307.0,3,1,238,RANDOM_FILL,Luxo,Natureza,Refúgio tranquilo exclusivo,Oásis
+1476054112374582168,50098118,Flamengo,-22.9393938,-43.1771245,Entire home/apt,405.0,1,1,362,RANDOM_FILL,Moderno,Urbana,Localização e praticidade,Flat
+1229769280029080258,14246086,Leblon,-22.9800477,-43.220278,Entire home/apt,784.0,2,2,188,RANDOM_FILL,Luxo,Sem Vista,Próximo da praia,Localização
+1507544248184446479,7509686,Centro,-22.89913,-43.17993,Entire home/apt,222.0,1,0,59,RANDOM_FILL,Econômico,Sem Vista,Sem taxa limpeza,Estúdio
+1321209633137894495,320684347,Ipanema,-22.98237,-43.19853,Entire home/apt,135.0,3,6,327,RANDOM_FILL,Econômico,Urbana,Preço acessível localizado,Favela
+986167940808402411,538324209,Centro,-22.9057948,-43.1915517,Entire home/apt,103.0,2,80,191,RANDOM_FILL,Padrão,Urbana,Amplo espaço interno,Espaçoso
+1018724,5607953,Ipanema,-22.9833,-43.19589,Entire home/apt,215.0,3,228,327,RANDOM_FILL,Luxo | Moderno,Urbana,Localização Privilegiada Ipanema,Design
+33399408,77709888,Copacabana,-22.98292,-43.19094,Entire home/apt,1012.0,3,33,70,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Luxo
+686260879567481743,11758620,Barra da Tijuca,-23.004725159382083,-43.32931529963891,Entire home/apt,800.0,2,5,268,RANDOM_FILL,Familiar | Econômico,Urbana | Mar,Conforto e tranquilidade,Aconchego
+1159367168379033199,347487511,Glória,-22.91517,-43.17568,Entire home/apt,151.0,2,42,146,RANDOM_FILL,Econômico,Urbana,Localização prática conveniente,Praticidade
+13699546,78499152,Ipanema,-22.98409,-43.20114,Private room,776.0,2,11,15,RANDOM_FILL,Luxo,Urbana,Localização Emblemática Praia,Hotel-Residência
+981164396661434990,45224913,Gávea,-22.97275727278665,-43.22533127420503,Private room,529.0,1,11,88,RANDOM_FILL,Romântico,Sem Vista,Varanda exclusiva suite,Varanda
+1039224693716327024,417529749,Centro,-22.9096645,-43.1842177,Entire home/apt,170.0,1,104,16,RANDOM_FILL,Econômico,Urbana,Vista para cidade,Studio
+9424559,14314998,Ipanema,-22.98206,-43.21109,Entire home/apt,1120.0,60,18,229,RANDOM_FILL,Romântico,Urbana,"Charmoso, aconchegante, elegante",Apartamento
+1494558426097104186,80338139,Barra da Tijuca,-23.00869,-43.33666,Entire home/apt,3784.0,1,0,359,RANDOM_FILL,Luxo,Mar,Frente para praia,Localização
+1087726340683012816,8013520,Centro,-22.916640439453243,-43.18844340741634,Entire home/apt,157.0,3,62,161,RANDOM_FILL,Luxo,Urbana,Conforto e silêncio,Conforto
+32544922,38381051,Flamengo,-22.93638,-43.17318,Private room,190.0,5,36,194,RANDOM_FILL,Econômico,Mar,Vista Mar Pão,Quarto
+1350246510289418150,215903682,Laranjeiras,-22.92758,-43.19122,Private room,200.0,3,3,169,RANDOM_FILL,Econômico | Familiar,Natureza,Vista panorâmica tranquila,Pousada
+1396545113751352772,31689748,Leblon,-22.98272175147658,-43.21679218456297,Entire home/apt,850.0,3,3,353,RANDOM_FILL,Padrão,Urbana,Localização privilegiada praia,Apartamento
+1190851109218277613,147489364,Jacarepaguá,-22.965976073144866,-43.41098945252529,Entire home/apt,200.0,3,11,152,RANDOM_FILL,Econômico,Urbana,Localização próximo eventos,Praticidade
+960928883023828182,489381613,Recreio dos Bandeirantes,-23.030936561222823,-43.49655021385402,Entire home/apt,208.0,1,2,247,RANDOM_FILL,Familiar,Sem Vista,Localização Muito Próxima,Triplex
+1356678447397798241,99950687,Copacabana,-22.96834,-43.19094,Entire home/apt,2000.0,4,0,15,RANDOM_FILL,Econômico | Padrão,Urbana,Proximidade com praia,Localização
+886840610886680390,383043529,Ipanema,-22.98375516003043,-43.21279228042602,Entire home/apt,628.0,2,28,151,RANDOM_FILL,Padrão,Urbana,Localização privilegiada,Central
+1002112079304835975,236761043,Botafogo,-22.95365,-43.18368,Entire home/apt,183.0,1,52,85,RANDOM_FILL,Econômico,Urbana,Apartamento compacto prático,Compacto
+1266733196852308390,445034991,Recreio dos Bandeirantes,-23.0303318,-43.4766632,Entire home/apt,597.0,4,2,262,RANDOM_FILL,Luxo,Mar,Localização pé areia,Exclusividade
+1446340923925769011,15215444,Santa Teresa,-22.91781352796435,-43.18983069346625,Private room,218.0,1,0,362,RANDOM_FILL,Econômico,Urbana,Localização central charmosa,Conforto
+1362263776731178688,21462062,Copacabana,-22.96525440047756,-43.18915955722332,Entire home/apt,313.0,1,3,183,RANDOM_FILL,Econômico,Sem Vista,Localização e acesso,Praticidade
+1335604387479243426,372331825,Botafogo,-22.948506,-43.1892358,Entire home/apt,826.0,2,0,359,RANDOM_FILL,Familiar,Urbana,Localização central privilegiada,Conveniência
+1468016170009758303,59068088,Ipanema,-22.98217011781668,-43.20181618465576,Entire home/apt,415.0,3,11,151,RANDOM_FILL,Familiar,Urbana,Segurança e conforto,Segurança
+1404670283635261893,108643221,Copacabana,-22.98629,-43.18942,Entire home/apt,206.0,1,10,212,RANDOM_FILL,Padrão,Mar,Próximo à praia,Localização
+589839117692879870,411352151,Botafogo,-22.94582,-43.18163,Entire home/apt,457.0,4,1,149,RANDOM_FILL,Luxo,Urbana,Vista panorâmica Rio,Vista
+1503965073063020888,678649975,Catete,-22.92424692185209,-43.181605450809,Private room,50.0,7,0,359,RANDOM_FILL,Econômico,Sem Vista,Custo benefício acessível,Simplicidade
+1072660727641282943,231519584,Copacabana,-22.96321061752279,-43.17622746265666,Entire home/apt,360.0,2,87,40,RANDOM_FILL,Moderno,Urbana,Tecnologia e Conforto,inteligente
+1508651944406720383,559940983,Leblon,-22.9826066,-43.2238778,Entire home/apt,547.0,3,0,141,RANDOM_FILL,Luxo,Urbana,Espaço ao ar,Varandão
+1500083442935916568,235495805,Botafogo,-22.95630876107172,-43.1765568615158,Entire home/apt,250.0,1,3,58,RANDOM_FILL,Padrão,Urbana,Localização central privilegiada,Conveniência
+826261197223227763,500973159,Vargem Grande,-22.97160870416096,-43.49497083996915,Entire home/apt,1142.0,3,0,364,RANDOM_FILL,Familiar,Natureza,Tranquilidade e espaço,Casa
+1407411171351391465,6147430,Copacabana,-22.97587,-43.18856,Entire home/apt,363.0,3,2,77,RANDOM_FILL,Econômico,Mar,Proximidade com praia,Localização
+1322452946046968563,499554199,Camorim,-22.98018,-43.42371,Private room,195.0,30,1,317,RANDOM_FILL,Econômico,Sem Vista,Desconto para temporada,Suíte
+1029724466239230105,272976656,Copacabana,-22.98224043920276,-43.192504717274645,Entire home/apt,359.0,2,0,257,RANDOM_FILL,Padrão,Urbana,Localização privilegiada praia,Apartamento
+1416690021957268396,694425494,Flamengo,-22.93855260110826,-43.17693256086579,Private room,126.0,1,0,179,RANDOM_FILL,Econômico,Urbana,Próximo ao metrô,Localização
+19071216,131669310,Copacabana,-22.96594,-43.19186,Entire home/apt,169.0,4,108,129,RANDOM_FILL,Econômico,Sem Vista,WiFi rápido incluído,Conforto
+32611546,245072737,Copacabana,-22.96745,-43.18178,Entire home/apt,250.0,4,5,149,RANDOM_FILL,Padrão,Mar,Arejado e silencioso,Conforto
+1400056855150556041,403781,Copacabana,-22.9641383,-43.1762383,Entire home/apt,342.0,3,16,14,RANDOM_FILL,Familiar,Sem Vista,Espaçoso e confortável,Apartamento
+1011133451658582397,110857735,Méier,-22.89291440026292,-43.27835425815631,Private room,99.0,1,5,270,RANDOM_FILL,Econômico,Urbana,Localização estratégica urbana,Conveniência
+747744221601901024,2965734,Laranjeiras,-22.9358077,-43.1857706,Private room,236.0,1,2,154,RANDOM_FILL,Luxo,Sem Vista,Banheira de Hidromassagem,Conforto
+540448311296091571,85746740,Copacabana,-22.98466,-43.19282,Entire home/apt,290.0,2,155,241,RANDOM_FILL,Econômico,Sem Vista,Ambiente tranquilo garantido,Silencioso
+3129203,10210365,Ipanema,-22.98331,-43.19996,Private room,527.0,2,187,229,RANDOM_FILL,Luxo,Urbana,Piscina exclusiva privada,Suíte
+760244504685069936,20362236,Botafogo,-22.957436474593656,-43.18264392684422,Private room,272.0,2,2,359,RANDOM_FILL,Econômico,Sem Vista,Entrada Independente Privada,Suíte
+791475897232187300,79065425,Copacabana,-22.96578353552472,-43.179229790051,Private room,590.0,1,4,363,RANDOM_FILL,Padrão,Urbana,Suíte espaçosa confortável,Suíte
+44306752,14315601,Barra da Tijuca,-22.99159,-43.38207,Entire home/apt,5500.0,30,0,173,RANDOM_FILL,Luxo,Sem Vista,Melhor Mansão Condomínio,Mansão
+1100554602317203669,9351901,Copacabana,-22.96354753605799,-43.178805940822045,Entire home/apt,192.0,2,20,58,RANDOM_FILL,Econômico | Moderno,Urbana,Localização em Copacabana,Studio
+1490583516541086108,678477090,Copacabana,-22.96591,-43.17729,Entire home/apt,661.0,1,2,343,RANDOM_FILL,Padrão,Mar,Varanda com vista,Varanda
+1322357784249926869,92284964,Leblon,-22.97796,-43.22495,Entire home/apt,726.0,2,28,65,RANDOM_FILL,Familiar,Urbana,Amplo espaço interno,Espaçoso
+847160678609277828,22630219,Copacabana,-22.9646979,-43.17547039999999,Entire home/apt,534.0,1,130,152,RANDOM_FILL,Econômico,Mar,Localização à beira-mar,Studio
+1349712495637597093,39901112,Centro,-22.908160189045883,-43.18934002306265,Entire home/apt,170.0,2,1,350,RANDOM_FILL,Econômico,Urbana,Localização central conveniente,Studio
+1221989034853337490,562791188,Centro,-22.9001411,-43.1799214,Entire home/apt,119.0,1,22,123,RANDOM_FILL,Moderno,Urbana,"piscina, academia, conforto",studio
+1208950019051497138,331576610,Recreio dos Bandeirantes,-23.03029876277312,-43.49572028964758,Entire home/apt,872.0,2,4,89,RANDOM_FILL,Luxo,Mar,Beira-mar jacuzzi,Alto padrão
+789081690497774426,183148987,Copacabana,-22.9824024,-43.1902727,Entire home/apt,265.0,1,165,86,RANDOM_FILL,Econômico | Romântico,Mar,Localização à beira-mar,Estúdio
+1418319352246916783,1722157,Leblon,-22.98295158660093,-43.221900373416986,Entire home/apt,881.0,3,0,84,RANDOM_FILL,Luxo,Mar,Conforto para cinco,Espaçoso
+1349399926108970697,458717163,Barra de Guaratiba,-23.0204842,-43.541415,Entire home/apt,240.0,1,0,365,RANDOM_FILL,Familiar,Sem Vista,Conforto e aconchego,Casa
+16885042,48681794,Leblon,-22.98434684155809,-43.22263691852724,Entire home/apt,600.0,1,3,253,RANDOM_FILL,Luxo,Urbana,Proximidade com praia,Localização
+8390419,1537641,Copacabana,-22.96903,-43.18431,Entire home/apt,2286.0,1,203,321,RANDOM_FILL,Luxo,Mar,Vista Panorâmica Completa,Penthouse
+14087934,84722305,Guaratiba,-23.00386619567871,-43.5332145690918,Entire home/apt,2594.0,5,0,83,RANDOM_FILL,Familiar,Sem Vista,Espaço e lazer,Casa
+42256184,333857358,Rio Comprido,-22.92556,-43.20757,Private room,66.0,3,43,354,RANDOM_FILL,Econômico,Natureza,Proximidade Cristo Redentor,Localização
+1180517345912153760,474167124,Ipanema,-22.98464775198844,-43.20024989141805,Private room,180.0,1,2,41,RANDOM_FILL,Econômico,Sem Vista,Privado e básico,Simples
+53861210,222120772,Curicica,-22.96182,-43.40039,Entire home/apt,220.0,2,27,122,RANDOM_FILL,Romântico,Sem Vista,Charme e aconchego,Flat
+1404440803214681708,13791250,Barra da Tijuca,-23.010195972976263,-43.36520085573891,Private room,280.0,3,1,344,RANDOM_FILL,Econômico,Mar,Frente a praia,Suíte
+8855998,13392098,Ipanema,-22.98491,-43.19586,Entire home/apt,357.0,7,27,265,RANDOM_FILL,Luxo,Urbana,Localização em Ipanema,Apartamento
+1397112738235795341,164177980,Méier,-22.90192,-43.27642,Shared room,56.0,1,2,341,RANDOM_FILL,Econômico,Urbana,Localização muito prática,Conectividade
+1267438596359411549,657118852,Glória,-22.9170346,-43.17703849999999,Entire home/apt,308.0,3,5,65,RANDOM_FILL,Padrão,Urbana,Espaço Luminoso Aberto,Luminosidade
+744293677301949708,331635577,Leblon,-22.9863879,-43.2314048,Entire home/apt,803.0,2,50,62,RANDOM_FILL,Luxo,Urbana,Cobertura com exclusividade,Duplex
+514368049586080261,435471276,Santa Teresa,-22.92226,-43.18719,Private room,405.0,2,16,349,RANDOM_FILL,Econômico,Urbana,Varanda e localização,Varanda
+776790698862870339,110939242,Copacabana,-22.9850686,-43.1900353,Entire home/apt,9158.0,1,0,364,RANDOM_FILL,Econômico,Mar,Proximidade com praia,Localização
+826803203251664415,198001749,Santa Teresa,-22.924623677033605,-43.19125695555794,Entire home/apt,616.0,4,1,290,RANDOM_FILL,Padrão,Urbana,Localização central Santa,Conveniência
+1248152314235375538,156683206,Copacabana,-22.9647079,-43.1793415,Entire home/apt,344.0,1,62,154,RANDOM_FILL,Luxo,Urbana,Localização privilegiada praia,Studio
+978029969716612059,13411812,Copacabana,-22.96712377782447,-43.18757871641018,Entire home/apt,242.0,2,16,87,RANDOM_FILL,Familiar,Urbana,Cobertura com garagem,Cobertura
+13037727,72083285,Engenho de Dentro,-22.8853,-43.28855,Entire home/apt,915.0,10,0,364,RANDOM_FILL,Padrão,Urbana,Localização olímpica chave,Comemorativo
+1989456,5468099,Copacabana,-22.97304,-43.18879,Entire home/apt,188.0,7,82,71,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Apartamento
+2385479,12184417,Barra da Tijuca,-23.00899,-43.34479,Entire home/apt,6246.0,4,0,365,RANDOM_FILL,Luxo,Mar,Vista espetacular mar,Apartamento
+51556673,233838251,Botafogo,-22.95256,-43.17732,Entire home/apt,250.0,20,11,149,RANDOM_FILL,Padrão,Urbana,Localização privilegiada,Proximidade
+1356815,7365198,Copacabana,-22.96668,-43.18566,Entire home/apt,197.0,3,35,22,RANDOM_FILL,Familiar,Urbana,Bairro encantador histórico,Charme
+20035928,132089924,Ipanema,-22.98123,-43.20105,Entire home/apt,494.0,2,4,179,RANDOM_FILL,Econômico,Urbana,Localização privilegiada perto,Proximidade
+14084398,84682564,Maracanã,-22.9113,-43.22453,Entire home/apt,2699.0,1,0,269,RANDOM_FILL,Econômico,Urbana,Próximo ao Maracanã,Localização
+53039471,229244053,Camorim,-22.97759316391542,-43.42033781884774,Entire home/apt,200.0,10,5,67,RANDOM_FILL,Econômico,Urbana,Localização estratégica próxima,Apartamento
+1492136447158945023,687339099,Ipanema,-22.985398970953188,-43.19670277586264,Shared room,82.0,1,0,365,RANDOM_FILL,Econômico,Urbana,Localização privilegiada Ipanema,Cama
+1443306416371111580,554907816,Leblon,-22.9826405,-43.225993,Entire home/apt,849.0,3,0,80,RANDOM_FILL,Luxo,Urbana,Conforto e Charme,Suítes
+809940936783044526,497264546,Copacabana,-22.98213,-43.19456,Entire home/apt,249.0,3,11,341,RANDOM_FILL,Econômico,Urbana,Localização e acesso,Apartamento
+13799836,81143063,Copacabana,-22.9866,-43.18924,Entire home/apt,1339.0,30,5,177,RANDOM_FILL,Familiar,Mar,Localização entre praias,Espaçoso
+884814662739417833,33609459,Leme,-22.9617818775678,-43.16678693862304,Entire home/apt,443.0,3,16,127,RANDOM_FILL,Padrão,Mar,Próximo à praia,Localização
+795042769097466168,415361942,Freguesia (Ilha),-22.7897081,-43.1654341,Entire home/apt,149.0,4,27,338,RANDOM_FILL,Moderno,Sem Vista,Home-office vip,completo
+954422987969741522,7052139,Humaitá,-22.955972937049097,-43.20146419107914,Private room,222.0,3,0,357,RANDOM_FILL,Romântico,Urbana,Localização privilegiada,Charmosa
+1507611400904364378,718399823,Copacabana,-22.9815,-43.19104,Entire home/apt,184.0,4,0,49,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Conjugado
+1420563117818708498,389993328,Recreio dos Bandeirantes,-23.03105,-43.47318,Entire home/apt,365.0,2,5,130,RANDOM_FILL,Luxo,Mar,Vista para mar,Flat
+1269746463669883912,525247402,Copacabana,-22.96407325593689,-43.17610094061157,Entire home/apt,1443.0,2,2,178,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+1295761709996014530,157667482,Leblon,-22.98636,-43.2295,Entire home/apt,1688.0,2,9,45,RANDOM_FILL,Familiar,Mar,Próximo ao mar,Localização
+895796293405179921,387810254,Copacabana,-22.97665,-43.19097,Entire home/apt,343.0,4,10,341,RANDOM_FILL,Luxo,Urbana,Localização privilegiada central,Luxuoso
+1269630363083262532,79151243,Copacabana,-22.97798,-43.19121,Entire home/apt,396.0,2,36,252,RANDOM_FILL,Familiar,Urbana,Amplo e completo,Espaçoso
+1316085894568534406,1982737,Leblon,-22.97954,-43.22399,Entire home/apt,278.0,1,10,205,RANDOM_FILL,Luxo,Urbana,Localização nobre Leblon,Conforto
+1424720420383586162,381224006,Curicica,-22.96189595951768,-43.39851321420676,Entire home/apt,167.0,2,5,234,RANDOM_FILL,Luxo,Urbana,Sofisticação e Exclusividade,Luxuoso
+1206539834207434953,519609738,São Conrado,-22.99738,-43.25772,Private room,3150.0,1,0,365,RANDOM_FILL,Luxo,Mar,Suíte frente mar,Luxo
+620360965726402754,308989912,Barra da Tijuca,-23.009878,-43.355621,Entire home/apt,355.0,2,86,133,RANDOM_FILL,Econômico,Mar,Pé na areia,Flat
+1202829098399767255,577552918,Copacabana,-22.9794193,-43.1908399,Entire home/apt,1028.0,5,1,54,RANDOM_FILL,Padrão,Mar,Localização em Copacabana,Apartamento
+1308044993920296462,192201556,Rio Comprido,-22.92514,-43.21322,Shared room,100.0,1,1,365,RANDOM_FILL,Econômico,Urbana,Localização central conveniente,Compacto
+756661800947214209,286053300,Copacabana,-22.9663959,-43.186964,Entire home/apt,204.0,4,71,178,RANDOM_FILL,Romântico,Mar,Charme e localização,Charme
+1497344622362638000,54235164,Jacarepaguá,-22.9704692,-43.3264511,Entire home/apt,320.0,3,0,357,RANDOM_FILL,Familiar,Natureza,Conforto e natureza,Conforto
+1434749354400615635,114315322,Copacabana,-22.9671394,-43.18192699999999,Entire home/apt,210.0,2,0,39,RANDOM_FILL,Moderno,Urbana,Localização em Copa,Loft
+919852,4941560,Santa Teresa,-22.91621,-43.1853,Private room,190.0,3,12,93,RANDOM_FILL,Familiar,Sem Vista,Aluga quartos equipados,Hostel
+806656579996965002,5349665,Glória,-22.919954292558423,-43.1796562090376,Private room,225.0,2,13,365,RANDOM_FILL,Padrão,Sem Vista,Quarto Amplo Charmoso,Espaço
+42062056,58226430,Laranjeiras,-22.93038,-43.19079,Private room,85.0,2,15,218,RANDOM_FILL,Econômico,Urbana,Localização central prática,Praticidade
+1399562346211300413,520729945,Centro,-22.91014,-43.19319,Entire home/apt,153.0,2,3,351,RANDOM_FILL,Padrão,Urbana,Charmoso no Centro,Charme
+10406521,39901112,Barra da Tijuca,-23.01159,-43.30206,Private room,1525.0,2,2,364,RANDOM_FILL,Padrão,Urbana,Privacidade e localização,Andar
+16310384,49207110,Ipanema,-22.985437,-43.199623,Entire home/apt,1059.0,3,176,120,RANDOM_FILL,Luxo,Mar,Localização e vista,Apartamento
+52565352,100176421,Vargem Grande,-22.96845,-43.48243,Entire home/apt,781.0,2,62,357,RANDOM_FILL,Luxo,Natureza,Jacuzzi e piscina,Refúgio
+1226955877246950437,2312911,Copacabana,-22.9721974,-43.1904104,Entire home/apt,337.0,2,28,266,RANDOM_FILL,Familiar,Mar,Conforto em praia,Conforto
+18077933,124477317,Botafogo,-22.95148,-43.18658,Entire home/apt,391.0,2,31,87,RANDOM_FILL,Familiar,Urbana,"Espaçoso, acomoda 8",Completo
+1288685901855717428,333280156,Guaratiba,-23.0611469,-43.5639567,Private room,328.0,1,14,18,RANDOM_FILL,Familiar,Natureza,Ambiente acolhedor rústico,caseiro
+13623644,48065350,Jacarepaguá,-22.96844,-43.39672,Entire home/apt,190.0,7,7,89,RANDOM_FILL,Econômico,Urbana,Localização para eventos,Praticidade
+1361106138193563800,85102235,Copacabana,-22.96968,-43.18554,Entire home/apt,200.0,1,2,315,RANDOM_FILL,Padrão,Urbana,Vista Cristo Redentor,Localização
+2410793,12320913,Copacabana,-22.98670599874941,-43.19020863622427,Entire home/apt,288.0,2,231,327,RANDOM_FILL,Luxo | Romântico,Mar,Localização à beira-mar,Privacidade
+1766232,9280869,Catete,-22.92392,-43.17875,Entire home/apt,500.0,2,20,257,RANDOM_FILL,Moderno,Urbana,Negócios e turismo,Versatilidade
+1395169910940849146,114890505,Recreio dos Bandeirantes,-23.033871,-43.4918808,Entire home/apt,182.0,2,2,264,RANDOM_FILL,Econômico | Moderno | Romântico,Mar,Sustentabilidade e Praia,Container
+14134357,85274082,Engenho de Dentro,-22.90572,-43.30242,Entire home/apt,450.0,15,0,269,RANDOM_FILL,Econômico,Urbana,Evento esportivo próximo,temporário
+1231810451255627412,88233322,Copacabana,-22.98637,-43.18954,Entire home/apt,276.0,3,53,32,RANDOM_FILL,Luxo,Mar,Localização privilegiada Arpoador,Exclusividade
+1433352677342332706,501027388,Copacabana,-22.97493,-43.19427,Entire home/apt,182.0,2,0,48,RANDOM_FILL,Padrão,Sem Vista,Conforto e Aconchego,Conforto
+1345700762021329727,342074169,Barra de Guaratiba,-23.0595,-43.5619,Entire home/apt,500.0,2,0,364,RANDOM_FILL,Econômico,Natureza,Beleza natural preservada,reserva
+937728071822510185,36258642,Leblon,-22.98320440479736,-43.22207643345801,Entire home/apt,857.0,1,32,338,RANDOM_FILL,Luxo,Mar,Praia e Estilo,Leblon
+1201557030740409249,21202679,Botafogo,-22.952538670729474,-43.18298794973756,Entire home/apt,218.0,2,38,219,RANDOM_FILL,Econômico,Urbana,Próximo ao metrô,Studio
+705932685576695696,151087256,Itanhangá,-22.99863,-43.30135,Entire home/apt,1200.0,1,12,342,RANDOM_FILL,Luxo,Natureza,Exclusividade e privacidade,Cobertura
+14294576,80367470,Centro,-22.90579,-43.17176,Private room,300.0,1,0,364,RANDOM_FILL,Luxo,Urbana,Localização Olímpica Exclusiva,Suíte
+970173733436181021,64168131,Copacabana,-22.96924739479067,-43.18197543862303,Entire home/apt,330.0,2,90,325,RANDOM_FILL,Romântico,Mar,Perto da praia,Charmoso
+22709688,12909867,Leblon,-22.984015,-43.218822,Entire home/apt,708.0,2,125,167,RANDOM_FILL,Luxo,Urbana,Localização nobre praia,Apartamento
+1307242150999872652,173868230,Barra da Tijuca,-23.0084875,-43.4277048,Entire home/apt,302.0,7,5,360,RANDOM_FILL,Padrão,Mar,Conforto e praia,Equipado
+15965687,103691209,Praia da Bandeira,-22.80833,-43.17897,Private room,245.0,3,1,364,RANDOM_FILL,Econômico,Urbana,Localização tranquila acessível,Quarto
+855631034476154677,34740970,Copacabana,-22.96317,-43.17798,Entire home/apt,216.0,2,71,44,RANDOM_FILL,Padrão,Urbana,Localização central privilegiada,Localização
+760867050534118487,49791579,Copacabana,-22.96075,-43.17461,Private room,151.0,3,14,41,RANDOM_FILL,Econômico,Sem Vista,Quarto casal privado,Praticidade
+1380637641028066095,177786203,Copacabana,-22.9841247,-43.19088420000001,Entire home/apt,273.0,3,2,185,RANDOM_FILL,Padrão,Mar,Localização em Copacabana,Praia
+1071107296170230178,8281451,Leblon,-22.982485087027086,-43.22393774986267,Entire home/apt,1639.0,3,4,263,RANDOM_FILL,Luxo,Mar,Próximo à praia,Localização
+1028917536735526330,52581208,Santa Teresa,-22.91767,-43.18231,Private room,79.0,1,6,118,RANDOM_FILL,Econômico,Sem Vista,Quarto suíte confortável,Suíte
+826857782711270829,307645085,Recreio dos Bandeirantes,-23.00266275983689,-43.44573004464251,Entire home/apt,215.0,2,11,168,RANDOM_FILL,Econômico,Sem Vista,Próximo praias diversas,Praticidade
+1122109690956074015,475193730,Copacabana,-22.972575080273973,-43.185621981942326,Entire home/apt,924.0,2,24,237,RANDOM_FILL,Luxo,Mar,Frente para praia,Pé-na-areia
+1051215772001785698,442432679,Barra da Tijuca,-23.002790695995643,-43.30904671817511,Entire home/apt,315.0,1,1,365,RANDOM_FILL,Padrão,Sem Vista,Localização privilegiada Barra,Suíte
+568297132972238915,393885625,Copacabana,-22.98187,-43.19231,Entire home/apt,502.0,2,41,338,RANDOM_FILL,Familiar,Urbana,Espaço bem distribuído,Amplo
+2367062,12080660,Botafogo,-22.94975,-43.18425,Entire home/apt,245.0,3,11,53,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Aconchegante
+1311442034606044004,494461597,Copacabana,-22.9742804,-43.1919617,Private room,119.0,4,6,78,RANDOM_FILL,Familiar,Urbana,Conforto e Paz,Localização
+877533742053239159,175441859,Copacabana,-22.9775792,-43.1908519,Entire home/apt,274.0,2,79,132,RANDOM_FILL,Moderno,Urbana,Sustentabilidade e conforto,Ecológico
+899161693493314756,130642381,Leblon,-22.98602,-43.22716,Entire home/apt,2067.0,3,0,57,RANDOM_FILL,Econômico,Mar,Localização frente mar,Apartamento
+926669,4986394,Copacabana,-22.97395,-43.19145,Entire home/apt,237.0,2,109,41,RANDOM_FILL,Econômico,Mar,Coração de Copacabana,Estúdio
+41043299,17503092,Copacabana,-22.97792,-43.1908,Entire home/apt,255.0,2,120,44,RANDOM_FILL,Romântico,Mar,Charmoso na praia,Apartamento
+1145825985075991757,574919162,Copacabana,-22.96544763240984,-43.1813171133399,Entire home/apt,1500.0,1,0,269,RANDOM_FILL,Econômico,Mar,Localização e praia,Praticidade
+21890002,12329117,Glória,-22.92511,-43.17448,Entire home/apt,206.0,5,45,197,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Exclusividade
+53500704,433017053,Barra da Tijuca,-23.01245,-43.3222,Entire home/apt,276.0,2,29,110,RANDOM_FILL,Padrão,Sem Vista,Localização na Barra,Apartamento
+1100626363079419442,57671630,Portuguesa,-22.8044965,-43.2116524,Entire home/apt,245.0,1,61,44,RANDOM_FILL,Econômico,Sem Vista,Proximidade Aeroporto GIG,Studio
+802120392062188284,10607843,Ipanema,-22.9832792,-43.2077417,Entire home/apt,944.0,5,28,49,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Exclusividade
+31017682,193195829,Copacabana,-22.98076,-43.19483,Entire home/apt,1096.0,1,0,269,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+1099623126593220155,117542344,Laranjeiras,-22.9302295,-43.1879046,Entire home/apt,540.0,2,3,249,RANDOM_FILL,Padrão,Urbana,Localização privilegiada central,Apartamento
+12129731,63115489,Leblon,-22.9842,-43.22391,Entire home/apt,1200.0,7,0,354,RANDOM_FILL,Luxo,Mar,Localização nobre privilegiada,Apartamento
+739766861158314152,148254434,Copacabana,-22.9829422,-43.1945316,Entire home/apt,317.0,3,37,116,RANDOM_FILL,Econômico | Moderno,Urbana,Compacto ao metrô,Compacto
+1354362952544283178,165494237,São Conrado,-22.99823712163733,-43.25675642698366,Private room,950.0,1,0,8,RANDOM_FILL,Luxo,Mar | Natureza,Vista panorâmica privilegiada,Hotel
+1212334307470662931,588585028,Vargem Pequena,-22.991358,-43.4441046,Private room,630.0,2,0,365,RANDOM_FILL,Econômico,Sem Vista,Proximidade Rock,Pousada
+1490746594449217742,546874366,Centro,-22.90277,-43.18055,Entire home/apt,153.0,1,9,125,RANDOM_FILL,Econômico,Urbana,Localização muito conveniente,Studio
+2766912,14151719,Copacabana,-22.98202,-43.19151,Entire home/apt,1399.0,2,8,348,RANDOM_FILL,Familiar,Urbana,Localização Zona Sul,Espaçoso
+1268074041977972424,105113529,Urca,-22.95142,-43.16833,Private room,139.0,2,5,159,RANDOM_FILL,Econômico,Natureza,Simples e aconchegante,Quarto
+1127005056016459284,185155093,Copacabana,-22.9743565,-43.1894948,Private room,221.0,2,11,357,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Localização
+20706150,148210212,Ipanema,-22.98432,-43.21331,Entire home/apt,860.0,3,97,35,RANDOM_FILL,Padrão,Urbana,Espaçoso e localizado,Apartamento
+1426055,7647089,Leblon,-22.98008,-43.2242,Entire home/apt,618.0,5,41,242,RANDOM_FILL,Romântico,Urbana,Ambiente aconchegante intimista,Aconchego
+45672884,370001932,Maracanã,-22.91147,-43.21751,Private room,302.0,3,5,353,RANDOM_FILL,Familiar,Urbana,Três quartos espaçosos,Prático
+1447099331238676262,408929893,Copacabana,-22.97268,-43.18509,Entire home/apt,499.0,4,6,216,RANDOM_FILL,Luxo,Mar,Proximidade à praia,Luxuoso
+1146219797552779025,574745348,Recreio dos Bandeirantes,-23.0284025,-43.4766904,Entire home/apt,120.0,1,6,263,RANDOM_FILL,Econômico,Sem Vista,Suíte com cozinha,Funcionalidade
+612205503411227298,454890496,Vila Isabel,-22.92378,-43.23751,Private room,146.0,2,4,269,RANDOM_FILL,Romântico,Sem Vista,Conforto e charme,Varanda
+11682368,62059621,Barra da Tijuca,-22.98465,-43.38376,Entire home/apt,1573.0,7,0,90,RANDOM_FILL,Econômico,Urbana,Proximidade Olímpica,Praticidade
+759385798745815233,13753183,Ipanema,-22.984633697672376,-43.19944211063709,Entire home/apt,295.0,3,45,66,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Garagem
+1363285103265122920,415432275,Copacabana,-22.982367,-43.1901528,Entire home/apt,275.0,2,33,190,RANDOM_FILL,Moderno,Mar,Vista para mar,Loft
+47573961,74338742,Camorim,-22.97545,-43.41472,Entire home/apt,268.0,2,49,246,RANDOM_FILL,Moderno,Urbana,Localização estratégica centro,Loft
+915214153955112720,129931093,Bento Ribeiro,-22.87137,-43.36079,Entire home/apt,800.0,1,0,358,RANDOM_FILL,Econômico,Sem Vista,Amplo para eventos,Espaço
+569663037687904873,446703258,Copacabana,-22.96355,-43.1784,Entire home/apt,479.0,2,9,344,RANDOM_FILL,Econômico,Urbana,Localização para Carnaval,Praticidade
+817262833262909325,472621832,Barra da Tijuca,-23.00120091661151,-43.32858549458033,Entire home/apt,329.0,1,73,154,RANDOM_FILL,Econômico,Urbana,Localização excelente praia,Localização
+1300116757404085695,50596951,Copacabana,-22.9731023,-43.18632969999999,Entire home/apt,1221.0,2,31,312,RANDOM_FILL,Luxo,Urbana,Vista Réveillon Exclusiva,Luxo
+1227446874546539824,95451565,Laranjeiras,-22.9354709,-43.1795789,Private room,221.0,2,8,340,RANDOM_FILL,Familiar,Urbana,Localização e aconchego,conforto
+1508869474274089924,310319158,Flamengo,-22.9339404,-43.1774527,Entire home/apt,164.0,1,0,343,RANDOM_FILL,Moderno,Urbana,Estúdio bem localizado,Studio
+715836152804594614,29349957,Barra da Tijuca,-23.00554,-43.34011,Entire home/apt,211.0,3,15,337,RANDOM_FILL,Econômico,Urbana,Localização Excelente Barra,Aconchegante
+1236111758480179183,56464577,Copacabana,-22.9697811,-43.190105,Entire home/apt,752.0,3,0,180,RANDOM_FILL,Familiar,Mar,Quatro quartos espaçosos,Apartamento
+16377832,104666823,Ipanema,-22.98494,-43.1954,Entire home/apt,950.0,3,30,355,RANDOM_FILL,Econômico,Urbana,Localização entre bairros,Praticidade
+41901836,214762358,Copacabana,-22.96417,-43.17581,Entire home/apt,300.0,2,51,225,RANDOM_FILL,Luxo,Mar,Panorama marítimo deslumbrante,Vista
+53970149,15900036,Barra da Tijuca,-23.00942,-43.35701,Entire home/apt,5768.0,5,0,364,RANDOM_FILL,Luxo,Mar,Vista mar frontal,Cobertura
+1008599746966234808,225398509,Leblon,-22.9828979,-43.2214844,Entire home/apt,411.0,3,46,177,RANDOM_FILL,Familiar,Sem Vista,Silêncio e aconchego,Acolhedor
+1166023243539914762,265798031,Catete,-22.93051716262764,-43.17934591534423,Entire home/apt,166.0,3,40,153,RANDOM_FILL,Econômico,Urbana,Aconchegante e Silenciosa,Kitnet
+1316789318608452206,169921137,Centro,-22.90862517469397,-43.1752081947635,Entire home/apt,212.0,1,28,314,RANDOM_FILL,Econômico | Moderno,Urbana,Compacto e Prático,Studio
+35834026,25750944,Botafogo,-22.94972,-43.19428,Entire home/apt,343.0,5,5,308,RANDOM_FILL,Padrão,Urbana,Localização em Botafogo,Apartamento
+1197359333410158072,86205759,Copacabana,-22.968067638609675,-43.188789816486185,Entire home/apt,153.0,3,44,56,RANDOM_FILL,Econômico,Sem Vista,Studio bem localizado,Studio
+1045537387955768784,8156211,Copacabana,-22.975993749350824,-43.19191753864288,Entire home/apt,596.0,4,0,116,RANDOM_FILL,Luxo,Urbana,Localização Central Privilegiada,Exclusividade
+11429445,12909867,Ipanema,-22.984854,-43.213066,Entire home/apt,1002.0,2,110,23,RANDOM_FILL,Luxo,Urbana,Vista deslumbrante flat,Flat
+1286891907008640139,357756985,Barra de Guaratiba,-23.065520859175685,-43.56475668941665,Entire home/apt,157.0,2,18,80,RANDOM_FILL,Padrão,Sem Vista,Falta de especificação,Indefinido
+695194957958831315,642196,Copacabana,-22.97787,-43.19086,Entire home/apt,379.0,2,39,289,RANDOM_FILL,Padrão,Sem Vista,Próximo praia copa,Localização
+9256656,555597,Leblon,-22.98668,-43.23008,Entire home/apt,5366.0,4,1,364,RANDOM_FILL,Luxo,Urbana,Amplo espaçoso Leblon,Apartamento
+28717513,216622191,Copacabana,-22.97500702264588,-43.19324343896473,Entire home/apt,240.0,3,42,49,RANDOM_FILL,Econômico,Sem Vista,Conforto em copa,Aconchego
+669516947296821669,14240419,Botafogo,-22.94751,-43.1842,Entire home/apt,204.0,4,9,87,RANDOM_FILL,Econômico,Mar,WiFi e Ar-condicionado,Kitnet
+947326315794608124,528905692,Copacabana,-22.975506963010165,-43.1884491071105,Entire home/apt,176.0,3,28,86,RANDOM_FILL,Econômico,Urbana,Compacto e Prático,Estúdio
+1202817454560466968,160094795,Botafogo,-22.9466127,-43.18349569999999,Private room,105.0,1,1,89,RANDOM_FILL,Econômico,Urbana,Quarto privativo banheiro,Praticidade
+876096490871028426,509431238,Barra da Tijuca,-23.00190201759915,-43.39313987642527,Entire home/apt,328.0,23,2,132,RANDOM_FILL,Charmoso | Aconchegante | Familiar | Romântico,Sem Vista,Ambiente confortável duplex,Duplex
+1279692320934278852,98503864,Copacabana,-22.962938190268595,-43.176713436841965,Entire home/apt,313.0,2,17,165,RANDOM_FILL,Padrão,Urbana,Amplo e conforto,Apartamento
+1371346712323135671,412306203,Guaratiba,-22.93946,-43.58161,Shared room,120.0,1,0,365,RANDOM_FILL,Econômico,Sem Vista,Casa mobiliada compartilhada,Compartilhada
+955554486271907862,16120213,Copacabana,-22.981519881,-43.19113,Private room,156.0,2,55,196,RANDOM_FILL,Econômico,Sem Vista,Praticidade para viajantes,Funcional
+1303577242879353475,588667393,Jacarepaguá,-22.9290352,-43.3993729,Entire home/apt,1372.0,1,0,359,RANDOM_FILL,Econômico,Sem Vista,Estadia curta prática,Temporada
+17920243,52758685,Guaratiba,-22.95312,-43.62412,Private room,150.0,3,0,365,RANDOM_FILL,Econômico | Padrão,Urbana,Localização em Copacabana,Praticidade
+1422991390999916411,695932111,Guaratiba,-22.9750297,-43.6462843,Private room,183.0,1,0,365,RANDOM_FILL,Familiar,Natureza,Tranquilidade e conforto,Descanso
+2640348,13519405,Leblon,-22.98303,-43.21649,Entire home/apt,3500.0,30,0,365,RANDOM_FILL,Luxo,Urbana,Localização Leblon Top,Novo
+1507392533558842959,718347503,Ipanema,-22.98457,-43.2013,Entire home/apt,450.0,2,0,361,RANDOM_FILL,Luxo,Mar,Praia e Metrô,Localização
+1087774648745318841,13580277,Copacabana,-22.96395,-43.17516,Entire home/apt,337.0,1,17,148,RANDOM_FILL,Luxo,Mar,Vista lateral mar,Apartamento
+1308806621055773779,244505499,Vidigal,-22.99680803016147,-43.24393404301477,Private room,720.0,4,0,89,RANDOM_FILL,Padrão,Sem Vista,Ambiente inclusivo acolhedor,Inclusividade
+1084100173955981566,172719779,Barra da Tijuca,-23.0127344,-43.3060302,Entire home/apt,1200.0,90,4,144,RANDOM_FILL,Luxo,Mar,Cobertura vista mar,Penthouse
+1323905198897464975,479635524,Copacabana,-22.98471,-43.19123,Entire home/apt,220.0,3,13,159,RANDOM_FILL,Econômico,Mar,Localização em Copacabana,Flat
+46494603,91654021,Leblon,-22.97842,-43.22085,Entire home/apt,1542.0,8,0,332,RANDOM_FILL,Luxo,Urbana,Espaço e localização,Amplo
+1081150621559859947,405674427,Maracanã,-22.91201598775801,-43.23273811296356,Private room,81.0,50,4,365,RANDOM_FILL,Econômico,Urbana,Suíte espaçosa confortável,Espaço
+53826215,436000747,Santa Teresa,-22.92191,-43.1842,Private room,130.0,1,0,353,RANDOM_FILL,Econômico,Sem Vista,Custo benefício ideal,Quarto
+1034870359703833887,352008051,Copacabana,-22.9688168935,-43.1814133,Entire home/apt,1700.0,3,0,249,RANDOM_FILL,Luxo,Mar,Vista Frente Mar,Apartamento
+1498796293407189499,534182844,Recreio dos Bandeirantes,-23.030043270016897,-43.47797513008118,Private room,189.0,1,0,360,RANDOM_FILL,Familiar,Sem Vista,Proximidade à praia,Localização
+29984680,66452600,Ipanema,-22.98443,-43.21425,Entire home/apt,842.0,7,7,340,RANDOM_FILL,Econômico,Mar,Próximo à praia,Compacto
+48382177,383015446,Copacabana,-22.98536544212213,-43.19280428819006,Entire home/apt,501.0,4,97,99,RANDOM_FILL,Econômico,Urbana,Renovado e silencioso,Renovado
+13153412,71146994,Copacabana,-22.98117,-43.19075,Entire home/apt,1810.0,5,6,91,RANDOM_FILL,Luxo,Mar,Charmoso e próximo,Requinte
+1312595845666211550,11965788,Leblon,-22.984870871460508,-43.22796310537101,Entire home/apt,1000.0,2,26,44,RANDOM_FILL,Romântico,Urbana,Silêncio e charme,Charme
+805711707734883422,160833906,Barra da Tijuca,-23.0097898,-43.3561663,Entire home/apt,279.0,2,58,169,RANDOM_FILL,Luxo,Mar,Vista para praia,Apartamento
+1010086118265057201,426063817,Copacabana,-22.9777926,-43.1912499,Private room,701.0,5,4,178,RANDOM_FILL,Luxo,Mar,Localização privilegiada,Apartamento
+1517449169178773327,371503455,Copacabana,-22.9798128,-43.1905087,Entire home/apt,320.0,3,0,334,RANDOM_FILL,Familiar,Mar,Próximo à praia,Conforto
+48279402,262488431,Barra da Tijuca,-23.0089534052534,-43.42908941273869,Entire home/apt,369.0,2,7,340,RANDOM_FILL,Padrão,Urbana,Ótima localização central,Flat
+948310977488165999,505228604,Barra da Tijuca,-23.01248,-43.32097,Entire home/apt,655.0,3,24,245,RANDOM_FILL,Luxo,Mar,Beira mar exclusiva,Praia
+1075309360891708450,366547247,Barra da Tijuca,-23.0114542,-43.3215719,Entire home/apt,337.0,3,46,269,RANDOM_FILL,Romântico,Mar,Vista mar privilegiada,Praia
+1453584000560100349,489468090,Centro,-22.90606,-43.18344,Shared room,57.0,1,6,119,RANDOM_FILL,Econômico,Urbana,Localização central acessível,Hostel
+30326026,2993489,Copacabana,-22.98524,-43.19044,Entire home/apt,428.0,3,56,153,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+1353126878631200523,677948981,Copacabana,-22.98282,-43.19271,Entire home/apt,850.0,1,2,354,RANDOM_FILL,Econômico,Urbana,Localização privilegiada,Praticidade
+13733116,80348868,Botafogo,-22.94903,-43.18151,Entire home/apt,143.0,1,7,241,RANDOM_FILL,Padrão,Mar,Localização privilegiada praia,Apartamento
+1362261061274960584,376274146,Barra da Tijuca,-23.004381,-43.308594,Entire home/apt,355.0,1,1,184,RANDOM_FILL,Padrão,Natureza,Localização Exclusiva Ilha,Exclusividade
+2677829,7673499,Ipanema,-22.98632,-43.19429,Entire home/apt,55394.0,2,80,178,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Apartamento
+1265038367762229204,74463624,Ipanema,-22.9855,-43.20426,Entire home/apt,1534.0,2,4,53,RANDOM_FILL,Luxo,Mar,Frente à praia,Luxuoso
+1506603199423962166,677751033,Copacabana,-22.98131,-43.19117,Entire home/apt,255.0,1,1,78,RANDOM_FILL,Padrão,Sem Vista,Próximo à praia,Localização
+9950910,51137393,Cosme Velho,-22.9417,-43.19647,Entire home/apt,390.0,5,1,222,RANDOM_FILL,Luxo,Natureza,Vista para Corcovado,Sofisticado
+52652995,48842907,Ipanema,-22.98352,-43.20947,Entire home/apt,270.0,3,100,185,RANDOM_FILL,Econômico,Urbana,Localização privilegiada posta10,aconchegante
+1410416876938484517,692869793,Leme,-22.9629802843802,-43.169554480605655,Entire home/apt,380.0,3,5,173,RANDOM_FILL,Romântico,Mar,Localização privilegiada Leme,Praia
+849160924258825541,167213110,Barra da Tijuca,-22.999067,-43.3288442,Entire home/apt,729.0,2,0,162,RANDOM_FILL,Familiar,Mar,Piscina e praia,Chalé
+13729225,33517045,Paquetá,-22.75358,-43.10784,Entire home/apt,613.0,20,0,83,RANDOM_FILL,Familiar,Mar,Proximidade com praia,Praia
+2186011,10586706,Copacabana,-22.96264,-43.17572,Private room,320.0,2,9,353,RANDOM_FILL,Padrão,Sem Vista,Localização em Copacabana,Suíte
+704328171243788763,47584281,Jacarepaguá,-22.96935,-43.3939,Entire home/apt,713.0,1,0,365,RANDOM_FILL,Luxo,Natureza,Beleza e encanto,Exclusividade
+1345765484336526316,6836153,Glória,-22.923708362624662,-43.17472189664841,Entire home/apt,964.0,2,19,346,RANDOM_FILL,Luxo,Urbana,Vista incrível duplex,Penthouse
+754884744307455929,421766622,Recreio dos Bandeirantes,-23.02172,-43.45488,Entire home/apt,1000.0,2,10,90,RANDOM_FILL,Familiar,Mar,Churrasqueira na praia,Triplex
+990734398859651139,8782308,Copacabana,-22.972693185009653,-43.19118368438961,Shared room,600.0,1,107,117,RANDOM_FILL,Econômico,Sem Vista,Seguro e Aconchegante,Conforto
+1415921317852108723,18117704,Leblon,-22.9835503,-43.223636,Entire home/apt,289.0,1,4,233,RANDOM_FILL,Luxo,Urbana,Localização exclusiva Leblon,Apartamento
+1495950860430539875,71665685,Copacabana,-22.97803573417199,-43.18925757386539,Entire home/apt,256.0,2,3,142,RANDOM_FILL,Padrão,Mar,Próximo à praia,Localização
+1079163438503094420,233673466,Recreio dos Bandeirantes,-23.02977,-43.48169,Entire home/apt,1020.0,2,6,269,RANDOM_FILL,Luxo,Mar,Localização frente mar,Cobertura
+1264016941965257255,494939452,Recreio dos Bandeirantes,-23.03293,-43.48547,Entire home/apt,446.0,1,18,177,RANDOM_FILL,Luxo,Mar,Frente para praia,pé-na-areia
+984041700668041332,72070644,Recreio dos Bandeirantes,-23.0227328,-43.5125404,Entire home/apt,585.0,1,0,263,RANDOM_FILL,Romântico,Mar,Beleza à beira-mar,Refúgio
+1115200977832454041,411347535,Olaria,-22.85157047961953,-43.264862559735775,Private room,200.0,1,0,269,RANDOM_FILL,Padrão,Urbana,Localização zona norte,Casa
+47923162,36744189,Leblon,-22.98205,-43.22301,Entire home/apt,511.0,2,141,258,RANDOM_FILL,Luxo,Urbana,Localização nobre exclusiva,Elegância
+31921229,67239901,Irajá,-22.85087,-43.31513,Private room,180.0,2,12,270,RANDOM_FILL,Econômico,Sem Vista,Conforto e conectividade,Suíte
+1131446,6207000,Botafogo,-22.94495,-43.18249,Entire home/apt,142.0,45,19,210,RANDOM_FILL,Econômico,Mar,Localização à beira-mar,Praticidade
+1310989736188989083,16425381,Laranjeiras,-22.9356290516603,-43.18891486285996,Entire home/apt,460.0,1,1,365,RANDOM_FILL,Familiar,Urbana,Espaço bem distribuído,Amplo
+19839107,14095160,Ipanema,-22.98585,-43.19968,Entire home/apt,950.0,3,30,146,RANDOM_FILL,Luxo,Urbana,Cobertura Duplex Exclusiva,Cobertura
+1463994106089571514,40642122,Copacabana,-22.982944097279205,-43.19544120602234,Entire home/apt,472.0,4,1,332,RANDOM_FILL,Econômico,Urbana,Proximidade Carnaval Copacabana,Praticidade
+49463000,374764893,Ipanema,-22.98157,-43.20085,Entire home/apt,461.0,2,269,20,RANDOM_FILL,Familiar | Romântico,Urbana,Conforto e aconchego,Aconchegante
+1470559615264951578,599119097,Jacarepaguá,-22.9688849,-43.38804,Entire home/apt,250.0,2,3,220,RANDOM_FILL,Econômico,Urbana,Conforto e praticidade,Loft
+1144229616617704638,51756664,Copacabana,-22.968527,-43.1890376,Private room,151.0,3,29,227,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Quarto
+971748525832218239,535536944,Copacabana,-22.964112437133444,-43.19301644462566,Entire home/apt,300.0,3,5,220,RANDOM_FILL,Luxo,Urbana,Novo com terraço,Terraço
+46258303,366913236,Copacabana,-22.98411443621187,-43.19080143121339,Entire home/apt,237.0,1,249,4,RANDOM_FILL,Moderno,Urbana,Flat Reformado Moderno,Reforma
+1450230605115908601,317916632,Copacabana,-22.97601,-43.19081,Entire home/apt,475.0,6,2,297,RANDOM_FILL,Luxo,Mar,Qualidade cinco estrelas,Conforto
+1409600547192421643,51227019,Copacabana,-22.97369,-43.18775,Entire home/apt,216.0,3,2,128,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Studio
+692197019047078013,474732590,Recreio dos Bandeirantes,-23.03017239721713,-43.47062820374499,Entire home/apt,350.0,3,8,358,RANDOM_FILL,Familiar,Mar,Praia e lazer,Conforto
+1364505657225564052,22805631,Ipanema,-22.9874,-43.18992,Entire home/apt,4604.0,3,0,365,RANDOM_FILL,Moderno,Urbana,Vista impressionante apartamento,Apartamento
+1511152876400676957,652284869,Ipanema,-22.987695,-43.1937726,Entire home/apt,552.0,1,0,340,RANDOM_FILL,Luxo,Urbana,Piscina entre bairros,Piscina
+724180667930615399,267643868,Copacabana,-22.97001,-43.18888,Private room,504.0,3,0,29,RANDOM_FILL,Econômico,Urbana,Localização rua nobre,Encantador
+1502989218884728368,325713553,São Conrado,-23.0012879,-43.2754371,Entire home/apt,12750.0,1,0,364,RANDOM_FILL,Luxo,Mar,Vista Maravilhosa Exclusiva,Mansão
+1051290461025591564,150004461,Barra da Tijuca,-23.008888852402883,-43.43088438861263,Private room,240.0,2,3,268,RANDOM_FILL,Familiar,Sem Vista,Conforto e espaço,Dependências
+1029156564715857885,314568411,Laranjeiras,-22.93731,-43.18966,Entire home/apt,584.0,2,2,354,RANDOM_FILL,Familiar,Sem Vista,Ambiente acolhedor terraço,aconchegante
+14121891,15396683,Copacabana,-22.96525,-43.17964,Private room,1164.0,7,0,270,RANDOM_FILL,Padrão,Urbana,Área privilegiada Copacabana,Apartamento
+1399975062589414195,662164700,Leblon,-22.98458113241808,-43.2224296438866,Entire home/apt,1500.0,2,0,88,RANDOM_FILL,Padrão,Mar,Próximo Praia Cristo,Localização
+842623929498932514,427981829,Gávea,-22.97993272874268,-43.242203928530216,Entire home/apt,626.0,2,4,349,RANDOM_FILL,Luxo | Familiar | Romântico,Natureza,Conexão com natureza,Serenidade
+15423469,10490620,Barra da Tijuca,-23.009534447164736,-43.34483553549942,Entire home/apt,495.0,2,38,186,RANDOM_FILL,Econômico,Mar,Conforto localização praia,Conforto
+787547790975448382,19879803,Centro,-22.90052027409076,-43.18228914760741,Entire home/apt,132.0,2,33,86,RANDOM_FILL,Econômico | Romântico,Urbana,Conforto no centro,Aconchego
+42229268,286903315,Camorim,-22.98416,-43.41611,Entire home/apt,345.0,5,0,89,RANDOM_FILL,Luxo,Natureza,Projeto sustentável exclusivo,Condomínio
+14354211,87985013,Barra da Tijuca,-23.0113,-43.32399,Entire home/apt,1671.0,2,53,356,RANDOM_FILL,Luxo,Mar,Resort frente mar,Resort
+3206766,15926148,Copacabana,-22.9664412,-43.1820753,Private room,101.0,2,403,64,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Aconchego
+1856688,9270905,Ipanema,-22.98452,-43.21265,Entire home/apt,457.0,3,20,351,RANDOM_FILL,Padrão,Sem Vista,Localização e Praticidade,Apartamento
+791372169510877664,520738367,Centro,-22.909880341806243,-43.17789662629366,Entire home/apt,126.0,1,53,120,RANDOM_FILL,Econômico,Urbana,Próximo transporte público,Conforto
+1442291631031868120,15673599,Barra da Tijuca,-23.00825,-43.36519,Entire home/apt,463.0,2,0,176,RANDOM_FILL,Luxo,Mar,Vista panorâmica mar,Vista
+588391651719468679,450802941,Copacabana,-22.963863,-43.191238,Entire home/apt,144.0,3,28,335,RANDOM_FILL,Romântico,Urbana,Aconchegante e encantador,Apartamento
+1229347999027900151,286019486,Jacarepaguá,-22.9690721,-43.3877641,Private room,360.0,1,3,365,RANDOM_FILL,Econômico,Sem Vista,Praticidade e conforto,Suíte
+1155303921720415447,353879954,Grajaú,-22.92601288430284,-43.2556875647504,Entire home/apt,495.0,2,0,171,RANDOM_FILL,Luxo,Sem Vista,Evento VIP exclusivo,Camarote
+14301432,87366120,Jacarepaguá,-22.96411,-43.3318,Private room,900.0,2,1,365,RANDOM_FILL,Econômico,Urbana,Localização próxima Olímpica,Conforto
+14978137,532498,Ipanema,-22.98533,-43.2067,Entire home/apt,630.0,5,5,143,RANDOM_FILL,Luxo,Urbana,Varanda fechada espaçosa,Flat
+881789110324652049,105480352,Copacabana,-22.971853324053875,-43.18669070859832,Entire home/apt,232.0,2,67,137,RANDOM_FILL,Econômico,Urbana,Perto da Praia,Renovado
+1441353190732088746,699863502,Paquetá,-22.764783,-43.106569,Entire home/apt,930.0,1,0,332,RANDOM_FILL,Familiar,Mar,Localização exclusiva natureza,Barca
+772423460085411294,203560919,Laranjeiras,-22.93575,-43.18262,Entire home/apt,391.0,2,65,70,RANDOM_FILL,Econômico,Urbana,Wi-Fi e aconchego,Conforto
+1406151059346404235,597860951,Barra de Guaratiba,-23.06612025543425,-43.5687849517146,Private room,176.0,1,0,360,RANDOM_FILL,Familiar,Natureza,Ambiente acolhedor simples,Pousada
+681092335504446526,23205834,Copacabana,-22.9677075,-43.1795285,Entire home/apt,950.0,5,1,184,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Conforto
+1172591061515794069,81067595,Flamengo,-22.92586172483756,-43.17272086892199,Entire home/apt,222.0,2,65,156,RANDOM_FILL,Padrão,Sem Vista,Próximo à praia,Renovado
+1042522203993299170,16826079,Copacabana,-22.9833707,-43.1917642,Entire home/apt,448.0,4,53,164,RANDOM_FILL,Luxo,Sem Vista,Estilo sofisticado exclusivo,Boutique
+789827955163075051,490731280,Rio Comprido,-22.93645,-43.20965,Private room,200.0,1,0,89,RANDOM_FILL,Econômico | Familiar,Urbana,Localização histórica charmosa,Suítes
+1069090096699106996,13323106,Glória,-22.9236969,-43.1729777,Entire home/apt,1800.0,3,5,77,RANDOM_FILL,Moderno,Urbana,"Estilo, conforto, varanda",Varanda
+1359416364592106488,679555465,Santo Cristo,-22.904262711682748,-43.20757695227677,Entire home/apt,227.0,2,8,130,RANDOM_FILL,Padrão,Sem Vista,Localização e piscina,Praticidade
+1339412984623025334,27037793,Leblon,-22.98315,-43.22407,Entire home/apt,189.0,2,28,142,RANDOM_FILL,Econômico,Urbana,Perto da praia,Loft
+32590121,30165706,Copacabana,-22.96493,-43.17543,Entire home/apt,392.0,1,120,308,RANDOM_FILL,Familiar,Mar,Conforto na praia,Praia
+1355921200819719370,168776127,Botafogo,-22.953642,-43.190975,Entire home/apt,245.0,2,1,167,RANDOM_FILL,Padrão,Sem Vista,Localização muito central,Praticidade
+22871471,1422607,Ipanema,-22.98373,-43.2037,Entire home/apt,619.0,3,154,319,RANDOM_FILL,Moderno,Urbana,Vista Cristo Redentor,Wi-Fi
+1305325723888298381,443985563,Copacabana,-22.97177,-43.18663,Entire home/apt,359.0,1,56,257,RANDOM_FILL,Econômico,Sem Vista,Promoção Setembro Últimas,Promoção
+1269010312775755027,657506924,Jacarepaguá,-22.97316,-43.41096,Entire home/apt,125.0,2,16,53,RANDOM_FILL,Familiar,Sem Vista,Desconto atrativo oferta,Localização
+1352831615589436973,677840647,Flamengo,-22.9281002,-43.1744829,Entire home/apt,300.0,2,3,137,RANDOM_FILL,Padrão,Mar,Ambiente acolhedor e charmoso,Conforto
+28951485,71086179,Santa Teresa,-22.91674,-43.18084,Private room,154.0,1,50,77,RANDOM_FILL,Familiar,Sem Vista,Espaço para família,Suíte
+755587536773267768,95754481,Gávea,-22.98123,-43.23318,Entire home/apt,188.0,2,21,156,RANDOM_FILL,Moderno,Urbana,Paz e tranquilidade,Loft
+892873564985370964,515089772,Centro,-22.91466,-43.18501,Entire home/apt,133.0,2,22,146,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Privativo
+1412524158052891701,15149133,Centro,-22.898696502441936,-43.17851058835996,Entire home/apt,2500.0,2,0,89,RANDOM_FILL,Econômico | Moderno,Mar,Localização Porto Maravilha,Praticidade
+801582952781926994,261025363,Copacabana,-22.96475114563778,-43.19053135486048,Entire home/apt,208.0,1,22,29,RANDOM_FILL,Econômico,Urbana,Localização muito conveniente,Segurança
+1248171260346863030,457242638,Ipanema,-22.98685,-43.19692,Entire home/apt,1305.0,1,61,94,RANDOM_FILL,Luxo,Mar,vista lateral deslumbrante,frente
+1279307962021674436,365760452,Ipanema,-22.9873,-43.19774,Entire home/apt,575.0,4,1,85,RANDOM_FILL,Luxo,Mar,Vista para praia,Vista
+1445912595487555229,365525758,Jacarepaguá,-22.97213645197272,-43.41256946325302,Entire home/apt,225.0,1,8,158,RANDOM_FILL,Econômico,Urbana,Localização para eventos,Convenção
+1140699516962184508,573714393,Flamengo,-22.93958,-43.17653,Private room,682.0,2,12,182,RANDOM_FILL,Econômico,Urbana,Quarto com varanda,Espaço
+30318725,214684936,Jacarepaguá,-22.97264,-43.38862,Entire home/apt,456.0,1,59,65,RANDOM_FILL,Luxo,Natureza,Conforto e lazer,Resort
+958620635517243371,1982737,Leblon,-22.98346,-43.22433,Entire home/apt,373.0,1,16,153,RANDOM_FILL,Moderno,Urbana,Apartamento moderno Leblon,Apartamento
+584024979186132254,449878774,Copacabana,-22.9643,-43.17952,Entire home/apt,186.0,3,76,179,RANDOM_FILL,Econômico,Urbana,Próximo metrô praia,Acessibilidade
+1476137200237028460,148198271,Camorim,-22.98473,-43.41649,Entire home/apt,264.0,1,0,78,RANDOM_FILL,Econômico,Urbana,Próximo ao RioCentro,Conforto
+14216485,26154101,Ipanema,-22.98386,-43.19549,Entire home/apt,300.0,1,117,293,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Proximidade
+22615168,15925361,Flamengo,-22.92701,-43.17558,Entire home/apt,151.0,2,182,234,RANDOM_FILL,Econômico | Moderno,Urbana,Localização próxima metrô,Studio
+973308183840051797,85447113,Barra da Tijuca,-23.0137596,-43.2990833,Entire home/apt,408.0,3,81,105,RANDOM_FILL,Padrão,Mar,Frente para praia,garagem
+818216284174355584,47584281,Jacarepaguá,-22.96626,-43.38744,Entire home/apt,2800.0,1,0,364,RANDOM_FILL,Romântico,Natureza,Beleza e Harmonia,Encanto
+1321121929138462817,199159949,Santa Teresa,-22.91493,-43.17971,Private room,450.0,1,5,364,RANDOM_FILL,Econômico,Urbana,Localização central Lapa,Quarto
+760205370273172702,318163118,Copacabana,-22.96738,-43.18691,Entire home/apt,256.0,1,38,168,RANDOM_FILL,Padrão,Mar,Vista Cristo Redentor,Vista
+1224128231074738256,232549816,Copacabana,-22.983696070393773,-43.19283601501839,Entire home/apt,238.0,2,22,284,RANDOM_FILL,Padrão,Urbana,Localização privilegiada,Conforto
+1028369217041426058,304925884,Copacabana,-22.96582056894656,-43.17825470119715,Entire home/apt,378.0,2,0,89,RANDOM_FILL,Padrão,Sem Vista,Próximo à Praia,Localização
+1297634570285715121,661029604,Recreio dos Bandeirantes,-23.03097325342708,-43.47306601703167,Entire home/apt,274.0,2,4,131,RANDOM_FILL,Luxo,Sem Vista,Conforto e Elegância,Flat
+1308602712121339697,5020460,Copacabana,-22.96404,-43.18061,Entire home/apt,285.0,3,8,116,RANDOM_FILL,Econômico,Mar,Próximo à praia,Prático
+22230063,18887440,Ipanema,-22.98667,-43.19267,Entire home/apt,517.0,2,45,7,RANDOM_FILL,Moderno,Urbana,Localização privilegiada,Loft
+1238196108249450919,565675918,Santa Teresa,-22.91856,-43.18803,Entire home/apt,228.0,2,8,337,RANDOM_FILL,Moderno,Sem Vista,Moderno e rústico,Temporada
+40736263,175580038,Copacabana,-22.97332,-43.18831,Entire home/apt,296.0,5,118,162,RANDOM_FILL,Luxo,Urbana,Conforto e silêncio,Tranquilidade
+392267,1961007,Centro,-22.915745,-43.178575,Entire home/apt,112.0,3,203,15,RANDOM_FILL,Moderno,Urbana,Ideal para nômades,Flexibilidade
+1449488593552320254,33320316,Copacabana,-22.97018,-43.18769,Entire home/apt,603.0,1,4,303,RANDOM_FILL,Padrão,Urbana,Localização privilegiada centro,Localização
+48684134,392769753,Copacabana,-22.96823,-43.18417,Entire home/apt,653.0,2,163,149,RANDOM_FILL,Romântico,Urbana,Localização em destaque,Conforto
+1347298697250985359,162653285,Botafogo,-22.9527173,-43.1907006,Entire home/apt,265.0,3,1,358,RANDOM_FILL,Padrão,Urbana,Conforto e Localização,Conforto
+39714574,305239057,Copacabana,-22.9815,-43.19018,Private room,99.0,2,74,54,RANDOM_FILL,Econômico,Sem Vista,Quarto com banheiro,Compacto
+1290521329071674918,273972207,Leblon,-22.985713669020534,-43.21757823228836,Entire home/apt,579.0,2,9,246,RANDOM_FILL,Moderno,Urbana,Conceito aberto sofisticado,Loft
+568618635934241017,170522649,Botafogo,-22.94888,-43.18123,Entire home/apt,144.0,2,124,34,RANDOM_FILL,Moderno,Mar,Localização e charme,Loft
+52402583,40151333,Ipanema,-22.98018,-43.20404,Entire home/apt,786.0,1,7,205,RANDOM_FILL,Luxo | Moderno,Urbana,Localização privilegiada,Loft
+1511540756261255730,393589684,Copacabana,-22.9721974,-43.1904104,Private room,105.0,3,0,82,RANDOM_FILL,Econômico,Sem Vista,Próximo à praia,Quarto
+929709578128952258,429219276,Camorim,-22.9808971,-43.4224405,Entire home/apt,222.0,1,115,319,RANDOM_FILL,Luxo,Urbana,Suíte com TV,Suíte
+979785726216431712,83731252,Joá,-23.01476,-43.29448,Entire home/apt,4172.0,1,3,237,RANDOM_FILL,Familiar,Mar,Ambiente para festa,cabana
+1516846071860706892,539730827,Centro,-22.90166,-43.18374,Entire home/apt,162.0,2,0,364,RANDOM_FILL,Romântico,Urbana,Refúgio no Centro,Terraço
+1278254349385651407,103209322,Copacabana,-22.96647,-43.18021,Entire home/apt,625.0,2,25,33,RANDOM_FILL,Econômico,Mar,Próximo à praia,Flat
+1482071173567075826,678477090,Copacabana,-22.96385,-43.17492,Entire home/apt,207.0,1,1,341,RANDOM_FILL,Econômico,Mar,Próximo à praia,Studio
+42385510,337217977,Laranjeiras,-22.93929,-43.18296,Private room,507.0,1,3,83,RANDOM_FILL,Econômico,Urbana,Localização central estratégica,Praticidade
+760858187258565663,6103905,Ipanema,-22.98371,-43.211,Entire home/apt,274.0,2,1,77,RANDOM_FILL,Econômico,Urbana,Localização privilegiada centro,Kitnet
+1298117555043453429,583793559,Copacabana,-22.969925,-43.1880444,Entire home/apt,900.0,3,4,86,RANDOM_FILL,Luxo,Urbana,Vista Cristo Redentor,Vista
+23049612,902085,Botafogo,-22.94501,-43.18228,Entire home/apt,171.0,3,243,279,RANDOM_FILL,Econômico,Urbana,Aconchegante e bem localizado,Estúdio
+801532154829794406,490855236,Copacabana,-22.9812377,-43.1932728,Entire home/apt,184.0,2,66,62,RANDOM_FILL,Econômico,Urbana,Próximo ao metrô,Studio
+37769679,284275263,Copacabana,-22.97901,-43.19191,Entire home/apt,380.0,5,44,228,RANDOM_FILL,Familiar,Urbana,Deck externo espaçoso,Conforto
+1449458012518407229,702875464,Copacabana,-22.97235077142938,-43.187849839598655,Private room,164.0,1,0,256,RANDOM_FILL,Econômico,Urbana,Localização privilegiada,Privativo
+1122390857518754938,569389559,Tijuca,-22.924956169342515,-43.22646393880465,Entire home/apt,300.0,2,4,362,RANDOM_FILL,Econômico,Urbana,Próximo ao metrô,Localização
+1507603570390663879,707582,Centro,-22.89935226225711,-43.181104212999344,Private room,98.0,1,0,265,RANDOM_FILL,Econômico,Urbana,Preço muito baixo,Studio
+38845320,258230854,Jacarepaguá,-22.96558,-43.3944,Entire home/apt,379.0,1,9,365,RANDOM_FILL,Luxo,Urbana,Garota Vip exclusiva,temporada
+1350961649727578635,399499622,Copacabana,-22.96496391093558,-43.17427061498165,Entire home/apt,224.0,1,76,268,RANDOM_FILL,Luxo | Padrão,Mar,Esquina frente praia,Localização
+1322465854249081962,669473024,Copacabana,-22.9679988454797,-43.18170709367708,Private room,253.0,2,1,3,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Quarto
+1248814524195358122,15960881,Laranjeiras,-22.9375996,-43.1931884,Entire home/apt,193.0,1,3,89,RANDOM_FILL,Econômico,Natureza,Tranquilidade entre árvores,Floresta
+1366757151921733091,451225419,Recreio dos Bandeirantes,-23.0296721,-43.4728424,Entire home/apt,415.0,2,0,90,RANDOM_FILL,Econômico,Urbana,Aconchego e praticidade,Hostel
+1364029077401863684,395049173,Copacabana,-22.96452512615163,-43.186401177194206,Entire home/apt,819.0,5,0,365,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+2007321,9540144,Ipanema,-22.98471,-43.19562,Entire home/apt,318.0,3,39,297,RANDOM_FILL,Econômico,Urbana,Localização privilegiada,Studio
+1019478417657482913,5045079,Ipanema,-22.9841353,-43.1967331,Entire home/apt,196.0,2,112,208,RANDOM_FILL,Moderno,Urbana,Design elegante prático,Studio
+610130722500625250,250159198,Copacabana,-22.97424,-43.19106,Entire home/apt,480.0,6,7,349,RANDOM_FILL,Familiar,Urbana,Localização em Copacabana,Apartamento
+1329328551039256522,488618749,Campo Grande,-22.893928277723624,-43.56477819658511,Entire home/apt,285.0,2,12,245,RANDOM_FILL,Econômico | Familiar,Urbana,Segurança 24h garantida,Condomínio
+2464745,8996394,Copacabana,-22.96953,-43.18206,Entire home/apt,763.0,3,4,189,RANDOM_FILL,Econômico,Mar,Perto da praia,Conforto
+10373643,35129378,Copacabana,-22.98004,-43.19177,Entire home/apt,347.0,3,56,126,RANDOM_FILL,Luxo,Mar,Localização e charme,Exclusividade
+1360252536013425742,113693855,Centro,-22.91360060639497,-43.189539327590566,Entire home/apt,170.0,1,2,342,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Aconchegante
+1049425979489702947,551153931,Flamengo,-22.929885114997408,-43.17581254988909,Entire home/apt,1080.0,14,0,87,RANDOM_FILL,Familiar,Mar,Conforto próximo praia,Conforto
+1060771520829202932,164822022,Copacabana,-22.978,-43.18838,Entire home/apt,269.0,1,7,334,RANDOM_FILL,Romântico,Mar,Casal na praia,Praia
+1455147442936195338,663448226,Barra da Tijuca,-23.009808,-43.344876,Entire home/apt,313.0,1,16,306,RANDOM_FILL,Luxo,Mar,Vista mar linda,Luxo
+1123930005510359120,22805631,Copacabana,-22.966108785742392,-43.17565704762331,Entire home/apt,22084.0,3,0,365,RANDOM_FILL,Luxo,Mar,Cobertura frente mar,Penthouse
+46523322,376256547,Copacabana,-22.96336,-43.17481,Entire home/apt,367.0,2,20,345,RANDOM_FILL,Econômico,Mar,Vista para mar,PetFriendly
+704290193025398688,474580893,Joá,-23.0036,-43.27963,Private room,450.0,2,2,89,RANDOM_FILL,Luxo,Mar,Vista mar espetacular,Suíte
+5230400,11647707,Botafogo,-22.94591,-43.18074,Entire home/apt,266.0,2,18,56,RANDOM_FILL,Padrão,Urbana,Localização em Botafogo,Localização
+851995491921033288,486430987,Copacabana,-22.98658233815013,-43.18986079071405,Entire home/apt,1174.0,7,0,37,RANDOM_FILL,Luxo,Sem Vista,Prédio de luxo,Apartamento
+1021900629703572052,12909867,Ipanema,-22.9816482,-43.2010909,Entire home/apt,590.0,2,2,137,RANDOM_FILL,Econômico,Urbana,Ano Novo Rio,Temporada
+1083688482569069733,443318137,Leblon,-22.98225725330472,-43.22279943491821,Entire home/apt,470.0,2,8,137,RANDOM_FILL,Luxo,Urbana,Localização nobre Leblon,Apartamento
+1011605431127953606,542853999,Copacabana,-22.9608043,-43.1752838,Entire home/apt,284.0,1,30,101,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Flat
+10908039,115972980,Copacabana,-22.97634,-43.1945,Entire home/apt,390.0,2,94,279,RANDOM_FILL,Padrão,Mar,Próximo praia metrô,Charme
+4256235,22085127,Copacabana,-22.98341,-43.18947,Entire home/apt,1068.0,4,0,89,RANDOM_FILL,Padrão,Mar,Frente para praia,Localização
+1263781443640935496,511069283,Copacabana,-22.967060037124416,-43.177145604935696,Entire home/apt,398.0,2,21,159,RANDOM_FILL,Luxo,Sem Vista,Estilo e classe,Sofisticação
+14767217,47831251,Laranjeiras,-22.932863,-43.187504,Private room,120.0,3,34,111,RANDOM_FILL,Econômico,Sem Vista,Espaço Amplo Interno,Espaço
+1501675571961636992,6000862,Copacabana,-22.96927,-43.18339,Entire home/apt,207.0,1,1,340,RANDOM_FILL,Econômico,Urbana,Proximidade Copacabana,Localização
+2664267,13636241,Tijuca,-22.92663,-43.22829,Entire home/apt,1000.0,1,23,365,RANDOM_FILL,Econômico,Urbana,Próximo metrô conveniente,Praticidade
+1027566934104349628,55943001,Copacabana,-22.9646926,-43.1755122,Entire home/apt,248.0,3,37,199,RANDOM_FILL,Luxo,Mar,Localização à beira-mar,Quadríssima
+1262170144552624025,401095617,Catete,-22.92255,-43.17758,Entire home/apt,180.0,2,2,11,RANDOM_FILL,Familiar | Romântico,Urbana,Localização central charmosa,Aconchego
+70547,357995,Santa Teresa,-22.9172,-43.17812,Private room,169.0,5,98,206,RANDOM_FILL,Luxo | Romântico | Moderno,Urbana,Localização cultural privilegiada,Suites
+1036140601708263284,177679090,Copacabana,-22.968802429502773,-43.182126972824335,Entire home/apt,400.0,3,24,53,RANDOM_FILL,Padrão,Mar,Conforto e Vista,Localização
+1349397709413349784,265902266,Centro,-22.89890700731988,-43.17999800613856,Entire home/apt,210.0,2,13,76,RANDOM_FILL,Luxo,Sem Vista,Alto padrão moderno,Flat
+1243491431869564345,337425934,Recreio dos Bandeirantes,-23.0198,-43.5115,Entire home/apt,256.0,2,11,358,RANDOM_FILL,Econômico,Mar,Próximo à praia,Aconchegante
+1410803474685808758,270247199,Copacabana,-22.9640442,-43.1750444,Entire home/apt,200.0,3,9,79,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Apartamento
+1281142970407076878,142112127,Centro,-22.91565593821264,-43.17791808396578,Entire home/apt,172.0,2,7,64,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Estúdio
+787729275743144971,174303208,Copacabana,-22.967180074748622,-43.1858017668128,Shared room,69.0,2,92,53,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Compartilhado
+48829489,171851293,Barra da Tijuca,-23.01318,-43.30832,Entire home/apt,1005.0,3,46,82,RANDOM_FILL,Luxo,Sem Vista,Localização estratégica próxima,Sofisticação
+1352934445929494101,51313494,Recreio dos Bandeirantes,-23.0304538,-43.47812769999999,Private room,343.0,1,1,365,RANDOM_FILL,Luxo,Mar,Vista direta mar,Loft
+1452712459350124923,43094934,Copacabana,-22.97313,-43.19375,Entire home/apt,368.0,2,12,82,RANDOM_FILL,Econômico,Urbana,Varanda e piscina,Varanda
+1207287926679580921,1247944,Leblon,-22.9829749,-43.216181,Entire home/apt,855.0,2,7,28,RANDOM_FILL,Luxo,Mar,Praias Famosas Próximas,Localização
+1085454557260047265,473492239,Barra da Tijuca,-23.00921335512476,-43.34590239661044,Entire home/apt,640.0,3,0,204,RANDOM_FILL,Luxo,Mar,Vista Frente Mar,Flat
+928876297050396048,173494713,Barra da Tijuca,-23.0091458,-43.36540249999999,Entire home/apt,684.0,3,0,364,RANDOM_FILL,Padrão,Sem Vista,Localização Barra Tijuca,Apartamento
+654016795296492250,465318534,Guaratiba,-22.986345183711965,-43.63211665302514,Entire home/apt,340.0,1,8,268,RANDOM_FILL,Familiar,Natureza,Lugar tranquilo Pedra,Tranquilidade
+1497079277284008871,677751033,Botafogo,-22.94544,-43.18173,Entire home/apt,207.0,1,1,104,RANDOM_FILL,Padrão,Mar,Frente para praia,Localização
+1309520900651444479,316212820,Santa Teresa,-22.914741,-43.1843075,Entire home/apt,133.0,1,35,179,RANDOM_FILL,Moderno,Urbana,Localização Central Estratégica,Loft
+1503959619024204527,713907919,Barra da Tijuca,-23.01353,-43.31036,Entire home/apt,785.0,1,0,190,RANDOM_FILL,Familiar | Moderno,Urbana,Localização privilegiada Barra,Apartamento
+1314703017339945507,23692269,Copacabana,-22.9755335,-43.1917481,Entire home/apt,155.0,2,23,207,RANDOM_FILL,Econômico,Urbana,Amplo espaço interno,Espaçoso
+1356770148134957216,2948186,Copacabana,-22.9694715,-43.1845783,Entire home/apt,293.0,2,20,213,RANDOM_FILL,Elegante | Moderno,Mar,Localização privilegiada frente-mar,Studio
+1421814196854881633,563309491,Santa Teresa,-22.92359,-43.19193,Private room,171.0,1,0,314,RANDOM_FILL,Luxo,Urbana,História e charme,Castelo
+1300648882351451207,10965501,Flamengo,-22.93712,-43.17635,Entire home/apt,720.0,3,1,88,RANDOM_FILL,Padrão,Urbana,Vista Cristo Redentor,Localização
+1050586428400058128,537243747,Copacabana,-22.978950933724207,-43.191402331116514,Entire home/apt,263.0,3,29,307,RANDOM_FILL,Luxo,Mar,Vista para praia,Exclusividade
+593130823509148996,60267323,Leblon,-22.981472,-43.218853,Entire home/apt,680.0,7,21,129,RANDOM_FILL,Luxo,Urbana,Localização luxo Leblon,Exclusividade
+864368975230658422,508973768,Barra da Tijuca,-23.01351,-43.30944,Entire home/apt,498.0,1,63,291,RANDOM_FILL,Luxo,Mar,Vista Panorâmica Mar,Vista
+17399810,117624300,Andaraí,-22.92647,-43.24897,Private room,225.0,1,21,254,RANDOM_FILL,Econômico,Urbana,Wi-Fi e ar-condicionado,Quarto
+1456683004701275852,704923923,Barra da Tijuca,-23.0107,-43.34387,Entire home/apt,513.0,5,0,209,RANDOM_FILL,Padrão,Mar,Apartamento praia vista,Apartamento
+949519836505972797,529548386,Jacarepaguá,-22.9728832,-43.4109722,Entire home/apt,135.0,2,16,164,RANDOM_FILL,Econômico,Urbana,Localização próxima ponto,Proximidade
+831886744516591786,77353909,Botafogo,-22.9496785,-43.1854424,Entire home/apt,215.0,7,54,149,RANDOM_FILL,Econômico,Urbana,Localização em Botafogo,Studio
+10656451,48492073,Jacarepaguá,-22.96766,-43.39675,Entire home/apt,1578.0,10,0,363,RANDOM_FILL,Econômico,Sem Vista,Melhor opção Barra,Custo-benefício
+1498121429499660555,228348887,Copacabana,-22.96966,-43.18819,Entire home/apt,360.0,2,0,339,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Localização
+1193085585113436799,500065894,Jardim Carioca,-22.80021934488009,-43.200147669673655,Entire home/apt,1370.0,1,0,365,RANDOM_FILL,Padrão,Sem Vista,Conforto e acolhimento,Aconchegante
+1160395292960205121,105964963,Centro,-22.91341,-43.18656,Entire home/apt,163.0,8,25,128,RANDOM_FILL,Romântico,Urbana,Ambiente acolhedor charmoso,Charme
+711502574441523984,310239691,Taquara,-22.91508,-43.37812,Entire home/apt,140.0,2,6,364,RANDOM_FILL,Econômico | Familiar,Sem Vista,Conforto e acolhimento,Aconchegante
+1328292666282716079,671200777,Recreio dos Bandeirantes,-23.01006,-43.45111,Entire home/apt,358.0,2,3,365,RANDOM_FILL,Familiar,Natureza,Vista panorâmica verde,Vista
+882096679932197815,201307776,Bancários,-22.7991871,-43.1762712,Entire home/apt,91.0,1,42,329,RANDOM_FILL,Familiar,Natureza,Ambiente ao ar livre,Espaço
+1415417328985426465,676769475,Copacabana,-22.97065196669812,-43.18817317485809,Entire home/apt,186.0,3,0,210,RANDOM_FILL,Padrão,Urbana,Localização privilegiada,Imóvel
+1143675007544035591,499717697,Copacabana,-22.96748162818829,-43.190541985419294,Private room,450.0,1,0,269,RANDOM_FILL,Familiar,Urbana,Localização em Copacabana,Quarto
+1366803328048903271,343799606,Copacabana,-22.96826309898708,-43.181108244893416,Entire home/apt,249.0,3,2,303,RANDOM_FILL,Luxo,Urbana,Localização exclusiva privilegiada,Prime
+1190013667750994904,586503748,Barra da Tijuca,-23.00925,-43.42864,Entire home/apt,288.0,3,0,87,RANDOM_FILL,Luxo | Familiar | Moderno,Mar,Vista privilegiada mar,Exclusividade
+32518386,74338742,Barra da Tijuca,-23.00458526611328,-43.341121673583984,Private room,341.0,2,37,270,RANDOM_FILL,Moderno,Urbana,Localização privilegiada Barra,Flat
+1492409935124101728,687339099,Ipanema,-22.98405,-43.19835,Private room,483.0,1,0,365,RANDOM_FILL,Econômico,Urbana,Espaço para grupo,Compartilhado
+41665432,47584281,Jacarepaguá,-22.9693,-43.39673,Entire home/apt,447.0,1,3,365,RANDOM_FILL,Luxo,Mar,Elegante e relaxante,Conforto
+1308107405054442302,666170608,Copacabana,-22.983600806600272,-43.190948657855536,Entire home/apt,489.0,3,10,268,RANDOM_FILL,Padrão,Urbana,Espaço Bem Distribuído,Amplo
+903521014005417762,2345756,São Conrado,-22.99104591015596,-43.27438473701477,Private room,479.0,2,1,155,RANDOM_FILL,Econômico,Natureza,Verde e Exclusivo,Guesthouse
+2341248,9802687,Botafogo,-22.9531,-43.19018,Entire home/apt,800.0,2,9,355,RANDOM_FILL,Romântico,Urbana,Charme e aconchego,Apartamento
+1092416774363695873,91654021,Copacabana,-22.984241942044964,-43.193469643215856,Entire home/apt,1067.0,3,0,89,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Quartos
+1362523581208724453,291673120,Copacabana,-22.97953,-43.19141,Entire home/apt,326.0,2,23,90,RANDOM_FILL,Econômico,Mar,Estilo boho praia,Descontraído
+32567703,244742034,Copacabana,-22.96711,-43.18434,Private room,220.0,2,7,90,RANDOM_FILL,Econômico,Sem Vista,Localização em Copacabana,Quarto
+1275401008433225470,658938602,Recreio dos Bandeirantes,-23.03023219765835,-43.47472841314872,Entire home/apt,3120.0,1,0,365,RANDOM_FILL,Luxo,Mar,Vista Maravilhosa Permanente,Flat
+31799561,6479760,São Cristóvão,-22.90716,-43.22042,Entire home/apt,275.0,4,88,125,RANDOM_FILL,Padrão,Urbana,Localização em São Cristóvão,Apartamento
+1449973738896944926,677751033,Copacabana,-22.981791794455564,-43.19005352742538,Entire home/apt,681.0,1,10,147,RANDOM_FILL,Econômico,Mar,Próximo praia metrô,Localização
+1081974621061236096,51649285,Leblon,-22.986269863918345,-43.220895789563656,Private room,799.0,3,0,264,RANDOM_FILL,Econômico,Mar,Frente para mar,conforto
+2473019,12647926,Leblon,-22.98372,-43.22326,Entire home/apt,1778.0,2,76,7,RANDOM_FILL,Luxo,Mar,Próximo à praia,Localização
+16400636,107445444,Copacabana,-22.96933364868164,-43.1832275390625,Entire home/apt,1813.0,4,167,66,RANDOM_FILL,Padrão,Mar,Conforto Quadra Praia,Conforto
+1453024779817988957,551089406,Ipanema,-22.98063,-43.20101,Private room,365.0,1,0,353,RANDOM_FILL,Luxo,Urbana,Localização privilegiada,Suíte
+13565257,78193457,Copacabana,-22.98369,-43.19218,Entire home/apt,968.0,7,0,88,RANDOM_FILL,Padrão,Urbana,Próximo à praia,Localização
+1318095178974116019,200788123,Botafogo,-22.9459336,-43.1831346,Entire home/apt,143.0,6,9,213,RANDOM_FILL,Padrão,Urbana,Localização estratégica central,Próximo
+1463781179229612258,670606136,Copacabana,-22.9669607,-43.1807203,Entire home/apt,748.0,5,0,301,RANDOM_FILL,Luxo,Urbana,Localização privilegiada,Andar
+1290018735827543776,662154323,Bancários,-22.7983198,-43.1731488,Entire home/apt,399.0,2,1,171,RANDOM_FILL,Luxo,Mar,Vista panorâmica incrível,Exclusividade
+1435495852185941698,511384819,Camorim,-22.9798,-43.42153,Entire home/apt,354.0,2,1,334,RANDOM_FILL,Econômico,Urbana,Localização central estratégica,Praticidade
+10171325,52220250,Jacarepaguá,-22.93619,-43.32421,Entire home/apt,225.0,3,0,365,RANDOM_FILL,Padrão,Sem Vista,Título pouco claro,Indefinido
+1106401138580155064,352193318,Leblon,-22.98373,-43.2224,Entire home/apt,275.0,2,24,14,RANDOM_FILL,Luxo,Urbana,Localização nobre Leblon,Charmoso
+706582983077424123,265161659,Itanhangá,-22.98574,-43.30672,Entire home/apt,200.0,1,1,364,RANDOM_FILL,Padrão,Sem Vista,Localização maravilhosa destacada,Conforto
+10413043,27415051,Barra da Tijuca,-22.97336,-43.396,Entire home/apt,332.0,2,90,336,RANDOM_FILL,Econômico,Urbana,Vista parque olímpico,cozy
+1471025548794686227,489765352,Camorim,-22.98265,-43.4159,Private room,230.0,1,0,365,RANDOM_FILL,Econômico,Sem Vista,Privacidade e conforto,Suíte
+22790709,470565,Copacabana,-22.98449,-43.19325,Private room,475.0,2,3,365,RANDOM_FILL,Econômico | Padrão,Urbana,Localização central prática,Hostel
+1437858013405169496,51689400,Centro,-22.8995,-43.17917,Entire home/apt,128.0,3,12,269,RANDOM_FILL,Econômico | Moderno,Urbana,Localização central prática,Studio
+31221891,214275020,Barra da Tijuca,-23.0096,-43.36984,Entire home/apt,312.0,2,12,3,RANDOM_FILL,Econômico,Mar,Frente para praia,Apartamento
+814652645855453099,61984959,Lagoa,-22.979949926840764,-43.20389669764871,Private room,340.0,1,7,356,RANDOM_FILL,Luxo | Romântico,Urbana | Mar,Localização privilegiada Ipanema,Suíte
+1480456562389526367,592964680,Copacabana,-22.9628424,-43.1812117,Entire home/apt,380.0,1,8,330,RANDOM_FILL,Econômico,Sem Vista,Próximo praia Copacabana,Localização
+40179166,310257502,Ipanema,-22.98808,-43.19089,Entire home/apt,377.0,4,152,78,RANDOM_FILL,Econômico,Urbana,Localização central conveniente,Praticidade
+799176276023553836,346905057,Centro,-22.9135115,-43.1881868,Entire home/apt,221.0,2,45,231,RANDOM_FILL,Econômico,Urbana,Localização central privilegiada,Conveniência
+1448679494871179763,143945580,Copacabana,-22.96431,-43.17504,Entire home/apt,200.0,5,0,250,RANDOM_FILL,Econômico,Mar,Proximidade com praia,Localização
+12916717,69874245,Lagoa,-22.9633,-43.21305,Private room,644.0,1,0,89,RANDOM_FILL,Luxo,Natureza,Localização privilegiada Jardim,Suíte
+1284897865653230921,84879997,Copacabana,-22.9669282,-43.187908,Entire home/apt,340.0,1,8,43,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Studio
+1371293945502352246,83600893,Botafogo,-22.945488019460527,-43.18335259391022,Entire home/apt,350.0,1,2,264,RANDOM_FILL,Econômico,Urbana,Conforto e praticidade,Conforto
+46246307,299675645,Copacabana,-22.98061,-43.19322,Entire home/apt,2253.0,4,7,111,RANDOM_FILL,Luxo,Mar,Espaçoso perto praia,Apartamento
+1132822610779365169,17966295,Recreio dos Bandeirantes,-23.01986,-43.46087,Entire home/apt,1778.0,1,0,269,RANDOM_FILL,Luxo,Mar,Próximo à praia,Penthouse
+1407494006432358285,692093795,Centro,-22.91275,-43.18491,Entire home/apt,143.0,1,3,262,RANDOM_FILL,Econômico,Urbana,Localização Central Lapa,Conjugado
+886167839998394541,74463624,Copacabana,-22.96366902244701,-43.17388286667605,Entire home/apt,223.0,2,62,19,RANDOM_FILL,Econômico,Urbana,Espaço para cinco,Studio
+1360223983241446907,55450952,Lagoa,-22.9612838,-43.2056268,Entire home/apt,265.0,2,10,123,RANDOM_FILL,Luxo,Natureza,Piscina e garagem,Flat
+5227607,7692877,Ipanema,-22.985369,-43.19561789999999,Entire home/apt,229.0,5,48,103,RANDOM_FILL,Luxo,Mar,Próximo praias famosas,Localização
+11641219,59076598,Leblon,-22.98077,-43.22421,Entire home/apt,270.0,2,5,10,RANDOM_FILL,Luxo,Urbana,Conforto e charme,acolhedor
+1361476314816364492,83483596,Curicica,-22.953163,-43.384209,Entire home/apt,209.0,2,5,324,RANDOM_FILL,Padrão,Urbana,Localização em Barra,Apartamento
+750415523247914486,462508555,Catete,-22.9294428,-43.1779643,Entire home/apt,160.0,5,20,137,RANDOM_FILL,Econômico,Urbana,Linda sacada frontal,Studio
+99971,525976,Leblon,-22.98812,-43.22897,Entire home/apt,456.0,3,185,182,RANDOM_FILL,Luxo,Mar,Frente para praia,Localização
+22793889,45815552,Copacabana,-22.96857,-43.18888,Private room,500.0,3,37,318,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,flat
+7162238,13392098,Ipanema,-22.9853,-43.19772,Entire home/apt,294.0,4,98,241,RANDOM_FILL,Padrão,Urbana,Próximo ao metrô,Studio
+1334150051403781636,44185499,Ipanema,-22.98602602839384,-43.19523677229881,Entire home/apt,3396.0,6,0,87,RANDOM_FILL,Luxo,Urbana,Localização Carnaval Ipanema,Luxo
+1061047276459837709,548449872,Santa Teresa,-22.9195349,-43.178932,Entire home/apt,165.0,2,121,63,RANDOM_FILL,Econômico,Urbana,Conforto perto metrô,Conforto
+13801713,72014454,Ipanema,-22.98312,-43.20959,Entire home/apt,373.0,2,90,135,RANDOM_FILL,Luxo | Romântico,Urbana,Localização privilegiada,Exclusividade
+968179999564207149,289695075,Encantado,-22.897279782126464,-43.302495369675405,Private room,250.0,1,11,177,RANDOM_FILL,Econômico,Urbana,Localização próximo estádio,Acessibilidade
+725432032091903269,5967632,Copacabana,-22.9832192,-43.1919477,Entire home/apt,319.0,2,10,155,RANDOM_FILL,Econômico | Moderno,Urbana,Localização privilegiada borda,Studio
+1266951186531555567,22815676,Copacabana,-22.96557383524172,-43.175338557981455,Entire home/apt,225.0,2,45,224,RANDOM_FILL,Luxo,Mar,Localização frente mar,praia
+49531912,3021886,Santa Teresa,-22.91614,-43.18752,Shared room,238.0,1,57,269,RANDOM_FILL,Padrão,Urbana,Vista Cidade Maravilhosa,Localização
+1042107106592529571,33435616,Copacabana,-22.98447303329468,-43.19204215860936,Entire home/apt,2243.0,5,3,153,RANDOM_FILL,Padrão,Mar,Próximo à praia,Localização
+23766876,40780566,Ipanema,-22.9819801,-43.20120439999999,Entire home/apt,528.0,5,39,177,RANDOM_FILL,Luxo,Urbana,Design sofisticado exclusivo,Designer
+821227099948297881,392769753,Copacabana,-22.9706963,-43.1860477,Entire home/apt,461.0,2,89,113,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Reformado
+54109406,229244053,Jacarepaguá,-22.97192,-43.41749,Private room,168.0,15,4,26,RANDOM_FILL,Familiar,Urbana,Tranquilo e seguro,Localização
+1481948160192776929,78253983,Leblon,-22.9839971,-43.2190972,Entire home/apt,321.0,2,3,179,RANDOM_FILL,Luxo,Urbana,Charme e conforto,Charme
+52960221,13420441,Copacabana,-22.97906494140625,-43.19001388549805,Entire home/apt,283.0,1,249,114,RANDOM_FILL,Moderno,Urbana,Design contemporâneo elegante,Loft
+1316199913246451847,156783825,Copacabana,-22.96291,-43.17705,Entire home/apt,189.0,2,29,113,RANDOM_FILL,Econômico,Urbana,Proximidade fogos Réveillon,Localização
+1303098378003444984,45618271,Copacabana,-22.9771637,-43.19136049999999,Entire home/apt,176.0,2,13,45,RANDOM_FILL,Padrão,Urbana,Localização privilegiada,Localização
+1419652497263084129,76210086,Ipanema,-22.98484365854867,-43.208045722521256,Entire home/apt,670.0,1,1,0,RANDOM_FILL,Luxo,Mar,Localização em Ipanema,Flat
+1121888937157529159,70646886,Leblon,-22.98692099071668,-43.22873024615393,Entire home/apt,2173.0,2,0,47,RANDOM_FILL,Luxo | Moderno,Urbana,Cobertura duplex moderna,Cobertura
+574101300239808467,77023853,Barra da Tijuca,-23.01006,-43.33949,Entire home/apt,1543.0,2,32,211,RANDOM_FILL,Familiar,Mar,Espaçoso e Confortável,Casarão
+1358342607177741485,394291562,Vargem Grande,-22.999654323511034,-43.50335603439331,Entire home/apt,1033.0,1,0,178,RANDOM_FILL,Familiar,Sem Vista,Piscina bem localizada,Casa
+1507994135137462892,678477090,Copacabana,-22.96286,-43.17481,Entire home/apt,297.0,1,0,362,RANDOM_FILL,Luxo,Mar,Vista deslumbrante mar,Apartamento
+1250639897046879626,159589071,Copacabana,-22.9682661,-43.18369819999999,Entire home/apt,206.0,4,7,148,RANDOM_FILL,Padrão,Mar,Esquina praia cobacabana,Localização
+1497087784554887652,111256555,Copacabana,-22.96337,-43.17379,Entire home/apt,221.0,1,1,327,RANDOM_FILL,Padrão,Mar,Localização privilegiada praia,Localização
+1362531594089071185,16920213,Copacabana,-22.9701125,-43.18529480000001,Entire home/apt,142.0,1,20,260,RANDOM_FILL,Econômico,Urbana,Localização em Copa,Silencioso
+1304637309497435376,540035920,Centro,-22.90654692020433,-43.17518397617209,Entire home/apt,450.0,3,2,365,RANDOM_FILL,Padrão,Urbana,Localização central privilegiada,Conveniência
+5218960,26922963,Copacabana,-22.96642,-43.18115,Entire home/apt,433.0,10,0,358,RANDOM_FILL,Moderno,Urbana,Localização em Copacabana,Apartamento
+1128226868090550820,112658593,Copacabana,-22.97683787597042,-43.18865343194671,Entire home/apt,326.0,1,42,67,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Praticidade
+1402224314320285225,690532626,Centro,-22.913655489034586,-43.18135787681782,Entire home/apt,165.0,2,11,18,RANDOM_FILL,Econômico,Urbana,Localização central estacionamento,Flat
+17646772,87623795,Copacabana,-22.96483,-43.17368,Entire home/apt,145.0,4,126,175,RANDOM_FILL,Luxo,Mar,Vista para mar,Elegância
+1289228602287710107,482050542,São Conrado,-22.9988141,-43.2659481,Entire home/apt,1048.0,2,4,207,RANDOM_FILL,Luxo,Mar,Frente à praia,Condomínio
+38833848,67075844,Recreio dos Bandeirantes,-23.02876,-43.47361,Entire home/apt,135.0,2,126,200,RANDOM_FILL,Familiar,Mar,Lazer e conforto,Completo
+1021186571365802251,43898034,Leblon,-22.98372,-43.22366,Entire home/apt,2548.0,4,0,269,RANDOM_FILL,Luxo,Urbana,Localização exclusiva Leblon,Flat
+1049571521390322783,39935037,Copacabana,-22.9632313,-43.1766893,Entire home/apt,321.0,3,49,37,RANDOM_FILL,Luxo,Sem Vista,Novíssimo e perto,luxo
+1363850203292905064,665539704,Recreio dos Bandeirantes,-23.02877,-43.50074,Entire home/apt,159.0,2,1,333,RANDOM_FILL,Familiar,Natureza,Localização tranquila praia,Apartamento
+1147127494022622631,574054407,Copacabana,-22.964890340634955,-43.17888316619823,Private room,500.0,3,0,257,RANDOM_FILL,Econômico,Sem Vista,Compacto e funcional,Terrace
+1305204417955596087,105480352,Copacabana,-22.9717458,-43.1852678,Entire home/apt,665.0,1,25,258,RANDOM_FILL,Luxo,Mar,Espaçoso e Renovado,Beachfront
+53832553,213230578,Engenho Novo,-22.90466,-43.26742,Shared room,102.0,2,4,365,RANDOM_FILL,Econômico,Natureza,Conforto e simplicidade,Pousada
+38931029,125450353,Barra da Tijuca,-23.00272,-43.39077,Entire home/apt,510.0,10,5,177,RANDOM_FILL,Padrão,Sem Vista,Localização privilegiada,Apartamento
+1298471066298307103,664066349,Copacabana,-22.97047,-43.18747,Private room,98.0,2,13,170,RANDOM_FILL,Econômico,Urbana,Próximo à praia,Quarto
+1171055264679633452,30557552,Recreio dos Bandeirantes,-23.00213199539392,-43.43177410531666,Entire home/apt,270.0,3,16,79,RANDOM_FILL,Familiar,Urbana,Localização tranquila Recreio,Apartamento
+792747803025614065,171762573,Recreio dos Bandeirantes,-23.0224023,-43.44907269999999,Entire home/apt,570.0,2,69,200,RANDOM_FILL,Moderno,Mar,Elegante com vista,Modernidade
+47800595,16992056,Barra da Tijuca,-23.00982,-43.35281,Entire home/apt,381.0,4,95,80,RANDOM_FILL,Econômico,Mar,Frente ao mar,Apartamento
+39819121,306253104,Copacabana,-22.9637,-43.1748,Entire home/apt,191.0,3,155,60,RANDOM_FILL,Econômico,Sem Vista,Proximidade praia rápida,Localização
+1141837039702617826,573980745,Copacabana,-22.97198,-43.18786,Entire home/apt,1200.0,3,2,89,RANDOM_FILL,Luxo,Mar,Localização estratégica praia,Exclusividade
+1359297550008114558,823800,Barra da Tijuca,-23.0146815,-43.3082992,Entire home/apt,741.0,1,11,153,RANDOM_FILL,Luxo,Mar,Varanda com vista,Frente
+1278383246621420873,659590835,Recreio dos Bandeirantes,-23.01462,-43.45839,Entire home/apt,354.0,10,0,87,RANDOM_FILL,Familiar,Urbana,Localização privilegiada Recreio,Localização
+17011282,102618408,Copacabana,-22.97409,-43.18796,Entire home/apt,387.0,2,2,142,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Excepcional
+962319552011565012,23090852,Jardim Botânico,-22.961055610334835,-43.21696121828441,Entire home/apt,286.0,2,12,147,RANDOM_FILL,Charmoso,Natureza,Charme do bairro,Conforto
+977049904219731517,536355328,Copacabana,-22.9645918,-43.1742672,Entire home/apt,300.0,2,0,52,RANDOM_FILL,Padrão,Urbana,Localização privilegiada Copacabana,Apartamento
+1459390336887819586,89595264,Santa Teresa,-22.918611223799903,-43.1906685051742,Private room,126.0,3,0,203,RANDOM_FILL,Econômico,Urbana,Localização histórica charmosa,Quarto
+1410349871785754572,30165706,Recreio dos Bandeirantes,-23.02601,-43.50013,Entire home/apt,263.0,1,0,329,RANDOM_FILL,Econômico,Mar,Próximo à praia,Praia
+31715725,88753873,Catete,-22.92441,-43.18177,Private room,269.0,3,7,363,RANDOM_FILL,Econômico,Urbana,Próximo ao metrô,Localização
+1077379620232675965,10423223,Leblon,-22.983988472000288,-43.22333323108324,Entire home/apt,2500.0,1,0,269,RANDOM_FILL,Luxo,Urbana,Localização privilegiada,Flat
+1295143457369048108,492596249,Flamengo,-22.92978,-43.17694,Entire home/apt,206.0,2,25,158,RANDOM_FILL,Econômico,Urbana,Varanda com vista,Studio
+781014017174064889,8303861,Flamengo,-22.9304833,-43.1762676,Entire home/apt,505.0,4,4,210,RANDOM_FILL,Luxo,Sem Vista,Requinte e estrutura,Conforto
+939826204465089595,79146773,Copacabana,-22.977852287792988,-43.19095462560654,Entire home/apt,540.0,4,1,159,RANDOM_FILL,Luxo,Mar,Localização privilegiada praia,Paradise
+1499555076768821873,334441936,Copacabana,-22.96955,-43.18599,Shared room,69.0,1,2,314,RANDOM_FILL,Econômico,Sem Vista,Próximo à Copa,Funcional
+1023432629289315631,389020964,Recreio dos Bandeirantes,-23.00372,-43.44754,Entire home/apt,160.0,2,6,56,RANDOM_FILL,Moderno,Sem Vista,Ambiente Limpo Moderno,Apartamento
+1774152,9314499,Copacabana,-22.96281,-43.17448,Entire home/apt,258.0,2,334,303,RANDOM_FILL,Econômico | Moderno,Urbana,Conjugado Estiloso Central,Conjugado
+38432186,289961267,Botafogo,-22.95573,-43.19329,Private room,380.0,2,0,364,RANDOM_FILL,Romântico | Econômico,Sem Vista,Conforto e aconchego,Charmoso
+810735827119749181,497558723,Vargem Grande,-22.987895577496456,-43.49238680500923,Entire home/apt,1500.0,2,0,177,RANDOM_FILL,Familiar,Natureza,Piscina e churrasqueira,Sítio
+619005637205912324,448506887,Copacabana,-22.97965812683105,-43.191184997558594,Entire home/apt,350.0,2,155,37,RANDOM_FILL,Econômico,Sem Vista,Próximo à praia,Localização
+699304669070837974,246263247,Taquara,-22.9307963,-43.3766633,Private room,129.0,1,7,364,RANDOM_FILL,Econômico,Urbana,Proximidade Rock InRio,Localização
+1014738556779439919,473819006,Encantado,-22.8968355151812,-43.30234272770405,Private room,150.0,1,9,25,RANDOM_FILL,Econômico,Sem Vista,Praticidade e conforto,Single
+826855771839035388,500605144,Leblon,-22.98436730596205,-43.22405442595482,Private room,808.0,3,0,358,RANDOM_FILL,Luxo,Urbana,Localização porta metrô,Conveniência
+1163119,4284876,Leblon,-22.98309,-43.22877,Entire home/apt,420.0,3,59,90,RANDOM_FILL,Romântico,Urbana,Varanda charmosa agradável,Varanda
+2339141,1365868,Copacabana,-22.97514,-43.19073,Entire home/apt,733.0,3,4,3,RANDOM_FILL,Econômico,Urbana,Espaçoso para grupo,Amplo
+1299557481370995285,10640170,Copacabana,-22.969716009665618,-43.18547319620848,Entire home/apt,218.0,1,27,43,RANDOM_FILL,Padrão,Sem Vista,Próximo à praia,Localização
+48958773,13392098,Copacabana,-22.98644,-43.19062,Entire home/apt,543.0,5,34,170,RANDOM_FILL,Padrão,Urbana,Localização em Copacabana,Espaçoso
+12227516,15831769,Copacabana,-22.96973978506225,-43.188646249473095,Entire home/apt,199.0,3,100,83,RANDOM_FILL,Moderno | Romântico,Urbana,Localização e charme,Loft
+54077076,4884558,Copacabana,-22.981859,-43.190586,Entire home/apt,565.0,4,22,251,RANDOM_FILL,Romântico,Urbana,Charme e localização,Encantador
+1184225441056844718,524749399,Vidigal,-22.99605,-43.2411,Entire home/apt,255.0,1,0,363,RANDOM_FILL,Econômico,Natureza,Vista panorâmica natureza,Praticidade
+22999046,112744863,Recreio dos Bandeirantes,-23.00693,-43.44287,Private room,457.0,3,0,89,RANDOM_FILL,Luxo,Urbana,Duplex Penthouse Exclusiva,Penthouse
+53923302,100074191,Copacabana,-22.97334,-43.19039,Entire home/apt,240.0,89,107,254,RANDOM_FILL,Econômico,Urbana,Localização em Copacabana,Praticidade

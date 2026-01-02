@@ -144,7 +144,7 @@ Adoção de prefixos semânticos para facilitar o Self-Service BI:
 
 ### 🏆 Fase 3: Validação Final (Quality Gate)
 
-Após a transformação, o Great Expectations foi re-executado sobre a camada **Silver**. O resultado comprova a eficácia do pipeline de engenharia:
+Após a transformação, o Great Expectations foi re-executado sobre a camada **Bronze**. O resultado comprova a eficácia do pipeline de engenharia:
 
 **Relatório de Execução (Silver Layer):**
 ```text
@@ -162,3 +162,57 @@ Status Global: ✅ APROVADO
 ✅ [SK_REVIEW] Formato Numérico Validado
 ✅ [SK_LISTING] Integridade Referencial (FK)
 ✅ [NM_REVIEWER] Preenchimento Obrigatório
+```
+
+## Item 5 - Enriquecimento com GenAI & LLMs (Feature Engineering)
+
+Para extrair valor dos dados desestruturados (textos livres em Reviews e Títulos de Anúncios), foi implementado um pipeline de **Processamento de Linguagem Natural (NLP)** utilizando a API da OpenAI.
+
+O objetivo não foi apenas "usar IA", mas sim transformar texto em colunas estruturadas para o Dashboard (Item 9), permitindo responder perguntas como: *"Qual o sentimento médio dos hóspedes?"* ou *"Imóveis com vista para o mar são mais caros?"*.
+
+### Estratégia e FinOps (Amostragem Inteligente)
+Devido ao volume de dados (300k+ registros), processar a base inteira seria ineficiente e custoso para uma Prova de Conceito (PoC). Adotou-se uma estratégia de **Smart Sampling** com foco em representatividade e economia:
+
+1.  **Amostragem de Reviews (1.000 registros):**
+    * **Top 500:** Reviews mais recentes/relevantes (Head).
+    * **Random 500:** Seleção aleatória do restante da cauda (Tail) para evitar viés temporal.
+2.  **Integridade Referencial de Listings:**
+    * Seleção automática dos imóveis (`SK_LISTING`) citados nos reviews acima.
+    * *Backfill* aleatório até completar 1.000 imóveis, garantindo massa de dados para análise cruzada.
+3.  **Escolha do Modelo:**
+    * **Modelo:** `gpt-4o-mini`.
+    * **Custo Estimado da Operação:** < $0.10 USD (para processar os 2.000 registros).
+
+### Engenharia de Prompt (As Missões da IA)
+
+O pipeline executa duas "missões" distintas de classificação, forçando a saída em formato JSON (`response_format={"type": "json_object"}`) para garantir a integração direta com o Pandas.
+
+#### Missão A: Análise de Sentimento (Tabela `fact_reviews`)
+Transforma comentários subjetivos em métricas quantitativas.
+* **Prompt:** *"Atue como um especialista em Customer Experience. Analise o review e retorne um JSON."*
+* **Features Geradas:**
+    * `SENTIMENTO`: Positivo, Neutro, Negativo.
+    * `TOPICO_PRINCIPAL`: Limpeza, Localização, Ruído, Atendimento, etc.
+    * `SUB_TOPICO`: Conforto, Comunicação, Valor, Comodidades, Outro.
+    * `TOM_DE_URGENCIA`: Avaliação precisa de uma ação urgente.
+
+#### Missão B: Categorização de Imóveis (Tabela `dim_listings`)
+Extrai atributos de negócio a partir do título criativo do anúncio.
+* **Prompt:** *"Atue como um Corretor de Imóveis Sênior. Analise o título do anúncio e classifique."*
+* **Features Geradas:**
+    * `CATEGORIA_VIBE`: Luxo, Econômico, Romântico, Familiar, Moderno.
+    * `TIPO_VISTA`: Vista Mar, Urbana, Natureza, Sem Vista.
+    * `PRINCIPAL_CARACTERISTICA`: Palavra única palavra que destaca o imóvel.
+    * `PONTO_FORTE`: Resumo de 3 palavras (ex: "Perto do Metrô").
+
+### Exemplo de Resultados (De/Para)
+
+| Input (Texto Original) | Output (Enriquecido via LLM) |
+| :--- | :--- |
+| **Review:** *"O apartamento é lindo, mas o barulho da rua não deixou a gente dormir. A limpeza estava ok."* | `{ "sentimento": "Negativo", "topico": "Ruído", "sub_topico":Conforto, "tom_de_urgencia": false }` |
+| **Listing:** *"COBERTURA DUPLEX VISTA MAR - COPACABANA POSTO 6"* | `{ "vibe": "Luxo", "vista": "Mar", "principal_caracteristica": "Localidade", "destaque": "Cobertura Duplex" }` |
+
+### Persistência
+Os dados enriquecidos foram salvos separadamente na camada Gold para consumo do Data App:
+* `data/gold/sample_reviews_enriched.csv`
+* `data/gold/sample_listings_enriched.csv`
