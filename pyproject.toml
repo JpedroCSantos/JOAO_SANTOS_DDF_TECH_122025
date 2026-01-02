@@ -6,8 +6,11 @@ authors = [
     {name = "Joao Pedro Santos",email = "87459886+JpedroCSantos@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12.8,<3.13"
 dependencies = [
+    "ruamel-yaml (<0.18)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "great-expectations (==0.18.19)"
 ]
 
 

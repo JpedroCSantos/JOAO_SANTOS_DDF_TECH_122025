@@ -6,10 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# Data files
-data/
-data/input/
-data/input/*
+# # Data files
+# data/
+# data/input/
+# data/input/*
 
 # Distribution / packaging
 .Python
