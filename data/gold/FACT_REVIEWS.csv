@@ -1,21 +1,21 @@
-SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_TOPICO,FLG_URGENCIA
+SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,sentimento,topico_principal,sub_topico,tom_de_urgencia
 117200674,248756,Paolo,2016-12-05,Positivo,Localização,Comodidades,False
 120900750,248756,Gabriel,2016-12-12,Positivo,Localização,Conforto,False
 135150507,248756,Patrick,2017-03-03,Positivo,Localização,Comodidades,False
 142084044,248756,Fernanda,2017-04-06,Positivo,Outro,Outro,False
-143146734,248756,Manuel,2017-04-10,Positivo,Localização,Outro,False
+143146734,248756,Manuel,2017-04-10,Positivo,Localização,Conforto,False
 145233343,248756,Eduardo,2017-04-17,Positivo,Localização,Conforto,False
-147758336,248756,Cecilia Eugenia,2017-04-28,Positivo,Localização,Conforto,False
+147758336,248756,Cecilia Eugenia,2017-04-28,Positivo,Localização,Comodidades,False
 151918101,248756,Luz,2017-05-14,Positivo,Localização,Comunicação,False
 154822530,248756,Stephanie,2017-05-26,Positivo,Localização,Conforto,False
 155710439,248756,Sarah,2017-05-28,Positivo,Localização,Comodidades,False
 158570786,248756,Larissa,2017-06-07,Positivo,Localização,Comunicação,False
 159966175,248756,Igor,2017-06-12,Positivo,Localização,Conforto,False
-162800835,248756,Guilherme,2017-06-22,Positivo,Outro,Outro,False
+162800835,248756,Guilherme,2017-06-22,Positivo,Outro,Valor,False
 166114826,248756,Mat,2017-07-02,Positivo,Localização,Outro,False
 169184905,248756,Caroline,2017-07-11,Positivo,Localização,Comunicação,False
 171456475,248756,Guillermo,2017-07-17,Positivo,Localização,Comodidades,False
-175716579,248756,Ileana,2017-07-29,Positivo,Localização,Comunicação,True
+175716579,248756,Ileana,2017-07-29,Positivo,Outro,Comunicação,True
 178979530,248756,Miguel,2017-08-06,Positivo,Localização,Conforto,False
 182412629,248756,Lissette,2017-08-14,Positivo,Localização,Conforto,False
 184975720,248756,Rosangela,2017-08-20,Positivo,Localização,Outro,False
@@ -25,7 +25,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 197038516,248756,Thaci,2017-09-24,Positivo,Localização,Comunicação,False
 197941885,248756,Tomas,2017-09-27,Positivo,Outro,Comunicação,False
 203669163,248756,Maykon,2017-10-15,Positivo,Localização,Conforto,False
-206021170,248756,Paloma,2017-10-23,Positivo,Localização,Conforto,False
+206021170,248756,Paloma,2017-10-23,Positivo,Outro,Conforto,False
 208906242,248756,Jorge,2017-11-03,Positivo,Outro,Comunicação,False
 213295227,248756,Thiago,2017-11-20,Positivo,Localização,Comunicação,False
 215563392,248756,Joana,2017-11-30,Positivo,Localização,Outro,False
@@ -40,12 +40,12 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1566424,17878,Sergio,2012-06-26,Positivo,Outro,Conforto,False
 1692076,17878,Andrés,2012-07-12,Positivo,Localização,Conforto,False
 1735109,17878,Nathalie,2012-07-17,Positivo,Localização,Comunicação,False
-1806502,17878,Baltazar,2012-07-26,Positivo,Check-in,Comunicação,False
+1806502,17878,Baltazar,2012-07-26,Neutro,Check-in,Comunicação,False
 1857377,17878,Silvia,2012-08-01,Positivo,Localização,Comunicação,False
 3306511,17878,Thomas,2013-01-08,Positivo,Localização,Conforto,False
 3599422,17878,Daniela,2013-02-22,Positivo,Localização,Conforto,False
-20958123,17878,Sandrine,2014-10-08,Positivo,Localização,Conforto,False
-21456409,17878,Patricia,2014-10-18,Positivo,Localização,Comodidades,False
+20958123,17878,Sandrine,2014-10-08,Positivo,Outro,Comunicação,False
+21456409,17878,Patricia,2014-10-18,Positivo,Localização,Conforto,False
 22099599,17878,Mark,2014-10-30,Positivo,Localização,Comunicação,False
 22587255,17878,Karina,2014-11-10,Positivo,Check-in,Comunicação,False
 22976479,17878,Marie Thérèse,2014-11-19,Positivo,Localização,Comunicação,False
@@ -55,10 +55,10 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 25659989,17878,C Michael,2015-01-22,Positivo,Localização,Comunicação,False
 25922271,17878,Fiona,2015-01-30,Positivo,Check-in,Comunicação,False
 26777202,17878,Anastasia,2015-02-19,Positivo,Localização,Comodidades,False
-27276430,17878,Melanie,2015-03-01,Positivo,Outro,Comodidades,False
+27276430,17878,Melanie,2015-03-01,Positivo,Outro,Outro,False
 301645857,248756,Jeffrey,2018-08-04,Positivo,Localização,Valor,False
 303957209,248756,Marcos,2018-08-08,Positivo,Localização,Comodidades,False
-310433261,248756,Marcelo,2018-08-19,Neutro,Outro,Conforto,False
+310433261,248756,Marcelo,2018-08-19,Positivo,Outro,Conforto,False
 318300244,248756,Gabriela,2018-09-03,Positivo,Outro,Comunicação,False
 321501421,248756,Tatianne Mendes,2018-09-10,Positivo,Check-in,Conforto,False
 324657067,248756,Sofia,2018-09-17,Positivo,Localização,Comodidades,False
@@ -68,7 +68,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 350009324,248756,Thalita,2018-11-18,Positivo,Localização,Conforto,False
 357065542,248756,Tommaso,2018-12-09,Positivo,Localização,Outro,False
 358169523,248756,Paulo Ricardo,2018-12-13,Negativo,Limpeza,Conforto,True
-359900179,248756,Fabio,2018-12-18,Positivo,Localização,Conforto,False
+359900179,248756,Fabio,2018-12-18,Positivo,Localização,Comunicação,False
 403251095,248756,Harael,2019-01-20,Positivo,Outro,Outro,False
 420385437,248756,Drew,2019-03-06,Positivo,Outro,Comunicação,False
 472359595,248756,Samir,2019-06-19,Positivo,Localização,Comodidades,False
@@ -76,17 +76,17 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 483355332,248756,Pauline,2019-07-07,Positivo,Check-in,Comodidades,False
 539962258,248756,Brahian,2019-10-02,Positivo,Outro,Conforto,False
 544574260,248756,Marise,2019-10-10,Positivo,Localização,Comunicação,False
-552429192,248756,Pedro,2019-10-21,Positivo,Localização,Outro,False
+552429192,248756,Pedro,2019-10-21,Positivo,Localização,Conforto,False
 565429447,248756,Rafael,2019-11-17,Positivo,Localização,Comunicação,False
-569405751,248756,Celia,2019-11-26,Positivo,Localização,Comodidades,False
+569405751,248756,Celia,2019-11-26,Positivo,Check-in,Comunicação,False
 577397243,248756,Fernando Monteiro,2019-12-15,Positivo,Limpeza,Conforto,False
 580863145,248756,Maria Belen,2019-12-23,Positivo,Localização,Conforto,False
 585235161,248756,Eduardo,2019-12-31,Positivo,Localização,Conforto,False
-592018448,248756,Cecilia,2020-01-12,Positivo,Localização,Comodidades,False
+592018448,248756,Cecilia,2020-01-12,Positivo,Localização,Comunicação,False
 611212078,248756,Fellipe,2020-02-26,Positivo,Limpeza,Conforto,False
 615196582,248756,Jose,2020-03-07,Positivo,Outro,Outro,False
-706138728,248756,Marcela,2020-11-02,Positivo,Outro,Comunicação,False
-720956273,248756,Alexandre,2021-01-02,Positivo,Outro,Comodidades,False
+706138728,248756,Marcela,2020-11-02,Positivo,Check-in,Comunicação,False
+720956273,248756,Alexandre,2021-01-02,Positivo,Localização,Comodidades,False
 723304411,248756,Marcus,2021-01-10,Neutro,Localização,Comunicação,False
 445537548146627904,248756,Wellingthon Luiz,2021-09-06,Positivo,Localização,Comodidades,False
 471671146807571200,248756,Lucas,2021-10-12,Positivo,Localização,Comunicação,False
@@ -94,8 +94,8 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 536902665114011648,248756,Julia,2022-01-10,Positivo,Outro,Comunicação,False
 573792345691536000,248756,Flavia,2022-03-02,Positivo,Localização,Conforto,False
 612260718745639424,248756,Andrea,2022-04-24,Positivo,Localização,Outro,False
-622346168766460928,248756,Carlos,2022-05-08,Neutro,Outro,Outro,False
-627464173774838528,248756,Vítor,2022-05-15,Negativo,Limpeza,Conforto,False
+622346168766460928,248756,Carlos,2022-05-08,Positivo,Outro,Outro,False
+627464173774838528,248756,Vítor,2022-05-15,Negativo,Limpeza,Conforto,True
 677538688637902080,248756,Daniel,2022-07-23,Positivo,Localização,Comodidades,False
 709357210361816832,248756,João Pedro,2022-09-05,Positivo,Localização,Conforto,False
 712295370895762432,248756,Robson,2022-09-09,Positivo,Localização,Limpeza,False
@@ -103,21 +103,21 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 738390497110800000,248756,Kelli,2022-10-15,Positivo,Localização,Comunicação,False
 760778372518037760,248756,Igor,2022-11-15,Positivo,Localização,Conforto,False
 774617507454598656,248756,Linda,2022-12-04,Neutro,Localização,Comunicação,False
-780373162678019712,248756,Nahuel,2022-12-12,Positivo,Localização,Conforto,False
+780373162678019712,248756,Nahuel,2022-12-12,Positivo,Localização,Comunicação,False
 796318069957264768,248756,Marcelo,2023-01-03,Positivo,Localização,Comodidades,False
 805047706031940992,248756,Débora,2023-01-15,Positivo,Outro,Conforto,False
-810100065872510208,248756,Susan,2023-01-22,Neutro,Limpeza,Conforto,False
+810100065872510208,248756,Susan,2023-01-22,Positivo,Localização,Comunicação,False
 816699820909299968,248756,Andréa,2023-01-31,Positivo,Check-in,Comunicação,False
-865982907937270272,248756,Guilherme,2023-04-09,Positivo,Outro,Outro,False
+865982907937270272,248756,Guilherme,2023-04-09,Positivo,Outro,Conforto,False
 876083362720385152,248756,Rafaela,2023-04-23,Positivo,Localização,Comunicação,False
 881928516747043840,248756,Miguel Angel,2023-05-01,Positivo,Localização,Comunicação,False
-902208874832516864,248756,Alfredo,2023-05-29,Positivo,Localização,Conforto,False
+902208874832516864,248756,Alfredo,2023-05-29,Positivo,Localização,Comodidades,False
 918796630913341440,248756,Ashley,2023-06-21,Positivo,Outro,Comunicação,False
-937731169898174080,248756,David,2023-07-17,Positivo,Outro,Comodidades,False
+937731169898174080,248756,David,2023-07-17,Positivo,Localização,Comodidades,False
 942032408481763200,248756,Rogerio,2023-07-23,Positivo,Check-in,Comunicação,False
 962353778217763584,248756,Dowell,2023-08-20,Positivo,Localização,Comunicação,False
 977588121588623232,248756,Mariane,2023-09-10,Positivo,Localização,Outro,False
-984844516516819200,248756,Cristián,2023-09-20,Positivo,Localização,Conforto,False
+984844516516819200,248756,Cristián,2023-09-20,Positivo,Localização,Comodidades,False
 994262080318391680,248756,Ana Cláudia,2023-10-03,Positivo,Localização,Comunicação,False
 999235525365939200,248756,Seba,2023-10-10,Positivo,Outro,Comunicação,False
 1002936693033646336,248756,João Paulo,2023-10-15,Positivo,Limpeza,Comunicação,False
@@ -133,31 +133,31 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1206524026648259584,248756,Gian Carlo,2024-07-22,Positivo,Outro,Outro,False
 1247133156724938496,248756,Antonio,2024-09-16,Negativo,Check-in,Valor,True
 1252274302699576576,248756,Priscila,2024-09-23,Positivo,Localização,Comunicação,False
-1271765726928770304,248756,Lívia,2024-10-20,Positivo,Outro,Comodidades,False
+1271765726928770304,248756,Lívia,2024-10-20,Positivo,Outro,Conforto,False
 1280525595987309056,248756,Fahim,2024-11-01,Positivo,Localização,Comodidades,False
 1342140194092793600,248756,Francesco,2025-01-25,Positivo,Outro,Outro,False
-1368948469056257792,248756,Furu,2025-03-03,Positivo,Outro,Comodidades,False
+1368948469056257792,248756,Furu,2025-03-03,Positivo,Limpeza,Comodidades,False
 1373294045251026432,248756,Yohannes,2025-03-09,Positivo,Outro,Comunicação,False
-1405162093548721152,248756,Pablo,2025-04-22,Positivo,Localização,Comodidades,False
-1415276527318376960,248756,Yago,2025-05-06,Positivo,Check-in,Conforto,False
-1449366315389511168,248756,Roseli,2025-06-22,Positivo,Outro,Comunicação,False
+1405162093548721152,248756,Pablo,2025-04-22,Positivo,Localização,Comunicação,False
+1415276527318376960,248756,Yago,2025-05-06,Positivo,Check-in,Comunicação,False
+1449366315389511168,248756,Roseli,2025-06-22,Positivo,Localização,Comunicação,False
 33860255,17878,Lloyd,2015-06-01,Positivo,Localização,Comunicação,False
 34573542,17878,Santiago,2015-06-09,Positivo,Localização,Comodidades,False
 34997777,17878,Rui,2015-06-14,Positivo,Localização,Comodidades,False
 35720050,17878,Onaney,2015-06-21,Positivo,Localização,Comunicação,False
 36300264,17878,J,2015-06-27,Positivo,Localização,Outro,False
 37130834,17878,Vivienne,2015-07-05,Positivo,Localização,Comodidades,False
-37984156,17878,Esther,2015-07-12,Positivo,Outro,Conforto,False
+37984156,17878,Esther,2015-07-12,Positivo,Outro,Comunicação,False
 39424034,17878,Osvaldo Cesar,2015-07-23,Positivo,Localização,Conforto,False
 41657203,17878,Matthew,2015-08-08,Positivo,Localização,Conforto,False
 46792562,17878,Terron,2015-09-13,Positivo,Localização,Comunicação,False
 51296746,17878,Makela,2015-10-19,Positivo,Outro,Outro,False
 55478952,17878,Kevin & Monet,2015-12-01,Positivo,Localização,Comunicação,False
 56255405,17878,Keely,2015-12-11,Positivo,Localização,Conforto,False
-57024083,17878,Elle,2015-12-21,Positivo,Outro,Comodidades,False
+57024083,17878,Elle,2015-12-21,Positivo,Outro,Conforto,False
 57795218,17878,Natascha,2015-12-29,Neutro,Limpeza,Comodidades,False
 94118367,17878,Keya,2016-08-14,Positivo,Localização,Comunicação,False
-96094989,17878,Brent,2016-08-21,Positivo,Localização,Comunicação,False
+96094989,17878,Brent,2016-08-21,Positivo,Localização,Conforto,False
 107664341,17878,Christophe,2016-10-11,Positivo,Localização,Comunicação,False
 111739171,17878,Victor,2016-11-01,Positivo,Localização,Conforto,False
 112753870,17878,Isabel,2016-11-07,Positivo,Localização,Comunicação,False
@@ -167,25 +167,25 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 4096221,249323,Laurence,2013-04-09,Positivo,Localização,Outro,False
 11433563,249323,Gianluca,2014-04-02,Positivo,Localização,Outro,False
 11636847,249323,Frank,2014-04-10,Positivo,Localização,Comunicação,False
-12105573,249323,Carlos,2014-04-22,Positivo,Localização,Outro,False
+12105573,249323,Carlos,2014-04-22,Positivo,Localização,Conforto,False
 12845862,249323,Carlos,2014-05-12,Positivo,Localização,Conforto,False
 14361112,249323,Nolan,2014-06-17,Positivo,Outro,Comunicação,False
-15294963,249323,Vijay,2014-07-06,Positivo,Localização,Comodidades,False
+15294963,249323,Vijay,2014-07-06,Positivo,Localização,Conforto,False
 16270193,249323,Carlos,2014-07-24,Positivo,Localização,Comunicação,False
 20624435,249323,Dan,2014-10-02,Positivo,Localização,Comunicação,True
-21774769,249323,Mitzy,2014-10-23,Positivo,Outro,Comunicação,True
+21774769,249323,Mitzy,2014-10-23,Positivo,Localização,Comunicação,False
 22072987,249323,Rodrigo,2014-10-29,Positivo,Localização,Comunicação,False
-23710990,249323,Bruno,2014-12-08,Positivo,Localização,Comodidades,False
+23710990,249323,Bruno,2014-12-08,Positivo,Localização,Conforto,False
 25197316,249323,Rajiv,2015-01-09,Positivo,Outro,Outro,False
 28534080,249323,Yaw,2015-03-25,Positivo,Localização,Conforto,False
-59613373,249323,Keith,2016-01-12,Positivo,Localização,Outro,False
+59613373,249323,Keith,2016-01-12,Positivo,Localização,Conforto,False
 60227243,249323,Ravi,2016-01-20,Positivo,Localização,Conforto,False
-60607200,249323,Carlos,2016-01-25,Positivo,Localização,Comodidades,False
+60607200,249323,Carlos,2016-01-25,Positivo,Localização,Conforto,False
 61097232,249323,Frank,2016-01-31,Positivo,Localização,Conforto,False
 62104247,249323,Tommy,2016-02-11,Positivo,Outro,Comunicação,False
 64149254,249323,Corrado,2016-02-29,Positivo,Check-in,Comunicação,False
-64859175,249323,Keith,2016-03-08,Positivo,Localização,Comunicação,False
-68629621,249323,Raquel,2016-04-05,Positivo,Outro,Conforto,False
+64859175,249323,Keith,2016-03-08,Positivo,Localização,Outro,False
+68629621,249323,Raquel,2016-04-05,Positivo,Check-in,Comunicação,False
 69398155,249323,Robrecht,2016-04-11,Positivo,Outro,Outro,False
 71505610,249323,Jacqueline,2016-04-25,Positivo,Outro,Conforto,False
 71806644,249323,Camilo,2016-04-28,Positivo,Outro,Outro,False
@@ -202,24 +202,24 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 184905930,249323,Danilo,2017-08-20,Positivo,Limpeza,Comodidades,False
 195497226,249323,Luiz,2017-09-19,Positivo,Localização,Comunicação,False
 197461467,249323,Marina,2017-09-25,Positivo,Localização,Conforto,False
-234886694,249323,Sean,2018-02-14,Negativo,Outro,Conforto,True
+234886694,249323,Sean,2018-02-14,Negativo,Outro,Outro,True
 114438342,17878,Matthew,2016-11-18,Positivo,Localização,Comunicação,False
 126964408,17878,Guilherme,2017-01-15,Positivo,Localização,Conforto,False
 127693251,17878,Cristiane,2017-01-20,Positivo,Localização,Conforto,False
 128911177,17878,Carlos Abel,2017-01-28,Positivo,Localização,Conforto,False
 130673612,17878,Kaja,2017-02-07,Positivo,Localização,Comunicação,False
-238917820,249323,Keith,2018-02-27,Positivo,Localização,Outro,False
+238917820,249323,Keith,2018-02-27,Positivo,Localização,Conforto,False
 245768686,249323,Pablo,2018-03-23,Positivo,Localização,Conforto,False
 272419329,249323,Robert,2018-06-03,Positivo,Localização,Conforto,False
-428974194,249323,Keith,2019-03-26,Positivo,Localização,Comodidades,False
+428974194,249323,Keith,2019-03-26,Positivo,Localização,Conforto,False
 437411765,249323,Romina,2019-04-14,Positivo,Outro,Outro,False
 526892337,249323,Keith,2019-09-09,Positivo,Localização,Conforto,False
 539510849,249323,Nathan,2019-10-01,Positivo,Localização,Outro,False
-565285050,249323,Karoliny,2019-11-17,Positivo,Localização,Comodidades,False
+565285050,249323,Karoliny,2019-11-17,Positivo,Localização,Conforto,False
 606518719,249323,Claudia,2020-02-16,Positivo,Outro,Conforto,False
-615875764,249323,Angel,2020-03-08,Positivo,Localização,Outro,False
-719689641,249323,Amanda,2020-12-30,Positivo,Localização,Outro,False
-757518746,249323,Keith,2021-05-12,Positivo,Check-in,Comunicação,True
+615875764,249323,Angel,2020-03-08,Positivo,Localização,Conforto,False
+719689641,249323,Amanda,2020-12-30,Positivo,Localização,Conforto,False
+757518746,249323,Keith,2021-05-12,Positivo,Check-in,Conforto,True
 402844266060358144,249323,Sam & Laura,2021-07-09,Positivo,Localização,Comunicação,False
 444841947632974400,249323,Javier,2021-09-05,Positivo,Localização,Comunicação,False
 500649049773756480,249323,Cristiane,2021-11-21,Positivo,Localização,Comodidades,False
@@ -233,23 +233,23 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 589801195497904128,249323,Imo,2022-03-24,Positivo,Outro,Outro,False
 593396288866700544,249323,Stefan,2022-03-29,Positivo,Localização,Valor,False
 604318741148474752,249323,Hector,2022-04-13,Positivo,Localização,Comunicação,False
-607231746970050816,249323,Juma Amanda,2022-04-17,Positivo,Localização,Conforto,False
+607231746970050816,249323,Juma Amanda,2022-04-17,Positivo,Localização,Valor,False
 612984100798514944,249323,Avrham,2022-04-25,Positivo,Localização,Valor,False
 617270950637414528,249323,Patrick,2022-05-01,Positivo,Check-in,Comunicação,True
 622411560296467968,249323,Mario Jorge,2022-05-08,Positivo,Localização,Conforto,False
 655688214478632960,249323,Analu,2022-06-23,Positivo,Localização,Conforto,False
-662204516257481216,249323,Benjamin James,2022-07-02,Positivo,Localização,Valor,True
+662204516257481216,249323,Benjamin James,2022-07-02,Positivo,Localização,Valor,False
 691962826809877248,249323,Benjamin James,2022-08-12,Positivo,Localização,Comunicação,False
 693372827622786432,249323,Javier,2022-08-14,Positivo,Localização,Comodidades,False
 699281587605410176,249323,Benjamin James,2022-08-22,Positivo,Outro,Valor,False
 718813590890028544,249323,Javier,2022-09-18,Positivo,Localização,Conforto,False
 725282237339461248,249323,Marcio,2022-09-27,Positivo,Check-in,Comunicação,False
-742764937201654400,249323,Benjamin James,2022-10-21,Positivo,Localização,Comodidades,False
-744129476759056000,249323,Mattheus,2022-10-23,Positivo,Outro,Comunicação,False
+742764937201654400,249323,Benjamin James,2022-10-21,Positivo,Localização,Segurança,False
+744129476759056000,249323,Mattheus,2022-10-23,Positivo,Localização,Outro,False
 747049869433471360,249323,Benjamin James,2022-10-27,Positivo,Outro,Outro,False
 754269977500127488,249323,John,2022-11-06,Negativo,Outro,Comodidades,True
 759353327644768128,249323,Felipe,2022-11-13,Positivo,Localização,Comunicação,False
-764495648290170240,249323,Jose,2022-11-20,Negativo,Outro,Comodidades,True
+764495648290170240,249323,Jose,2022-11-20,Negativo,Comodidades,Comunicação,False
 770219214443553280,249323,Boran,2022-11-28,Positivo,Localização,Comunicação,False
 784089007646898176,249323,Darrell,2022-12-17,Positivo,Outro,Comunicação,False
 797095333527462656,249323,Ben,2023-01-04,Positivo,Localização,Outro,False
@@ -262,9 +262,9 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 131887760,17878,Eugenia,2017-02-14,Positivo,Localização,Comunicação,False
 133059112,17878,Ana Maria,2017-02-20,Positivo,Localização,Conforto,False
 135000108,17878,Luis,2017-03-02,Positivo,Localização,Conforto,False
-136239610,17878,Christopher,2017-03-09,Positivo,Localização,Outro,False
+136239610,17878,Christopher,2017-03-09,Positivo,Localização,Comodidades,False
 140035101,17878,Matthew,2017-03-27,Positivo,Localização,Comunicação,False
-141518669,17878,Cami,2017-04-03,Positivo,Outro,Comunicação,True
+141518669,17878,Cami,2017-04-03,Positivo,Outro,Comunicação,False
 147245191,17878,Luis Henrique,2017-04-25,Positivo,Localização,Conforto,False
 149943773,17878,Gloria,2017-05-06,Positivo,Localização,Comunicação,False
 174021818,17878,João Paulo,2017-07-24,Positivo,Localização,Conforto,False
@@ -272,11 +272,11 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 183925120,17878,Ahmed,2017-08-18,Positivo,Outro,Outro,False
 192036410,17878,Claudia,2017-09-09,Positivo,Localização,Comunicação,False
 195242785,17878,Flávia,2017-09-18,Positivo,Localização,Conforto,False
-197438355,17878,Niall,2017-09-25,Positivo,Localização,Outro,False
+197438355,17878,Niall,2017-09-25,Positivo,Localização,Conforto,False
 203654412,17878,Francisco,2017-10-15,Positivo,Localização,Comunicação,False
 206018913,17878,Vanessa,2017-10-23,Positivo,Localização,Comunicação,False
 209135996,17878,Josefa,2017-11-04,Positivo,Localização,Outro,False
-826045608390951424,249323,George,2023-02-13,Positivo,Localização,Outro,False
+826045608390951424,249323,George,2023-02-13,Positivo,Localização,Conforto,False
 831857708324160128,249323,Alex,2023-02-21,Positivo,Localização,Outro,False
 836244878205229440,249323,Susicler,2023-02-27,Positivo,Localização,Valor,False
 843415942985164800,249323,Miguel,2023-03-09,Positivo,Localização,Conforto,False
@@ -302,21 +302,21 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1039129352659444352,249323,Andre,2023-12-04,Positivo,Localização,Outro,False
 1044186821321677952,249323,Rayna,2023-12-11,Positivo,Localização,Conforto,False
 1052889689816076544,249323,Robert,2023-12-23,Positivo,Localização,Comodidades,False
-1071746407077736448,249323,Ana,2024-01-18,Positivo,Localização,Comodidades,False
+1071746407077736448,249323,Ana,2024-01-18,Positivo,Localização,Comunicação,False
 1076872798386929664,249323,Rodrigo,2024-01-25,Positivo,Localização,Conforto,False
 1094958873678487168,249323,Alexis,2024-02-19,Positivo,Outro,Outro,False
-1099314773989519744,249323,Whiterabbit Joshua,2024-02-25,Positivo,Check-in,Comunicação,False
-1115992740702428032,249323,Darrell,2024-03-19,Positivo,Localização,Outro,False
-1123263699102321664,249323,Jarmo,2024-03-29,Positivo,Localização,Outro,False
+1099314773989519744,249323,Whiterabbit Joshua,2024-02-25,Positivo,Check-in,Conforto,False
+1115992740702428032,249323,Darrell,2024-03-19,Positivo,Localização,Comunicação,False
+1123263699102321664,249323,Jarmo,2024-03-29,Positivo,Localização,Conforto,False
 1131945349218512384,249323,Maureen,2024-04-10,Positivo,Localização,Comunicação,False
-1165228856103354368,249323,Evon,2024-05-26,Positivo,Check-in,Comunicação,False
+1165228856103354368,249323,Evon,2024-05-26,Positivo,Outro,Comunicação,False
 1169566935256740096,249323,Andre,2024-06-01,Positivo,Localização,Conforto,False
-1175390832281158400,249323,Diego,2024-06-09,Positivo,Localização,Outro,False
+1175390832281158400,249323,Diego,2024-06-09,Positivo,Localização,Conforto,False
 1219625848984696320,249323,Evan,2024-08-09,Positivo,Localização,Conforto,False
-1229734526224114688,249323,Alessandro,2024-08-23,Neutro,Limpeza,Conforto,False
+1229734526224114688,249323,Alessandro,2024-08-23,Positivo,Limpeza,Conforto,True
 1242124508587872768,249323,Roger,2024-09-09,Positivo,Localização,Conforto,False
 1251565414012832512,249323,Valeria,2024-09-22,Positivo,Localização,Conforto,False
-1279063533602516480,249323,Fernando,2024-10-30,Positivo,Localização,Outro,False
+1279063533602516480,249323,Fernando,2024-10-30,Positivo,Localização,Comodidades,False
 1302191577952083968,249323,Andre,2024-12-01,Positivo,Localização,Conforto,False
 1310256666655503616,249323,Ray,2024-12-12,Positivo,Outro,Comodidades,False
 1337697769921512192,249323,Heberton,2025-01-19,Positivo,Outro,Outro,False
@@ -326,40 +326,40 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1373258905964269056,249323,Ivan,2025-03-09,Positivo,Localização,Conforto,False
 1384866449539326464,249323,Darvin,2025-03-25,Positivo,Localização,Conforto,False
 1393558032636999680,249323,Soumik,2025-04-06,Positivo,Localização,Conforto,False
-1402290515840509696,249323,Carlo,2025-04-18,Positivo,Localização,Outro,False
-1411652618998617856,249323,Patrick,2025-05-01,Positivo,Outro,Outro,False
+1402290515840509696,249323,Carlo,2025-04-18,Positivo,Localização,Conforto,False
+1411652618998617856,249323,Patrick,2025-05-01,Positivo,Outro,Comunicação,False
 1414605427602142720,249323,Diego,2025-05-05,Positivo,Localização,Conforto,False
-1497235465704902656,249323,Michael,2025-08-27,Positivo,Localização,Comodidades,False
+1497235465704902656,249323,Michael,2025-08-27,Positivo,Localização,Conforto,False
 1503690672933431552,249323,Ray,2025-09-05,Positivo,Localização,Comunicação,False
 961204,249842,Mikko,2012-03-01,Positivo,Localização,Comunicação,False
 1017945,249842,Gustavo,2012-03-19,Positivo,Check-in,Comunicação,False
 1035706,249842,Eliko,2012-03-23,Positivo,Localização,Comunicação,False
 220909413,17878,Alex,2017-12-24,Positivo,Localização,Comunicação,False
 224551027,17878,Agustin Cholo,2018-01-03,Positivo,Outro,Comunicação,False
-226007923,17878,Lukas,2018-01-08,Positivo,Localização,Comodidades,False
+226007923,17878,Lukas,2018-01-08,Positivo,Localização,Conforto,False
 229577499,17878,Joan,2018-01-24,Positivo,Localização,Comunicação,False
-231288848,17878,Ernani,2018-01-31,Positivo,Localização,Conforto,False
-232584210,17878,Aquil,2018-02-05,Neutro,Outro,Conforto,True
+231288848,17878,Ernani,2018-01-31,Positivo,Localização,Comodidades,False
+232584210,17878,Aquil,2018-02-05,Neutro,Outro,Comodidades,True
 234366031,17878,Jorge,2018-02-12,Positivo,Localização,Comunicação,False
 235371069,17878,Jay,2018-02-16,Neutro,Limpeza,Comunicação,False
-241260877,17878,Cem Onder,2018-03-08,Positivo,Outro,Outro,False
+241260877,17878,Cem Onder,2018-03-08,Positivo,Outro,Conforto,False
 245054176,17878,Chad,2018-03-20,Positivo,Localização,Comodidades,False
 1281160,249842,Phillip,2012-05-14,Positivo,Localização,Conforto,False
 1298249,249842,Manuel,2012-05-18,Positivo,Localização,Conforto,False
 1434084,249842,Jose,2012-06-07,Positivo,Localização,Comunicação,False
-1445253,249842,Anderson,2012-06-09,Positivo,Localização,Comunicação,False
+1445253,249842,Anderson,2012-06-09,Positivo,Localização,Outro,False
 1547747,249842,Jorgen Steen,2012-06-24,Positivo,Localização,Outro,False
-1729435,249842,Mishlir,2012-07-17,Positivo,Limpeza,Conforto,False
+1729435,249842,Mishlir,2012-07-17,Positivo,Localização,Conforto,False
 1771526,249842,Vinicius Ramon,2012-07-22,Positivo,Outro,Comunicação,False
 1845519,249842,Paulo,2012-07-30,Positivo,Outro,Conforto,False
 2140564,249842,Kamer,2012-08-30,Positivo,Localização,Comunicação,False
 2218069,249842,Nora,2012-09-06,Positivo,Localização,Comunicação,False
 2344543,249842,Carolin,2012-09-19,Positivo,Localização,Outro,False
 2443160,249842,Andres Pablo,2012-09-29,Positivo,Localização,Comunicação,False
-2478542,249842,Ryan,2012-10-01,Positivo,Outro,Comunicação,False
+2478542,249842,Ryan,2012-10-01,Positivo,Check-in,Comunicação,False
 2499553,249842,Jaap,2012-10-03,Positivo,Localização,Valor,False
 2606582,249842,Leoni,2012-10-14,Positivo,Localização,Conforto,False
-2657638,249842,Lyudmila,2012-10-19,Positivo,Outro,Conforto,False
+2657638,249842,Lyudmila,2012-10-19,Positivo,Limpeza,Comunicação,False
 2689444,249842,Jan,2012-10-22,Positivo,Localização,Conforto,False
 2768126,249842,Gwenola,2012-10-31,Positivo,Localização,Conforto,False
 2842142,249842,Aracelli,2012-11-08,Positivo,Outro,Comunicação,False
@@ -369,8 +369,8 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 2998217,249842,Miguel,2012-11-30,Positivo,Localização,Outro,False
 3016322,249842,Feng,2012-12-03,Positivo,Localização,Comunicação,False
 3107503,249842,Vanessa,2012-12-17,Positivo,Localização,Comunicação,False
-3216481,249842,Marije,2013-01-02,Positivo,Localização,Outro,False
-3289243,249842,Warda,2013-01-06,Positivo,Localização,Conforto,False
+3216481,249842,Marije,2013-01-02,Positivo,Localização,Conforto,False
+3289243,249842,Warda,2013-01-06,Positivo,Localização,Comunicação,False
 3315515,249842,Diego,2013-01-09,Positivo,Localização,Comunicação,False
 3342949,249842,Carla,2013-01-14,Positivo,Localização,Comunicação,False
 3368148,249842,Joss,2013-01-18,Positivo,Localização,Outro,False
@@ -384,17 +384,17 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 4098746,249842,Pascal,2013-04-09,Positivo,Outro,Comunicação,False
 4154013,249842,Sian,2013-04-14,Positivo,Outro,Comunicação,False
 4193890,249842,Carolyn,2013-04-17,Positivo,Localização,Comunicação,False
-4344562,249842,Henrique,2013-04-29,Positivo,Localização,Conforto,False
+4344562,249842,Henrique,2013-04-29,Positivo,Localização,Comunicação,False
 4391188,249842,Emre,2013-05-02,Positivo,Localização,Conforto,False
-4521830,249842,Lutz,2013-05-10,Positivo,Localização,Comodidades,False
+4521830,249842,Lutz,2013-05-10,Positivo,Localização,Comunicação,False
 246450157,17878,Ronnie Peterson,2018-03-25,Positivo,Outro,Conforto,False
 252418781,17878,Ashford,2018-04-10,Positivo,Outro,Comunicação,False
 256245340,17878,Ameer,2018-04-22,Positivo,Localização,Conforto,False
 262034585,17878,Frank,2018-05-07,Positivo,Localização,Comunicação,False
 266683359,17878,Roxana,2018-05-20,Neutro,Localização,Outro,False
 269511528,17878,Wendy,2018-05-27,Positivo,Localização,Comunicação,False
-278701955,17878,Raymond,2018-06-18,Positivo,Localização,Comodidades,False
-292230361,17878,Rosemary,2018-07-17,Positivo,Localização,Conforto,False
+278701955,17878,Raymond,2018-06-18,Positivo,Comodidades,Conforto,False
+292230361,17878,Rosemary,2018-07-17,Positivo,Localização,Comodidades,False
 296355984,17878,Fernando,2018-07-25,Neutro,Check-in,Comunicação,False
 307026176,17878,Azul,2018-08-13,Positivo,Localização,Comodidades,False
 324638052,17878,Alden,2018-09-17,Negativo,Limpeza,Conforto,True
@@ -404,20 +404,20 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 354874435,17878,Brian,2018-12-02,Positivo,Localização,Comodidades,False
 367710413,17878,Adriana,2019-01-05,Positivo,Localização,Conforto,False
 402421923,17878,Norma Beatriz,2019-01-18,Neutro,Localização,Outro,False
-406396585,17878,Nicole,2019-01-29,Positivo,Localização,Comodidades,False
+406396585,17878,Nicole,2019-01-29,Positivo,Localização,Conforto,False
 415366082,17878,Jason,2019-02-22,Positivo,Localização,Comunicação,False
-420030525,17878,Jay Gitano,2019-03-05,Positivo,Outro,Conforto,False
+420030525,17878,Jay Gitano,2019-03-05,Positivo,Outro,Comodidades,False
 426242660,17878,Silvio,2019-03-20,Positivo,Outro,Comunicação,False
 432989164,17878,Максим,2019-04-05,Positivo,Localização,Conforto,False
-440242857,17878,Kåre,2019-04-20,Positivo,Localização,Conforto,False
+440242857,17878,Kåre,2019-04-20,Positivo,Localização,Outro,False
 444841719,17878,Cedric,2019-04-28,Positivo,Outro,Outro,False
-453308262,17878,Karina,2019-05-15,Positivo,Outro,Comodidades,False
+453308262,17878,Karina,2019-05-15,Positivo,Outro,Conforto,False
 462847836,17878,Camila,2019-06-02,Positivo,Outro,Comunicação,False
-468034332,17878,Marcus,2019-06-11,Positivo,Outro,Outro,False
+468034332,17878,Marcus,2019-06-11,Positivo,Outro,Conforto,False
 472369358,17878,Jonathan,2019-06-19,Positivo,Check-in,Comunicação,False
 476561545,17878,Matias,2019-06-26,Positivo,Localização,Conforto,False
 479044977,17878,David,2019-06-30,Positivo,Localização,Comunicação,False
-492635572,17878,Alexis,2019-07-21,Positivo,Localização,Conforto,False
+492635572,17878,Alexis,2019-07-21,Positivo,Localização,Comunicação,False
 497499320,17878,Hernan,2019-07-28,Positivo,Localização,Comodidades,False
 504332090,17878,Vlad,2019-08-07,Neutro,Outro,Outro,False
 512730915,17878,Matheus,2019-08-18,Positivo,Localização,Valor,False
@@ -437,7 +437,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 621917318,17878,Herman,2020-04-06,Positivo,Localização,Comunicação,False
 4938323,249842,Jenny,2013-06-03,Positivo,Localização,Comunicação,False
 5373919,249842,Manuel,2013-06-26,Positivo,Check-in,Comunicação,False
-5474761,249842,Richard,2013-07-01,Positivo,Limpeza,Comodidades,False
+5474761,249842,Richard,2013-07-01,Positivo,Localização,Comodidades,False
 5519834,249842,Lorena,2013-07-03,Positivo,Check-in,Comunicação,True
 5666416,249842,Yvonne,2013-07-10,Positivo,Localização,Comunicação,False
 5848850,249842,Yathy,2013-07-19,Positivo,Localização,Comunicação,False
@@ -448,7 +448,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 7984336,249842,Noelia,2013-10-11,Positivo,Localização,Comunicação,False
 8462323,249842,Cheryl,2013-11-01,Positivo,Outro,Comunicação,False
 8687673,249842,Tamara,2013-11-12,Positivo,Localização,Comunicação,False
-9232801,249842,Natalie,2013-12-15,Positivo,Outro,Comunicação,False
+9232801,249842,Natalie,2013-12-15,Positivo,Localização,Comunicação,False
 9731821,249842,Patty,2014-01-07,Positivo,Outro,Comunicação,False
 10083530,249842,Agustina,2014-01-29,Positivo,Localização,Comodidades,False
 10151900,249842,Harry,2014-02-03,Positivo,Localização,Comunicação,False
@@ -457,7 +457,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 14112898,249842,Sira,2014-06-12,Positivo,Outro,Comunicação,False
 15105195,249842,Christopher,2014-07-02,Positivo,Localização,Conforto,False
 17319968,249842,Anne,2014-08-10,Positivo,Outro,Comunicação,True
-18068899,249842,Virginie,2014-08-21,Positivo,Outro,Comunicação,False
+18068899,249842,Virginie,2014-08-21,Positivo,Localização,Comunicação,False
 18308929,249842,Mariana,2014-08-25,Positivo,Localização,Comunicação,False
 19405069,249842,Dani,2014-09-12,Positivo,Outro,Comunicação,False
 20996761,249842,Nicola,2014-10-09,Positivo,Outro,Comunicação,False
@@ -476,14 +476,14 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 153062355,249842,Lucie,2017-05-19,Positivo,Localização,Comunicação,False
 174337553,249842,Didier,2017-07-25,Positivo,Outro,Comunicação,False
 175295814,249842,Noelly,2017-07-28,Positivo,Localização,Comunicação,False
-186099653,249842,Tulika,2017-08-23,Positivo,Outro,Comunicação,False
+186099653,249842,Tulika,2017-08-23,Positivo,Localização,Comunicação,False
 191215456,249842,Luciane,2017-09-06,Positivo,Localização,Conforto,False
-192544384,249842,Ana Luiza,2017-09-10,Positivo,Check-in,Comunicação,False
+192544384,249842,Ana Luiza,2017-09-10,Positivo,Check-in,Conforto,False
 630592576,17878,Sebastien,2020-06-19,Positivo,Localização,Outro,False
 659679262,17878,Leonardo,2020-09-02,Positivo,Localização,Comunicação,False
-663837047,17878,Thaís,2020-09-13,Positivo,Outro,Comodidades,False
+663837047,17878,Thaís,2020-09-13,Positivo,Localização,Conforto,False
 700190445,17878,Michele,2020-10-13,Positivo,Outro,Conforto,False
-705394630,17878,Thiago Queiroz,2020-10-31,Positivo,Localização,Conforto,False
+705394630,17878,Thiago Queiroz,2020-10-31,Positivo,Localização,Comunicação,False
 709860442,17878,Jerome,2020-11-19,Positivo,Localização,Conforto,False
 715866437,17878,Renata,2020-12-16,Positivo,Localização,Conforto,False
 718325615,17878,Christophe,2020-12-26,Neutro,Localização,Comodidades,False
@@ -495,35 +495,35 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 764286937,17878,Stephan,2021-05-30,Positivo,Localização,Conforto,False
 396312671343363264,17878,Henrique,2021-06-30,Positivo,Localização,Comunicação,False
 471603523199402816,17878,Pedro,2021-10-12,Positivo,Localização,Conforto,False
-509088183277273984,17878,Aleksander,2021-12-03,Positivo,Check-in,Comunicação,False
+509088183277273984,17878,Aleksander,2021-12-03,Positivo,Outro,Comunicação,False
 561460247884288960,17878,Sean,2022-02-13,Positivo,Localização,Comunicação,False
-589799014315583616,17878,Simon,2022-03-24,Positivo,Limpeza,Conforto,False
+589799014315583616,17878,Simon,2022-03-24,Positivo,Localização,Conforto,False
 597797039710635904,17878,David,2022-04-04,Positivo,Localização,Conforto,False
 607686560,223073,Sofia,2020-02-18,Positivo,Localização,Outro,False
 1515333631175202816,272335,Angie,2025-09-21,Positivo,Localização,Comunicação,False
 735679227,5874459,Paula,2021-03-01,Positivo,Outro,Comunicação,False
 71747354,9775007,Nina,2016-04-28,Positivo,Localização,Comunicação,False
-729858882,14133704,Izabela,2021-02-08,Positivo,Limpeza,Conforto,False
-466586601383672384,2415735,Cíntia,2021-10-05,Positivo,Localização,Outro,False
+729858882,14133704,Izabela,2021-02-08,Positivo,Localização,Conforto,False
+466586601383672384,2415735,Cíntia,2021-10-05,Positivo,Localização,Comodidades,False
 223484414,11429699,Cristina,2018-01-01,Positivo,Localização,Comunicação,False
 426292830,2152945,Gustavo,2019-03-20,Positivo,Localização,Comunicação,False
 196579856,10121866,Janaina,2017-09-23,Positivo,Localização,Comunicação,False
-1174717870250823168,14942294,Frank,2024-06-08,Positivo,Localização,Comodidades,False
+1174717870250823168,14942294,Frank,2024-06-08,Positivo,Localização,Conforto,False
 921054802517531136,925802,Gabriel,2023-06-24,Positivo,Localização,Comunicação,False
 920292280174033280,4178518,Timoteo Geraldo,2023-06-23,Positivo,Localização,Conforto,False
 574559075344322048,16200321,Beto,2022-03-03,Positivo,Outro,Comunicação,False
 757928448087832576,2165011,Steven,2022-11-11,Positivo,Outro,Outro,False
-161819645,15821603,Renata,2017-06-18,Positivo,Outro,Conforto,False
+161819645,15821603,Renata,2017-06-18,Positivo,Localização,Conforto,False
 109119705,1713671,Valéria,2016-10-19,Positivo,Outro,Outro,False
 906513401633594880,8488307,Mateus,2023-06-04,Positivo,Localização,Comunicação,False
 796321283731316736,588751,Josefina,2023-01-03,Positivo,Outro,Comunicação,False
 206666037,10988183,Ryniere,2017-10-26,Positivo,Localização,Outro,False
 1489920479051524864,14226433,Lucy,2025-08-17,Positivo,Outro,Outro,False
-1449428757082635264,2217005,Michele,2025-06-22,Positivo,Localização,Outro,False
+1449428757082635264,2217005,Michele,2025-06-22,Positivo,Localização,Comodidades,False
 615864084,5010911,Guilherme,2020-03-08,Positivo,Outro,Outro,False
 558113305,4387531,Thierry,2019-11-02,Positivo,Outro,Outro,False
 104789249,2716091,Marco,2016-09-28,Positivo,Localização,Comodidades,False
-409342570212943936,1118497,Natalia,2021-07-18,Positivo,Outro,Comunicação,False
+409342570212943936,1118497,Natalia,2021-07-18,Positivo,Check-in,Comunicação,False
 756540147,14349999,Rodrigo,2021-05-09,Positivo,Limpeza,Comunicação,False
 784696249250870016,13247059,Luis Henrique,2022-12-18,Positivo,Localização,Conforto,False
 46133405,1458993,Bokyung,2015-09-08,Positivo,Localização,Comunicação,False
@@ -532,33 +532,33 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1178341511469665280,4067282,Mariela,2024-06-13,Positivo,Localização,Conforto,False
 762201818,9583474,Elis,2021-05-24,Positivo,Localização,Conforto,False
 504944250951030976,1146944,Isabelle,2021-11-27,Positivo,Limpeza,Comunicação,False
-3331945,484267,Michael,2013-01-12,Positivo,Localização,Comodidades,False
-543789901,9064452,Juan Jose,2019-10-08,Positivo,Outro,Comunicação,False
+3331945,484267,Michael,2013-01-12,Positivo,Localização,Conforto,False
+543789901,9064452,Juan Jose,2019-10-08,Positivo,Localização,Comunicação,False
 1023980375851449600,12210268,Dri,2023-11-13,Positivo,Localização,Comodidades,False
 60354881,2397791,Wilson,2016-01-22,Positivo,Localização,Comodidades,False
 847836360305706880,675035,Sebastian,2023-03-15,Positivo,Localização,Comunicação,False
 577438232,2829064,Bruno,2019-12-15,Positivo,Outro,Comunicação,False
 581029879713549056,15007102,Ben,2022-03-12,Positivo,Localização,Outro,False
-1117386468649344000,10234880,Luis,2024-03-21,Neutro,Localização,Comodidades,False
+1117386468649344000,10234880,Luis,2024-03-21,Neutro,Localização,Conforto,False
 1449320083153420288,2838382,José,2025-06-22,Positivo,Localização,Comunicação,False
 63609560,1063491,Juan Ignacio,2016-02-25,Positivo,Localização,Comunicação,False
 1257247123657635584,8335829,Niall,2024-09-30,Negativo,Limpeza,Comodidades,True
 978305948887972480,12710354,Lucas,2023-09-11,Positivo,Outro,Comunicação,False
 423132213025578112,12331820,Ivana,2021-08-06,Positivo,Localização,Conforto,False
 126127865,780813,Barbara,2017-01-09,Positivo,Localização,Comodidades,False
-425312500338964544,7608916,Davi,2021-08-09,Positivo,Outro,Outro,False
+425312500338964544,7608916,Davi,2021-08-09,Positivo,Localização,Outro,False
 50226799,7770078,Miriam,2015-10-10,Positivo,Outro,Outro,False
 545608639058260416,9337617,Mayara,2022-01-22,Positivo,Outro,Outro,False
-300588072,5402875,Daley,2018-08-02,Neutro,Localização,Outro,False
-799193423611129344,2416600,Paulo,2023-01-07,Positivo,Localização,Conforto,False
+300588072,5402875,Daley,2018-08-02,Neutro,Localização,Conforto,False
+799193423611129344,2416600,Paulo,2023-01-07,Positivo,Localização,Outro,False
 127174015,3079210,Luiz,2017-01-16,Positivo,Localização,Conforto,False
 914439855006150400,7578378,Andrés,2023-06-15,Positivo,Localização,Comunicação,False
 736199315761385728,7608916,Aline,2022-10-12,Positivo,Localização,Conforto,True
 629593872,2046481,Patricia,2020-06-14,Positivo,Outro,Outro,False
 735184962,13544020,Larissa,2021-02-28,Positivo,Localização,Comunicação,False
-950677474939042560,15778437,Gislaine,2023-08-04,Positivo,Outro,Comunicação,False
+950677474939042560,15778437,Gislaine,2023-08-04,Positivo,Limpeza,Comunicação,False
 623067480370269952,2946520,Lyle,2022-05-09,Positivo,Localização,Comunicação,False
-6171088,996602,Sandra,2013-08-02,Positivo,Localização,Outro,False
+6171088,996602,Sandra,2013-08-02,Positivo,Localização,Comunicação,False
 1379010408894785280,13332993,Miyuki,2025-03-17,Positivo,Localização,Conforto,False
 200761433,2248466,Laura,2017-10-06,Positivo,Localização,Comunicação,False
 1007974403344492160,13685144,Josue,2023-10-22,Positivo,Localização,Comodidades,False
@@ -567,46 +567,46 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1018170407524637056,14168488,Dario,2023-11-05,Positivo,Localização,Outro,False
 917396227091601920,886300,Rafael,2023-06-19,Positivo,Localização,Conforto,False
 1495048403248937472,2473323,Jefferson,2025-08-24,Positivo,Outro,Comunicação,False
-159313973,9702863,Delane,2017-06-10,Positivo,Localização,Comodidades,False
+159313973,9702863,Delane,2017-06-10,Positivo,Localização,Conforto,False
 1166732778557234688,15654082,Gaston,2024-05-28,Positivo,Outro,Comunicação,False
 729483002,3069393,Jessica,2021-02-07,Positivo,Localização,Comunicação,False
 1507306063401460480,15702553,Julian,2025-09-10,Positivo,Localização,Comunicação,False
 219686818,2403554,Gauri,2017-12-18,Positivo,Localização,Comunicação,False
 1060115784733325568,4244093,Jenelle,2024-01-02,Positivo,Localização,Comodidades,False
-129536119,5077628,Giuliana,2017-01-31,Positivo,Localização,Conforto,False
+129536119,5077628,Giuliana,2017-01-31,Positivo,Localização,Comodidades,False
 1226163416141665280,4618680,Taís,2024-08-18,Positivo,Outro,Comunicação,False
-5455985,874722,Cherry,2013-07-01,Positivo,Outro,Outro,False
-1475472947476549888,6901513,Maicon,2025-07-28,Positivo,Localização,Outro,False
+5455985,874722,Cherry,2013-07-01,Positivo,Outro,Conforto,False
+1475472947476549888,6901513,Maicon,2025-07-28,Positivo,Localização,Comodidades,False
 215915748,10983914,Patrícia,2017-12-02,Positivo,Outro,Comunicação,False
 1236978084535104768,14872664,Joel,2024-09-02,Positivo,Localização,Comunicação,False
-718844784660600448,12812625,Lucia,2022-09-18,Positivo,Outro,Outro,False
-615866086235335296,3512791,Ace Asad,2022-04-29,Neutro,Localização,Conforto,False
+718844784660600448,12812625,Lucia,2022-09-18,Positivo,Outro,Comunicação,False
+615866086235335296,3512791,Ace Asad,2022-04-29,Positivo,Localização,Conforto,False
 332952248,368146,Guilherme,2018-10-06,Positivo,Outro,Conforto,False
 1091363796647802240,1721278,Sharon,2024-02-14,Positivo,Outro,Outro,False
 842031267190761600,825329,Claudia,2023-03-07,Positivo,Localização,Comodidades,False
-64129080,5144873,Fiorella,2016-02-29,Positivo,Localização,Comunicação,False
-598507890305990784,2411803,Erika,2022-04-05,Positivo,Outro,Comunicação,False
+64129080,5144873,Fiorella,2016-02-29,Positivo,Outro,Comunicação,False
+598507890305990784,2411803,Erika,2022-04-05,Positivo,Outro,Comunicação,True
 538144480,8759956,Bruno,2019-09-29,Positivo,Outro,Comunicação,False
 147358058,4580561,Thiago,2017-04-26,Positivo,Outro,Comunicação,False
 1021732974118016768,1768456,Yuri,2023-11-10,Positivo,Localização,Comodidades,False
 76930277,2301415,Marina,2016-05-29,Positivo,Localização,Conforto,False
 678157924595337728,844070,Bruna,2022-07-24,Positivo,Outro,Conforto,False
-663886932,10970864,Rafael,2020-09-13,Positivo,Localização,Comodidades,False
+663886932,10970864,Rafael,2020-09-13,Positivo,Localização,Comodidades,True
 573799755603678592,10986866,Katia,2022-03-02,Positivo,Outro,Outro,False
 536120527134285760,368146,Gabriel,2022-01-09,Positivo,Localização,Comunicação,False
 896342320131641472,12616098,Fabiana,2023-05-21,Positivo,Outro,Comunicação,False
 763770159505942528,2160137,Elis,2022-11-19,Positivo,Outro,Conforto,False
-1015250163046828416,7873549,Ana,2023-11-01,Positivo,Localização,Conforto,False
+1015250163046828416,7873549,Ana,2023-11-01,Positivo,Outro,Conforto,False
 234886358,14549684,Amanda,2018-02-14,Positivo,Outro,Conforto,False
 426556416,11020590,Anita,2019-03-21,Positivo,Localização,Conforto,False
 224840770,13682645,Sebastián,2018-01-04,Positivo,Outro,Comunicação,False
-1449352321143341312,12000688,Lucas,2025-06-22,Positivo,Outro,Comunicação,False
+1449352321143341312,12000688,Lucas,2025-06-22,Positivo,Check-in,Comunicação,False
 545618982442418560,2726547,Aricelli,2022-01-22,Positivo,Localização,Comodidades,False
 741314374234543488,8499916,Leonardo,2022-10-19,Positivo,Outro,Outro,False
 583979806883711232,12953923,Diego,2022-03-16,Positivo,Outro,Comodidades,False
 767332846142409984,3079210,Luísa,2022-11-24,Positivo,Outro,Comunicação,False
 793390693075164928,4580561,Kátia,2022-12-30,Positivo,Localização,Comunicação,False
-1099982598968181248,11068448,Alessandra Lima,2024-02-26,Positivo,Localização,Comodidades,False
+1099982598968181248,11068448,Alessandra Lima,2024-02-26,Positivo,Localização,Conforto,False
 142872672,13990438,Daniel,2017-04-09,Positivo,Outro,Comunicação,False
 1289961046411216384,368146,Anderson,2024-11-14,Positivo,Localização,Outro,False
 812309014833898496,2015458,Gabriella,2023-01-25,Positivo,Outro,Comunicação,False
@@ -614,20 +614,20 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 913019649586802560,16178461,Cilene,2023-06-13,Positivo,Localização,Comunicação,False
 714472539675935616,3136464,Rafael,2022-09-12,Positivo,Check-in,Comunicação,True
 874621,174101,Alexey,2012-01-21,Positivo,Localização,Conforto,False
-479045605,5145685,Diogo,2019-06-30,Positivo,Check-in,Comunicação,False
+479045605,5145685,Diogo,2019-06-30,Positivo,Localização,Comunicação,False
 731160919,10720790,Carla Leticia,2021-02-14,Positivo,Localização,Comunicação,False
 1021700370693021952,2383310,Tatiane,2023-11-10,Positivo,Limpeza,Conforto,False
 600869340,3324543,Felipe,2020-02-02,Positivo,Outro,Comunicação,False
 583935136,6835820,Marcelo,2019-12-29,Positivo,Localização,Comodidades,False
 1278277999174856704,7342274,Melanie,2024-10-29,Positivo,Localização,Comodidades,False
 999685,239531,Camilo,2012-03-14,Positivo,Localização,Comodidades,True
-1495797532725556224,5794726,Letícia,2025-08-25,Positivo,Outro,Conforto,False
+1495797532725556224,5794726,Letícia,2025-08-25,Positivo,Limpeza,Conforto,False
 496291029847683968,51703,Talita,2021-11-15,Positivo,Localização,Comunicação,False
 1346474276118559488,1791848,Kévin,2025-01-31,Positivo,Localização,Comunicação,False
-711626,137002,Dan,2011-11-12,Positivo,Localização,Comunicação,False
+711626,137002,Dan,2011-11-12,Positivo,Localização,Comodidades,False
 48200084,1943837,Thayssa,2015-09-24,Positivo,Outro,Comunicação,False
 1410929291794378496,2196318,Maxim,2025-04-30,Positivo,Localização,Conforto,False
-1027549462951013248,15232495,Justin,2023-11-18,Positivo,Localização,Outro,False
+1027549462951013248,15232495,Justin,2023-11-18,Positivo,Localização,Comunicação,False
 581639205,12223628,Rosendo,2019-12-25,Positivo,Localização,Comodidades,False
 1034797205701949952,5465697,Paulo Henrique,2023-11-28,Negativo,Limpeza,Conforto,True
 816619087651655040,11900219,Natalia,2023-01-31,Positivo,Localização,Comodidades,False
@@ -635,47 +635,47 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 704471710,14093339,Krysna,2020-10-27,Positivo,Outro,Conforto,False
 515210917,2716091,Izumi,2019-08-22,Positivo,Check-in,Comunicação,True
 1334100810253192704,8302345,Leda,2025-01-14,Positivo,Localização,Comunicação,False
-968175181442364672,13810527,Maricarmen,2023-08-28,Positivo,Limpeza,Comodidades,False
+968175181442364672,13810527,Maricarmen,2023-08-28,Positivo,Localização,Comodidades,False
 179823177,16132269,Tony,2017-08-08,Positivo,Localização,Conforto,False
-1495079749240772096,11655166,Dani,2025-08-24,Positivo,Localização,Comunicação,False
+1495079749240772096,11655166,Dani,2025-08-24,Positivo,Localização,Conforto,False
 926867066834408448,6128209,Jessica,2023-07-02,Positivo,Outro,Comodidades,False
 1339236346811708160,273463,German,2025-01-21,Positivo,Outro,Comunicação,False
 3078418,313223,Carl,2012-12-12,Negativo,Outro,Valor,False
 246005105,15483501,Dario,2018-03-24,Positivo,Outro,Comodidades,True
 95892084,12290090,Ricardo,2016-08-21,Positivo,Check-in,Comunicação,False
 110946207,15091164,Johanna,2016-10-29,Positivo,Localização,Comodidades,False
-1234776459880611328,913581,Kylah,2024-08-30,Positivo,Outro,Comunicação,False
+1234776459880611328,913581,Kylah,2024-08-30,Positivo,Localização,Conforto,False
 1332004867021020416,2330221,Ana,2025-01-11,Positivo,Localização,Comunicação,False
 606480709658861440,5255723,Gilberto,2022-04-16,Positivo,Localização,Outro,False
 1226816167401234432,6466298,Tanise Michele,2024-08-19,Positivo,Localização,Comunicação,False
 847808873614668800,915090,Aléssio,2023-03-15,Positivo,Localização,Comodidades,False
 60312652,1578414,Neil,2016-01-22,Positivo,Localização,Comunicação,True
-882567360084991360,13032033,Guilherme,2023-05-02,Positivo,Localização,Comunicação,False
+882567360084991360,13032033,Guilherme,2023-05-02,Positivo,Localização,Conforto,False
 556045391,14226433,Guilherme,2019-10-28,Positivo,Localização,Conforto,False
-821036458897371136,1174302,Renan,2023-02-06,Positivo,Localização,Comunicação,False
+821036458897371136,1174302,Renan,2023-02-06,Positivo,Localização,Outro,False
 221685132,4295030,Fernanda,2017-12-27,Positivo,Localização,Comunicação,False
-14110652,1912695,Robert,2014-06-12,Neutro,Outro,Valor,True
+14110652,1912695,Robert,2014-06-12,Neutro,Outro,Valor,False
 65791547,4976652,Laura,2016-03-17,Positivo,Localização,Comunicação,False
 846410640887949056,3183776,Isabela,2023-03-13,Positivo,Limpeza,Outro,False
-1130527283055644416,13829809,Nicolas,2024-04-08,Positivo,Outro,Comodidades,False
+1130527283055644416,13829809,Nicolas,2024-04-08,Positivo,Localização,Comodidades,False
 823851855345442560,10447269,Sandra,2023-02-10,Negativo,Localização,Outro,False
-197735094,7995967,João,2017-09-26,Positivo,Outro,Comodidades,False
+197735094,7995967,João,2017-09-26,Positivo,Localização,Comodidades,False
 1068826974361833216,10136622,Thais,2024-01-14,Positivo,Localização,Conforto,False
-4768768,762988,Maria,2013-05-25,Positivo,Outro,Comunicação,False
+4768768,762988,Maria,2013-05-25,Positivo,Localização,Comunicação,False
 610866544,5439975,Gabi,2020-02-25,Positivo,Outro,Comunicação,False
 1252237160427973888,13617460,Andressa,2024-09-23,Positivo,Localização,Valor,False
 243881031,15773791,Camilla,2018-03-17,Positivo,Localização,Comunicação,False
-807896257539741184,14142088,Ernesto,2023-01-19,Positivo,Localização,Comunicação,False
+807896257539741184,14142088,Ernesto,2023-01-19,Positivo,Localização,Comunicação,True
 468034656,672835,Sol,2019-06-11,Positivo,Localização,Conforto,False
 1251463034135638528,634422,Vinícius,2024-09-22,Positivo,Localização,Comunicação,False
 1186295170052126720,12126910,Marcio,2024-06-24,Positivo,Outro,Comodidades,False
-716646628889287680,2950011,Julia,2022-09-15,Positivo,Outro,Comunicação,False
+716646628889287680,2950011,Julia,2022-09-15,Positivo,Localização,Comunicação,False
 496253921010216256,7240684,Muriel,2021-11-15,Positivo,Outro,Comodidades,False
 536122727240708480,2995089,Antonio Salvador,2022-01-09,Positivo,Localização,Comunicação,False
-714877704,14437971,Camila,2020-12-12,Positivo,Outro,Outro,False
+714877704,14437971,Camila,2020-12-12,Positivo,Outro,Conforto,False
 521130224,15936745,Marta,2019-08-31,Positivo,Outro,Comunicação,False
-779676847447461376,2053687,Jeremy,2022-12-11,Positivo,Localização,Conforto,False
-500040992,9025011,Adna,2019-08-01,Positivo,Localização,Conforto,False
+779676847447461376,2053687,Jeremy,2022-12-11,Positivo,Outro,Conforto,False
+500040992,9025011,Adna,2019-08-01,Positivo,Localização,Outro,False
 559628600,109747,Jack,2019-11-04,Positivo,Check-in,Comunicação,False
 642795824,9493577,Walkirya,2020-07-26,Positivo,Localização,Comodidades,False
 29525741,2138728,D,2015-04-08,Positivo,Localização,Comunicação,False
@@ -690,8 +690,8 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 586984943,2897255,Felipe,2020-01-02,Positivo,Outro,Comodidades,False
 1095638800187929984,13641776,Lamont,2024-02-20,Positivo,Localização,Conforto,False
 1037007811839145600,10730455,Carlos,2023-12-01,Positivo,Localização,Outro,False
-496531596,12655739,Santiago,2019-07-27,Positivo,Localização,Comunicação,False
-765213572796534528,13265793,Isabella,2022-11-21,Positivo,Outro,Outro,False
+496531596,12655739,Santiago,2019-07-27,Positivo,Outro,Comunicação,False
+765213572796534528,13265793,Isabella,2022-11-21,Positivo,Outro,Comodidades,False
 591473969,7220985,Jefferson,2020-01-11,Positivo,Localização,Comunicação,False
 511547334471940864,14942294,Matheus,2021-12-06,Positivo,Localização,Comunicação,False
 186806918,12093885,Alexandra,2017-08-25,Neutro,Outro,Comunicação,False
@@ -702,18 +702,18 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 794845147393264640,7578378,Roberta,2023-01-01,Positivo,Localização,Comunicação,False
 1054356764070302464,12703406,Elias,2023-12-25,Positivo,Localização,Conforto,False
 299711109,886300,Camille,2018-07-31,Positivo,Localização,Comunicação,False
-1017379089632787968,3167773,Bailey,2023-11-04,Positivo,Outro,Outro,False
+1017379089632787968,3167773,Bailey,2023-11-04,Positivo,Outro,Conforto,False
 857239177582986240,4497142,Eduardo,2023-03-28,Positivo,Localização,Conforto,False
 763782245404072704,10988183,Alex,2022-11-19,Positivo,Localização,Conforto,False
-1053585420809982208,2657131,Agustín,2023-12-24,Neutro,Localização,Conforto,False
+1053585420809982208,2657131,Agustín,2023-12-24,Neutro,Comodidades,Conforto,False
 351048331,1149627,Peter,2018-11-21,Positivo,Localização,Comunicação,False
-534990725,2379205,Mauricio,2019-09-23,Positivo,Localização,Outro,False
+534990725,2379205,Mauricio,2019-09-23,Positivo,Localização,Conforto,False
 968061332846190080,1895099,Santiago,2023-08-28,Positivo,Localização,Comunicação,False
 1025394706273199360,12307400,Aline,2023-11-15,Positivo,Localização,Comunicação,False
 764516279537650048,7770078,Patrick,2022-11-20,Positivo,Localização,Comunicação,False
 1416053659018025728,9642367,Eunice,2025-05-07,Positivo,Localização,Conforto,False
 1111632779804238848,1640669,Katalina,2024-03-13,Positivo,Localização,Comunicação,False
-95712692,3919056,Sylvie,2016-08-20,Positivo,Outro,Comunicação,False
+95712692,3919056,Sylvie,2016-08-20,Positivo,Check-in,Comunicação,False
 345062667,15307683,Luciana,2018-11-04,Positivo,Localização,Conforto,False
 1326160228108486400,6613696,Bruna,2025-01-03,Positivo,Localização,Comunicação,False
 988411278182515072,4067282,Cristina Martins,2023-09-25,Positivo,Localização,Outro,False
@@ -723,17 +723,17 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1092088019758913152,9793472,Bowen,2024-02-15,Positivo,Check-in,Comunicação,False
 83988340,5757334,Isabel,2016-07-05,Positivo,Localização,Comunicação,False
 983294134287846656,10030512,Aline,2023-09-18,Positivo,Check-in,Conforto,False
-187735925,15232495,Ivan,2017-08-27,Neutro,Localização,Conforto,False
+187735925,15232495,Ivan,2017-08-27,Negativo,Localização,Conforto,False
 83127862,4712987,Leonardo,2016-07-01,Positivo,Localização,Comunicação,False
 66613071,577253,Mauricio,2016-03-23,Positivo,Localização,Conforto,False
-60199103,1780366,Manuella,2016-01-20,Positivo,Localização,Outro,False
+60199103,1780366,Manuella,2016-01-20,Positivo,Localização,Comunicação,False
 1371046496058479616,10809296,Yadira,2025-03-06,Positivo,Localização,Comunicação,False
 977553878752814080,1892398,Juliana,2023-09-10,Positivo,Localização,Comunicação,False
 335212258,193317,Robin,2018-10-11,Positivo,Localização,Comunicação,False
 1370348765314761216,772144,Silvio,2025-03-05,Positivo,Localização,Comunicação,False
 368623913,9696990,Junior,2019-01-07,Positivo,Localização,Conforto,False
 1134871189085355648,3112310,Pete,2024-04-14,Positivo,Outro,Comodidades,False
-714437397187197696,925802,Rafael,2022-09-12,Positivo,Localização,Comunicação,False
+714437397187197696,925802,Rafael,2022-09-12,Positivo,Outro,Comunicação,False
 22040876,1977864,Emma,2014-10-28,Positivo,Localização,Comunicação,False
 229231368,1150993,Maria,2018-01-22,Positivo,Localização,Conforto,False
 939172187367180160,13659467,Camila,2023-07-19,Positivo,Localização,Comodidades,False
@@ -748,7 +748,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 18681650,355197,Danilo,2014-08-30,Positivo,Localização,Conforto,False
 845577312237072896,4899215,David,2023-03-12,Positivo,Outro,Comunicação,False
 461403254,2716091,Mireille,2019-05-31,Positivo,Localização,Comodidades,False
-1028321689531231232,8322142,Renis,2023-11-19,Positivo,Outro,Comodidades,False
+1028321689531231232,8322142,Renis,2023-11-19,Positivo,Outro,Comunicação,False
 71850231,7601163,Ryan,2016-04-29,Positivo,Localização,Conforto,False
 721454114,4124661,Mauricio,2021-01-03,Positivo,Localização,Comunicação,False
 797070966868778112,1173981,Donna,2023-01-04,Positivo,Localização,Outro,False
@@ -756,7 +756,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 1488546805953791744,14824047,Andres,2025-08-15,Positivo,Outro,Outro,False
 447948654,15845624,Matias,2019-05-04,Positivo,Localização,Conforto,False
 111766792,2152945,Marina,2016-11-01,Positivo,Localização,Conforto,False
-531480944,295683,Gabriel,2019-09-17,Positivo,Localização,Outro,False
+531480944,295683,Gabriel,2019-09-17,Positivo,Localização,Conforto,False
 245488055,2370226,Micaela,2018-03-22,Positivo,Outro,Comunicação,False
 759343918832955136,48305,Nicolás,2022-11-13,Positivo,Localização,Conforto,False
 58890888,178833,Gunnar,2016-01-05,Neutro,Outro,Outro,False
@@ -764,7 +764,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 683993299562127104,5055579,Rosane,2022-08-01,Positivo,Outro,Conforto,False
 300588438,2258247,Victoria,2018-08-02,Positivo,Check-in,Comunicação,False
 1281251612055401216,2426248,Laura,2024-11-02,Positivo,Outro,Comunicação,False
-1130481991058852352,9954216,Amanda,2024-04-08,Positivo,Outro,Comodidades,True
+1130481991058852352,9954216,Amanda,2024-04-08,Positivo,Check-in,Comunicação,False
 1405904691468392704,8489194,Aretusa,2025-04-23,Positivo,Check-in,Comunicação,False
 737620829394195072,5056696,Jordie,2022-10-14,Positivo,Localização,Comodidades,False
 1399351543790072064,9704463,Erika,2025-04-14,Positivo,Localização,Comunicação,False
@@ -779,26 +779,26 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 103492425,347820,David,2016-09-22,Positivo,Outro,Comunicação,False
 173568014,8489194,Maria Ivonete,2017-07-23,Positivo,Outro,Comunicação,False
 1363812612207146496,14035016,Marcelo,2025-02-24,Positivo,Localização,Comodidades,False
-538276072,5777808,Eduardo,2019-09-29,Positivo,Outro,Comunicação,False
+538276072,5777808,Eduardo,2019-09-29,Positivo,Limpeza,Comunicação,False
 28464620,716516,Aysegul,2015-03-24,Positivo,Localização,Conforto,False
 226555285,13941852,João,2018-01-11,Positivo,Localização,Outro,False
-209529591,7920552,Yanna Brenda,2017-11-05,Positivo,Outro,Conforto,False
+209529591,7920552,Yanna Brenda,2017-11-05,Positivo,Limpeza,Conforto,False
 1104355187009666432,11687248,Michelle,2024-03-03,Positivo,Outro,Comunicação,False
 8908267,1583179,Andrew,2013-11-25,Positivo,Localização,Conforto,False
-552793550865855296,4354095,Lila,2022-02-01,Positivo,Localização,Outro,False
+552793550865855296,4354095,Lila,2022-02-01,Positivo,Localização,Comunicação,False
 1403705257492079616,11655166,Patrick,2025-04-20,Positivo,Localização,Outro,False
 55349270,855137,Mark,2015-12-01,Positivo,Localização,Conforto,False
 161756077,13849161,Katia,2017-06-18,Positivo,Localização,Comunicação,False
-161307438,10728663,Claudia,2017-06-17,Positivo,Localização,Comodidades,False
+161307438,10728663,Claudia,2017-06-17,Positivo,Localização,Conforto,False
 977502328314574080,13990438,Ana Luisa,2023-09-10,Positivo,Localização,Comunicação,False
 197007556,10982521,Ingrid,2017-09-24,Positivo,Localização,Comunicação,False
 515806114643616512,12495749,Maria Aparecida,2021-12-12,Positivo,Check-in,Comunicação,False
-1409464140852544256,14030256,Fernando Luiz,2025-04-28,Neutro,Outro,Conforto,False
+1409464140852544256,14030256,Fernando Luiz,2025-04-28,Neutro,Limpeza,Conforto,False
 863731308129649280,1763815,Rainer,2023-04-06,Positivo,Localização,Conforto,False
 1358001442414857728,2395010,Sílvia,2025-02-16,Positivo,Localização,Outro,False
-574623366744307264,4976652,Vinicius,2022-03-03,Positivo,Limpeza,Comodidades,False
+574623366744307264,4976652,Vinicius,2022-03-03,Positivo,Localização,Comodidades,False
 433032502,5616158,Kimpton,2019-04-05,Positivo,Localização,Comunicação,True
-123445841,1724741,Renato,2016-12-29,Positivo,Localização,Comodidades,False
+123445841,1724741,Renato,2016-12-29,Positivo,Localização,Comunicação,False
 725779511,16036940,Armen,2021-01-21,Positivo,Localização,Comunicação,False
 490457419859011072,10266885,Jose,2021-11-07,Positivo,Localização,Comunicação,False
 794939236682810368,15024669,Tania,2023-01-01,Positivo,Outro,Comunicação,False
@@ -819,20 +819,20 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 441001535,13261537,Melissa,2019-04-21,Positivo,Localização,Comunicação,False
 161803230,86670,Vitor,2017-06-18,Positivo,Localização,Outro,False
 9199854,400326,Leslie,2013-12-13,Positivo,Localização,Conforto,False
-41097841,525890,Luciana,2015-08-04,Positivo,Localização,Comodidades,False
+41097841,525890,Luciana,2015-08-04,Positivo,Localização,Comunicação,False
 274548955,5133923,Simon,2018-06-09,Positivo,Localização,Comunicação,False
-1408750901159540992,8716271,Barbi,2025-04-27,Positivo,Outro,Comodidades,False
+1408750901159540992,8716271,Barbi,2025-04-27,Positivo,Localização,Conforto,False
 63103129,1190324,Lucas,2016-02-20,Positivo,Localização,Comunicação,False
 1404425645971047680,7583220,Lucas,2025-04-21,Positivo,Localização,Conforto,False
 1142053322041438464,9702336,Rodrigo,2024-04-24,Positivo,Localização,Comunicação,False
 552817743,11532333,Priscilla,2019-10-22,Positivo,Localização,Outro,False
 1331942262861970432,13002003,Gonzalo,2025-01-11,Positivo,Localização,Conforto,False
-1239852914981060864,2461715,Lucas,2024-09-06,Positivo,Limpeza,Conforto,True
+1239852914981060864,2461715,Lucas,2024-09-06,Positivo,Comodidades,Conforto,True
 856456312331468544,2003574,Pablo,2023-03-27,Positivo,Localização,Conforto,False
 1450057806797715456,3533170,Andressa,2025-06-23,Positivo,Localização,Comunicação,False
 860829725818819840,13665762,Gabriela,2023-04-02,Positivo,Outro,Comunicação,False
 1266725087140557824,3079210,Janaine,2024-10-13,Positivo,Localização,Conforto,False
-460030129387017216,11020104,Luisa,2021-09-26,Positivo,Outro,Outro,False
+460030129387017216,11020104,Luisa,2021-09-26,Positivo,Outro,Conforto,False
 47355783,2632743,Ambre,2015-09-18,Positivo,Localização,Comunicação,False
 364258851,9793472,Sebastian,2018-12-30,Positivo,Localização,Comunicação,False
 327146631,2452761,Victória,2018-09-23,Positivo,Localização,Conforto,False
@@ -841,30 +841,30 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 31515592,1687505,Celine,2015-05-06,Positivo,Localização,Comunicação,False
 591107580,507900,Michelle,2020-01-10,Positivo,Outro,Conforto,False
 168929048,15232495,Sean,2017-07-10,Positivo,Localização,Comodidades,True
-547054175,13435640,Bruno,2019-10-14,Positivo,Outro,Outro,False
+547054175,13435640,Bruno,2019-10-14,Positivo,Outro,Conforto,False
 593271162,3462690,Jader Jersey,2020-01-15,Positivo,Localização,Outro,False
 1325485750931176448,2759691,Alex,2025-01-02,Positivo,Localização,Conforto,False
 492612844242825600,4024384,Ken,2021-11-10,Positivo,Localização,Outro,False
 103928461,1110592,Giulianna,2016-09-25,Positivo,Localização,Conforto,False
-628241218,12169557,Carlos,2020-06-07,Positivo,Outro,Comunicação,False
+628241218,12169557,Carlos,2020-06-07,Positivo,Outro,Outro,False
 1352306719967055872,1632682,Carolina,2025-02-08,Positivo,Outro,Comunicação,False
 1475519467048452608,13668982,Caio,2025-07-28,Positivo,Localização,Comunicação,False
 104627900,3230385,Lucia Tina,2016-09-27,Positivo,Localização,Comunicação,False
 53741107,202778,Misa,2015-11-12,Positivo,Outro,Comodidades,False
-727482857,1966732,Kamal,2021-01-29,Positivo,Outro,Comunicação,False
+727482857,1966732,Kamal,2021-01-29,Positivo,Check-in,Comunicação,False
 1248624555645884416,5213429,Federico,2024-09-18,Positivo,Outro,Outro,False
 738781,223073,Björn,2011-11-22,Positivo,Localização,Comunicação,False
 116209231,1280058,Igor E Nayara,2016-11-28,Positivo,Localização,Comunicação,False
-506415817425934976,3735424,Ana,2021-11-29,Positivo,Localização,Comunicação,False
+506415817425934976,3735424,Ana,2021-11-29,Positivo,Localização,Conforto,False
 491232120364026560,11843735,Renato,2021-11-08,Positivo,Localização,Conforto,False
 800004089406794496,4824307,Santiago,2023-01-08,Positivo,Check-in,Comunicação,False
-492655145,3263242,Ingrid,2019-07-21,Positivo,Outro,Comunicação,False
+492655145,3263242,Ingrid,2019-07-21,Positivo,Outro,Conforto,False
 143838633,886300,Wagner,2017-04-13,Positivo,Outro,Comunicação,False
 543788796,4314382,Tatiana,2019-10-08,Positivo,Localização,Comunicação,False
-415343902,2947331,Lucía,2019-02-22,Positivo,Outro,Comodidades,False
-620655999,2875373,Bárbara,2020-03-23,Positivo,Limpeza,Comunicação,True
+415343902,2947331,Lucía,2019-02-22,Positivo,Limpeza,Conforto,False
+620655999,2875373,Bárbara,2020-03-23,Positivo,Outro,Comunicação,True
 488069495,3228852,Carlos,2019-07-14,Positivo,Localização,Comunicação,False
-314903649,2632743,Carolina,2018-08-27,Positivo,Localização,Outro,False
+314903649,2632743,Carolina,2018-08-27,Positivo,Outro,Outro,False
 483402109,10266885,Wilson,2019-07-07,Positivo,Localização,Conforto,False
 1347872119585353984,873890,Fernando,2025-02-02,Positivo,Outro,Outro,False
 134687567,13002662,Milena,2017-02-28,Positivo,Localização,Conforto,False
@@ -873,9 +873,9 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 137284711,4000148,Cillian,2017-03-14,Positivo,Localização,Outro,False
 994878274692742272,13765319,Eddy,2023-10-04,Positivo,Outro,Valor,False
 512565296,11911914,Débora,2019-08-18,Positivo,Localização,Valor,False
-53239404,5027530,Paula,2015-11-07,Negativo,Limpeza,Comunicação,True
+53239404,5027530,Paula,2015-11-07,Negativo,Limpeza,Conforto,True
 526033539076211520,3921691,Pablo,2021-12-26,Positivo,Outro,Comunicação,False
-365523865,2489727,Priscila,2019-01-01,Neutro,Localização,Comodidades,False
+365523865,2489727,Priscila,2019-01-01,Neutro,Outro,Conforto,False
 789138587528306688,9994189,Segun,2022-12-24,Positivo,Localização,Outro,False
 27158002,89981,Roy,2015-02-27,Positivo,Localização,Outro,False
 797835423614856960,727379,Adriana,2023-01-05,Positivo,Limpeza,Comunicação,False
@@ -886,9 +886,9 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 357074452,11911914,Renan,2018-12-09,Neutro,Localização,Conforto,False
 497003818259368896,770452,Gabriela,2021-11-16,Positivo,Localização,Comunicação,False
 628211878320026368,10858343,Dalila,2022-05-16,Positivo,Localização,Conforto,False
-64361133,9625523,Román,2016-03-03,Positivo,Outro,Conforto,False
+64361133,9625523,Román,2016-03-03,Positivo,Outro,Comodidades,False
 498262700,15015363,Tadeu,2019-07-29,Positivo,Localização,Comunicação,False
-738357017721048960,2258593,Franco,2022-10-15,Neutro,Limpeza,Comodidades,True
+738357017721048960,2258593,Franco,2022-10-15,Neutro,Limpeza,Conforto,True
 1109491379706466048,2445702,Andrea,2024-03-10,Negativo,Localização,Conforto,True
 32063803,519097,Natte,2015-05-13,Positivo,Localização,Conforto,False
 515845037,2666977,Lucia Tina,2019-08-23,Positivo,Localização,Conforto,False
@@ -897,12 +897,12 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 93181204,1280058,Peggy,2016-08-11,Neutro,Outro,Outro,False
 760075189591764608,12005351,Juliana,2022-11-14,Positivo,Localização,Comunicação,False
 539504107,13765319,Elena,2019-10-01,Positivo,Outro,Conforto,False
-1247822351958130688,15115528,Raphael,2024-09-17,Positivo,Outro,Comunicação,False
+1247822351958130688,15115528,Raphael,2024-09-17,Positivo,Outro,Conforto,False
 434756024,1732191,Jenifer,2019-04-08,Positivo,Localização,Comunicação,False
 410051704,14592653,Rafael,2019-02-09,Positivo,Localização,Outro,False
 132039015,10988183,Malena,2017-02-15,Positivo,Outro,Conforto,False
 120710279,9853331,Lucas,2016-12-11,Positivo,Outro,Outro,False
-563615398,11825042,Lara,2019-11-13,Positivo,Outro,Comunicação,False
+563615398,11825042,Lara,2019-11-13,Positivo,Localização,Comunicação,False
 129147014,509929,Kamilia,2017-01-29,Positivo,Localização,Conforto,False
 1034101621914242816,555606,Beatriz,2023-11-27,Positivo,Localização,Comunicação,False
 1370343823561827584,13549789,Uira,2025-03-05,Positivo,Outro,Conforto,False
@@ -914,7 +914,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 440955893,10872696,Rafael,2019-04-21,Positivo,Localização,Conforto,False
 567803907,14057383,Ayllu,2019-11-23,Positivo,Localização,Outro,False
 1311712468012288256,1847188,Rúbia,2024-12-14,Positivo,Limpeza,Conforto,False
-513476174,7220985,Valerio,2019-08-19,Positivo,Localização,Comunicação,False
+513476174,7220985,Valerio,2019-08-19,Positivo,Localização,Comunicação,True
 30444679,3234193,Juliana,2015-04-22,Positivo,Localização,Outro,False
 1421834773807920128,4455820,Jennifer,2025-05-15,Positivo,Localização,Conforto,False
 60204520,6325356,Lorena,2016-01-20,Positivo,Localização,Conforto,False
@@ -926,7 +926,7 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 79780744,1723791,Cristina,2016-06-14,Positivo,Localização,Conforto,False
 1091281397065368064,11847123,Guilherme,2024-02-14,Positivo,Localização,Comunicação,False
 369388966,11948645,Marcia,2019-01-10,Positivo,Localização,Comunicação,False
-229577719,2560321,Ruben,2018-01-24,Positivo,Outro,Comodidades,False
+229577719,2560321,Ruben,2018-01-24,Positivo,Limpeza,Comodidades,False
 324121147,2298212,Alessandro,2018-09-16,Positivo,Outro,Outro,False
 311116844,11247747,Barbara,2018-08-20,Positivo,Localização,Comodidades,False
 480319188,16079120,Fabian,2019-07-02,Positivo,Localização,Outro,False
@@ -937,8 +937,8 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 573870090460083136,4830589,Raphael,2022-03-02,Positivo,Localização,Comunicação,False
 741081333,342874,Jones,2021-03-21,Positivo,Localização,Comunicação,False
 1268855437241865984,1892918,Flávio,2024-10-16,Positivo,Localização,Outro,False
-653533971532555392,850322,Thomas,2022-06-20,Positivo,Localização,Comodidades,False
-803619830754986496,13261537,Christopher,2023-01-13,Positivo,Outro,Comunicação,False
+653533971532555392,850322,Thomas,2022-06-20,Positivo,Localização,Comunicação,False
+803619830754986496,13261537,Christopher,2023-01-13,Positivo,Localização,Comunicação,False
 728977917246749568,256323,Ben,2022-10-02,Positivo,Localização,Comunicação,False
 1242073856473148928,273463,Larissa,2024-09-09,Positivo,Localização,Comunicação,False
 142831738,2370226,Cleide Arcuri,2017-04-09,Positivo,Outro,Comunicação,False
@@ -947,25 +947,25 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 214716635,1578335,Zack,2017-11-26,Positivo,Localização,Comunicação,False
 133271189,14745679,Clarissa,2017-02-21,Positivo,Localização,Conforto,False
 1060195375330087808,2168353,Jhonata,2024-01-02,Positivo,Outro,Outro,False
-113922914,6843088,Wesley,2016-11-14,Positivo,Outro,Comodidades,False
+113922914,6843088,Wesley,2016-11-14,Positivo,Limpeza,Conforto,False
 190539041,13549789,Diego,2017-09-04,Positivo,Outro,Comunicação,False
 505708761775691136,2758806,Nícolas,2021-11-28,Positivo,Localização,Conforto,False
 62713153,466477,Agustin,2016-02-16,Positivo,Localização,Comunicação,False
 406085327,8370836,Lucila,2019-01-28,Positivo,Localização,Conforto,False
-586107785,15935986,Raimundo,2020-01-01,Positivo,Localização,Outro,False
+586107785,15935986,Raimundo,2020-01-01,Positivo,Localização,Conforto,False
 825316415006089472,249842,Oseias Vitorino,2023-02-12,Positivo,Outro,Comunicação,False
-620470177,1732191,Matías,2020-03-22,Positivo,Outro,Comunicação,False
+620470177,1732191,Matías,2020-03-22,Positivo,Outro,Comunicação,True
 444149720521656000,3520123,Jose,2021-09-04,Positivo,Localização,Valor,False
 717341855009555072,10858343,Rafael,2022-09-16,Positivo,Localização,Conforto,False
-542717784112383104,13924280,Marcus,2022-01-18,Positivo,Outro,Comodidades,False
-112885688,4991490,Paula,2016-11-08,Positivo,Localização,Comunicação,False
+542717784112383104,13924280,Marcus,2022-01-18,Positivo,Localização,Comodidades,False
+112885688,4991490,Paula,2016-11-08,Positivo,Localização,Comodidades,False
 54309702,3302906,Dincer,2015-11-18,Positivo,Localização,Comunicação,False
-237576789,11708494,Nicole,2018-02-23,Positivo,Localização,Comunicação,False
+237576789,11708494,Nicole,2018-02-23,Positivo,Localização,Comodidades,False
 256247556,13915144,Valentine,2018-04-22,Positivo,Localização,Comunicação,False
 215565078,12189489,Aléxia,2017-11-30,Positivo,Localização,Comunicação,False
 638323840958606208,371950,Chris,2022-05-30,Positivo,Localização,Comunicação,False
 1017352936320654848,8816092,Assiryc,2023-11-04,Negativo,Limpeza,Conforto,True
-736929027554545152,5088701,Mariana,2022-10-13,Positivo,Outro,Comunicação,False
+736929027554545152,5088701,Mariana,2022-10-13,Positivo,Outro,Conforto,False
 850724523714068480,10177444,Maria Júlia,2023-03-19,Positivo,Outro,Conforto,False
 732163200,1526604,Rafael,2021-02-17,Positivo,Localização,Comunicação,False
 340964205,2370226,Sérgio,2018-10-25,Positivo,Outro,Comodidades,False
@@ -978,24 +978,24 @@ SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_
 441956066,9672192,Bárbara,2019-04-22,Positivo,Localização,Comodidades,False
 673180225173466496,11256105,Marcos,2022-07-17,Positivo,Localização,Outro,False
 637658704765138560,10836394,Walmir,2022-05-29,Positivo,Outro,Outro,False
-1376225827639131904,14317799,Maria De Los Ángeles,2025-03-13,Neutro,Outro,Comodidades,False
+1376225827639131904,14317799,Maria De Los Ángeles,2025-03-13,Negativo,Outro,Conforto,False
 183207434,8096290,Joanne,2017-08-16,Positivo,Limpeza,Comodidades,False
 595543450406578048,12848544,Bia,2022-04-01,Positivo,Outro,Conforto,False
-720413790,5503931,Gabriela,2021-01-01,Positivo,Outro,Outro,True
-860150047446844672,15232495,Barbara,2023-04-01,Positivo,Outro,Comunicação,False
-709385598201424000,14785804,Daniel,2022-09-05,Positivo,Localização,Comodidades,False
+720413790,5503931,Gabriela,2021-01-01,Positivo,Outro,Outro,False
+860150047446844672,15232495,Barbara,2023-04-01,Positivo,Outro,Comodidades,False
+709385598201424000,14785804,Daniel,2022-09-05,Positivo,Localização,Conforto,False
 543309287,14216305,Kelma,2019-10-07,Positivo,Localização,Comunicação,False
 619642800,14992196,Peterson,2020-03-18,Positivo,Outro,Comunicação,True
-1337058730800442112,4976652,Bruno,2025-01-18,Positivo,Check-in,Comunicação,False
-855062213528272384,675035,Diana Alejandra,2023-03-25,Positivo,Outro,Comodidades,False
+1337058730800442112,4976652,Bruno,2025-01-18,Positivo,Check-in,Conforto,False
+855062213528272384,675035,Diana Alejandra,2023-03-25,Positivo,Outro,Comodidades,True
 850728947289775616,15238919,Zeljko,2023-03-19,Positivo,Localização,Comodidades,False
 709375185,2078559,Alice,2020-11-16,Positivo,Limpeza,Outro,False
 878285654365446912,10548128,Ricardo,2023-04-26,Positivo,Localização,Conforto,False
 45217224,2717072,Francois,2015-08-31,Positivo,Localização,Comunicação,False
 700955490,1847188,Kaique,2020-10-16,Positivo,Outro,Comunicação,False
-23145798,1583179,Sophie,2014-11-24,Positivo,Localização,Outro,False
+23145798,1583179,Sophie,2014-11-24,Positivo,Localização,Comunicação,False
 599904930,2325788,Rodolpho,2020-01-31,Positivo,Localização,Comodidades,False
-1163763315919119616,13749304,Priscila,2024-05-24,Positivo,Outro,Conforto,False
+1163763315919119616,13749304,Priscila,2024-05-24,Positivo,Localização,Conforto,False
 1326201161203088896,1065597,Ana Cristina,2025-01-03,Positivo,Localização,Comunicação,False
 262040050,13002662,Larissa,2018-05-07,Positivo,Localização,Conforto,False
 587715125,2632743,Sandrine,2020-01-03,Positivo,Localização,Outro,False

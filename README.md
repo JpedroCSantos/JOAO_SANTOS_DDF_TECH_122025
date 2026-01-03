@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Stack-Python_%7C_SQL-blue)
-![Cloud](https://img.shields.io/badge/Cloud-AWS_%7C_Neon_%7C_Dadosfera-orange)
+![Cloud](https://img.shields.io/badge/Cloud-GCP_%7C_Neon_%7C_Dadosfera-orange)
 
 > **Autor:** João Pedro Santos
 > **Processo:** Engenharia de Dados - Dadosfera
@@ -45,7 +45,7 @@ Originalmente planejado para Varejo (Olist), o projeto realizou um **Pivot Estra
 
 ### Arquitetura "Hybrid-Cloud"
 A solução integra serviços best-of-breed para compor o Data Lake:
-* **Landing Zone:** AWS S3 (Armazenamento de arquivos brutos).
+* **Landing Zone:** Google Storage & AWS S3 (Armazenamento de arquivos brutos).
 * **Transactional Layer:** Neon PostgreSQL (Simulação de banco de produção).
 * **Platform Core:** Dadosfera (Ingestão, Catálogo e Processamento).
 
@@ -53,13 +53,13 @@ A solução integra serviços best-of-breed para compor o Data Lake:
 ## Pipelines de Ingestão (Item 2.1)
 Implementação de pipelines segregadas por domínio de dados (**Data Mesh**), garantindo que cada tipo de arquivo tenha seu fluxo de tratamento específico.
 
-| Pipeline ID | Origem | Destino (Tabela) | Status | Descrição |
-| :--- | :--- | :--- | :--- | :--- |
-| **PL_INGEST_S3_AIRBNB_LISTINGS** | AWS S3 | `PUBLIC.LISTINGS` | ✅ | Dados cadastrais e financeiros (Core). |
-| **PL_INGEST_S3_AIRBNB_REVIEWS** | AWS S3 | `PUBLIC.REVIEWS` | ✅ | Logs de avaliações (Alto Volume/Texto). |
-| **PL_INGEST_S3_AIRBNB_GIS_ZONES** | AWS S3 | `PUBLIC.GIS_ZONES` | ✅ | Dados vetoriais de mapas (GeoJSON). |
-| **PL_INGEST_NEON_REFERENCE_DATA**| Neon DB | `PUBLIC.NEIGHBOURHOODS` | ✅ | Replicação de dados mestres do Postgres. |
-
+| Pipeline ID | Origem | Destino (Tabela) | Status | Descrição | Pipeline | Catalogo
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **PL_INGEST_S3_AIRBNB_LISTINGS** | AWS S3 | [`PUBLIC.LISTINGS`] | ✅ | Dados cadastrais e financeiros (Core). | [Pipeline](https://app.dadosfera.ai/pt-BR/collect/pipelines/6caaa815-5faf-4888-9dd7-3da6451bd67f) | [Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/f1028bb5-30fc-41af-b8dd-11171e50b3f1)
+| **PL_INGEST_S3_AIRBNB_REVIEWS** | AWS S3 | `PUBLIC.REVIEWS` | ✅ | Logs de avaliações (Alto Volume/Texto). | [Pipeline](https://app.dadosfera.ai/pt-BR/collect/pipelines/ebdcae36-cb08-4670-ba26-98f8757d98aa) | [Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/07faa045-ac65-4442-91f8-8069c853f744)
+| **PL_INGEST_S3_AIRBNB_GIS_ZONES** | AWS S3 | `PUBLIC.GIS_ZONES` | ✅ | Dados vetoriais de mapas (GeoJSON). | [Pipeline](https://app.dadosfera.ai/pt-BR/collect/pipelines/bd5f8d0b-acab-4a59-8c8f-9e5a4a3f144b) | [Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/d7c050a6-7668-4546-b16c-ab86b2d70edd)
+| **PL_INGEST_NEON_REFERENCE_DATA**| Neon DB | `PUBLIC.NEIGHBOURHOODS` | ✅ | Replicação de dados mestres do Postgres. | [Pipeline](https://app.dadosfera.ai/pt-BR/collect/pipelines/6f4c5c79-1784-45a4-be64-34f91e29200b) | [Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/f001ec60-15b0-4248-b381-eccd3ff72f67)
+ 
 ---
 
 ## Item 3 - Exploração e Governança (Data Lake)
@@ -77,14 +77,6 @@ A documentação detalhada de cada coluna, tipagem e regras de negócio foi exte
 
 👉 **[Acesse o Dicionário de Dados Completo (Docs)](docs/data_dictionary.md)**
 
-### 3. Matriz de Riscos e Decisões Técnicas (ADR)
-Registro de impedimentos encontrados durante a ingestão e as soluções de contorno adotadas ("Workarounds").
-
-| Decisão / Impedimento | Contexto Técnico | Solução Adotada (Trade-off) |
-| :--- | :--- | :--- |
-| **GeoJSON Aninhado (Nested Data)** | A ingestão do arquivo `neighbourhoods.geojson` resultou em uma única linha contendo um array JSON gigante, devido ao formato `FeatureCollection`. | **Decisão ELT:** Manter o dado aninhado na camada Bronze e realizar a explosão (`UNNEST`/`FLATTEN`) via SQL na etapa de transformação (Silver), preservando a fidelidade à fonte. |
-| **Uso de Owner no Neon** | O usuário de serviço `dadosfera_user` falhou ao ler metadados do sistema (`pg_catalog`) na conexão JDBC. | **Decisão:** Uso temporário do superusuário `neondb_owner` para desbloquear o pipeline, documentado como Dívida Técnica de segurança. |
-
 
 ---
 
@@ -95,15 +87,14 @@ Para a execução das etapas de Qualidade de Dados, Enriquecimento com IA e Mode
 Esta decisão estratégica visa garantir a reprodutibilidade do ambiente científico e a agilidade no desenvolvimento, mantendo a compatibilidade total com a plataforma de destino (Dadosfera).
 
 #### 1. Estratégia de Processamento (Hybrid ELT)
-Devido a restrições de acesso ao módulo de computação nativo da plataforma SaaS durante a fase de avaliação, implementou-se o padrão **"Bring Your Own Compute" (BYOC)**:
+Devido a restrições de acesso ao módulo de computação nativo da plataforma durante a fase de avaliação, implementou-se o padrão **"Bring Your Own Compute" (BYOC)**:
 
-1.  **Extract (Cloud):** Os dados brutos residem na Landing Zone (AWS S3/Dadosfera).
+1.  **Extract (Cloud):** Os dados brutos residem na Landing Zone (GCP/Dadosfera).
 2.  **Transform & Quality (Local/Container):** O processamento pesado (Validação GX, NLP com GPT-4, Modelagem Star Schema) é executado em containers locais, simulando um *Worker Node* externo.
-    * *Nota:* O código foi desenvolvido utilizando bibliotecas padrão (Python SDKs), permitindo um *Lift-and-Shift* imediato para dentro da Dadosfera ou Databricks sem refatoração.
 3.  **Load (Cloud):** Os resultados processados (Camada Gold) são re-ingestados no Data Lake da Dadosfera para consumo via Dashboard.
 
 #### 2. Abstração de I/O (Data Mocking)
-Para otimizar custos e latência durante o ciclo de desenvolvimento, foi criada uma camada de abstração de leitura para os arquivos locais (`./data/raw/*.csv`) replicando a estrutura do S3.
+Para otimizar custos e latência durante o ciclo de desenvolvimento, foi criada uma camada de abstração de leitura para os arquivos locais (`./data/raw/*.csv`) replicando a estrutura do GCP & AWS S3.
 
 ## Item 4 - Data Quality & Saneamento (Great Expectations)
 
@@ -122,7 +113,7 @@ A primeira execução do GX sobre os dados brutos revelou problemas críticos qu
 
 ## Item 4.1 (Bônus) - Transformação Silver & CDM
 
-Para resolver os problemas detectados, foi desenvolvido o pipeline de transformação [`2_transform_silver.ipynb`](/nootbooks\02-transform_silver.ipynb). Além da limpeza, foi implementado um **Common Data Model (CDM)**, padronizando a nomenclatura das colunas para um padrão corporativo legível (Enterprise Naming Convention).
+Para resolver os problemas detectados, foi desenvolvido uma pipeline de transformação [`2_transform_silver.ipynb`](/nootbooks\02-transform_silver.ipynb). Além da limpeza, foi implementado um **Common Data Model (CDM)**, padronizando a nomenclatura das colunas para um padrão corporativo legível (Enterprise Naming Convention).
 
 ### 1. Ações de Saneamento
 * **Cleaning:** Conversão forçada de tipagem (String -> Float/Int).
@@ -144,7 +135,7 @@ Adoção de prefixos semânticos para facilitar o Self-Service BI:
 
 ### Fase 3: Validação Final (Quality Gate)
 
-Após a transformação, o Great Expectations foi re-executado sobre a camada **Bronze**. O resultado comprova a eficácia do pipeline de engenharia:
+Após a transformação, o Great Expectations foi re-executado sobre os dados. O resultado comprova a eficácia da pipeline:
 
 **Relatório de Execução (Silver Layer):**
 ```text
@@ -168,7 +159,7 @@ Status Global: ✅ APROVADO
 
 Para extrair valor dos dados desestruturados (textos livres em Reviews e Títulos de Anúncios), foi implementado um pipeline de **Processamento de Linguagem Natural (NLP)** utilizando a API da OpenAI.
 
-O objetivo não foi apenas "usar IA", mas sim transformar texto em colunas estruturadas para o Dashboard (Item 9), permitindo responder perguntas como: *"Qual o sentimento médio dos hóspedes?"* ou *"Imóveis com vista para o mar são mais caros?"*.
+O objetivo não foi apenas "usar IA", mas sim transformar texto em colunas estruturadas para o Dashboard (Itens 7 e 9), permitindo responder perguntas como: *"Qual o sentimento médio dos hóspedes?"* ou *"Imóveis com vista para o mar são mais caros?"*.
 
 ### Estratégia e FinOps (Amostragem Inteligente)
 Devido ao volume de dados (300k+ registros), processar a base inteira seria ineficiente e custoso para uma Prova de Conceito (PoC). Adotou-se uma estratégia de **Smart Sampling** com foco em representatividade e economia:
@@ -214,12 +205,12 @@ Extrai atributos de negócio a partir do título criativo do anúncio.
 
 ### Persistência
 Os dados enriquecidos foram salvos separadamente na camada Gold para consumo do Data App:
-* `data/gold/sample_reviews_enriched.csv`
-* `data/gold/sample_listings_enriched.csv`
+* `data/gold/FACT_REVIEWS.csv`
+* `data/gold/DIM_LISTINGS.csv`
 
 ## Item 6 - Modelagem de Dados (Data Warehouse)
 
-Para a construção da camada **Gold** no Google BigQuery, adotou-se a metodologia **Dimensional (Kimball)**, criando um modelo **Star Schema** (Esquema Estrela).
+Para a construção da camada **Gold**, adotou-se a metodologia **Dimensional (Kimball)**, criando um modelo **Star Schema** (Esquema Estrela).
 
 Essa modelagem foi escolhida por ser otimizada para leitura em ferramentas de BI (Power BI/Streamlit) e facilitar consultas analíticas (OLAP), ao contrário do modelo normalizado (3NF) que prioriza a escrita (OLTP).
 
@@ -253,3 +244,90 @@ Calendário fiscal/civil para análises de sazonalidade.
 A figura abaixo representa a arquitetura física implementada:
 
 ![Diagrama de Mermaid](/docs/images/mermaid_diagram.png)
+
+---
+
+## Item 7 - Análise de Dados e Insights de Negócio
+
+Após a modelagem da camada Gold, foi realizada a etapa de **Análise de Dados**. O objetivo foi executar as consultas SQL desenvolvidas para responder às perguntas estratégicas do projeto e validar as hipóteses de negócio.
+
+Utilizando a plataforma Dadosfera para visualização, consolidamos os dados de *Listings* (Imóveis) e *Reviews* (Avaliações Enriquecidas com IA) para gerar os seguintes insights:
+
+### Visão Geral da Análise
+
+![Overview da Análise Airbnb](/docs/images/dashboard_overview.jpg)
+*(Figura: Painel consolidado com as respostas para as 5 perguntas de negócio)*
+
+---
+
+### Principais Descobertas (Data Storytelling)
+
+Com base nas queries executadas na camada Gold, chegamos às seguintes conclusões:
+
+#### 1. Precificação de Mercado (Baseline)
+* **Pergunta:** Qual é o ticket médio das diárias no Rio de Janeiro?
+* **Resultado:** **R$ 615,90**.
+* **Análise:** Este valor serve como âncora para precificação. Imóveis muito abaixo disso podem indicar baixa qualidade ou oportunidade (dumping), enquanto valores muito acima precisam justificar o preço com atributos exclusivos (Vista Mar, Luxo).
+
+#### 2. Perfil da Oferta (Hegemonia de Privacidade)
+* **Pergunta:** Qual o tipo de acomodação predominante?
+* **Resultado:** **83.2% são Casas/Apartamentos Inteiros**.
+* **Análise:** O mercado do Rio é dominado por aluguéis de temporada completos. A oferta de "Quartos Privativos" (15.8%) e "Compartilhados" (1.0%) é minoritária, indicando que o público alvo busca privacidade total, competindo diretamente com a rede hoteleira.
+
+#### 3. Reputação e Experiência (Via GenAI)
+* **Pergunta:** Quais tópicos geram mais elogios ou críticas?
+* **Resultado:** O tópico **"Localização"** é o maior ofensor positivo (barra verde predominante).
+* **Análise:** A localização é o fator decisivo para a satisfação no Rio de Janeiro. Entretanto, pontos operacionais como **"Limpeza"** e **"Check-in"** aparecem com margem para melhoria, sendo onde os anfitriões perdem mais pontos.
+
+#### 4. Comportamento de Reserva (Vibe vs. Estadia)
+* **Pergunta:** Como o estilo do imóvel influencia a exigência de estadia mínima?
+* **Resultado:** Imóveis classificados pela IA como **"Luxo"** ou **"Econômico"** exigem mais noites (média > 4).
+* **Análise:**
+    * *Luxo:* Foca em estadias longas para diluir custos operacionais altos.
+    * *Relaxante/Romântico:* Aceitam estadias curtas (finais de semana), facilitando a conversão rápida.
+
+#### 5. Distribuição Geográfica (Mancha de Calor)
+* **Pergunta:** Onde se concentram os imóveis?
+* **Resultado:** Alta densidade na Zona Sul (Orla) e Centro.
+* **Análise:** O mapa de pontos confirma a saturação nos bairros turísticos clássicos (Copacabana, Ipanema). Existem vazios urbanos na Zona Norte que representam mercados inexplorados, porém com menor demanda turística natural.
+
+### Queries SQL:
+
+``` SQL
+-- QUESTÃO 1: Qual é o valor médio da diária (Ticket Médio) de todos os imóveis cadastrados?
+SELECT 
+	AVG(VLR_DIARIA_BRL) 
+FROM TB__OQ3K4Q__GOLD_LISTINGS_PL_INGEST_S3_AIRBNB
+
+-- QUESTÃO 2: Qual a distribuição de imóveis por tipo de acomodação?
+SELECT
+    DS_TIPO_QUARTO AS TIPO_DE_QUARTO,
+    COUNT(SK_LISTING) AS QTD_DE_IMOVEIS
+FROM TB__OK6YZB__GOLD_LISTINGS_PL_INGEST_S3_AIRBNB_V2
+GROUP BY 1
+ORDER BY QTD_DE_IMOVEIS DESC;
+
+-- QUESTÃO 3: Como os hóspedes estão avaliando cada aspecto (tópico) da experiência?
+SELECT 
+    CAT_TOPICO,
+    CAT_SENTIMENTO,
+    COUNT(SK_LISTING) AS QTD_REVIEWS
+FROM TB__U5H8NM__GOLD_REVIEWS_PL_INGEST_S3_AIRBNB
+GROUP BY CAT_TOPICO, CAT_SENTIMENTO
+ORDER BY CAT_TOPICO, QTD_REVIEWS DESC;
+
+-- QUESTÃO 4: Qual é a política de estadia mínima exigida para cada perfil de imóvel?
+SELECT 
+ CAT_VIBE_IA AS CATEGORIA,
+ COUNT(SK_LISTING) AS QUANTIDADE_IMOVEIS,
+ ROUND(AVG(QTD_MIN_NOITES),0) AS MEDIA_MIN_NOITES
+FROM TB__OK6YZB__GOLD_LISTINGS_PL_INGEST_S3_AIRBNB_V2
+GROUP BY CAT_VIBE_IA
+
+-- QUESTÃO 5: Qual a localização exata de cada imóvel para plotagem no mapa?
+SELECT 
+    SK_LISTING AS ID_IMOVEL, 
+    NR_LATITUDE AS LATITUDE, 
+    NR_LONGITUDE AS LONGITUDE, 
+FROM TB__OK6YZB__GOLD_LISTINGS_PL_INGEST_S3_AIRBNB_V2
+```
