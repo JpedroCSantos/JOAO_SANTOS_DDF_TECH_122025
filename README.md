@@ -10,24 +10,24 @@
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 Implementação ponta a ponta de uma Plataforma de Dados Moderna (Modern Data Stack) seguindo a arquitetura **Lakehouse**. O projeto simula um cenário real de engenharia de dados, cobrindo desde a ingestão de múltiplas fontes até a aplicação de Governança e Inteligência Artificial.
 
 ---
-## 📅 Item 0 - Planejamento e Ingestão
+## Item 0 - Planejamento e Ingestão
 
 **Gestão Ágil:** O acompanhamento das tarefas segue a metodologia Kanban.
 📊 [**Acesse o Quadro do Projeto (Trello)**](https://trello.com/b/7aWCHtbz/dadosfera)
 
 ![Quadro Trello](/docs/images/trello_board.png)
 
-### 💰 Estimativa de Esforço e Custos (Story Points)
+### Estimativa de Esforço e Custos (Story Points)
 
 Para cumprir o requisito de **Estimativa de Custos e Alocação de Recursos** (Item 0 - Avançado), este projeto adota o sistema de pontuação baseado na sequência de Fibonacci adaptada.
 
 ---
 
-## 🗄️ Item 1 - Seleção e Arquitetura de Dados
+## Item 1 - Seleção e Arquitetura de Dados
 
 ### O Pivot: De E-commerce para PropTech
 Originalmente planejado para Varejo (Olist), o projeto realizou um **Pivot Estratégico** para o setor de Turismo/Imobiliário.
@@ -50,7 +50,7 @@ A solução integra serviços best-of-breed para compor o Data Lake:
 * **Platform Core:** Dadosfera (Ingestão, Catálogo e Processamento).
 
 ---
-## ⚙️ Pipelines de Ingestão (Item 2.1)
+## Pipelines de Ingestão (Item 2.1)
 Implementação de pipelines segregadas por domínio de dados (**Data Mesh**), garantindo que cada tipo de arquivo tenha seu fluxo de tratamento específico.
 
 | Pipeline ID | Origem | Destino (Tabela) | Status | Descrição |
@@ -62,7 +62,7 @@ Implementação de pipelines segregadas por domínio de dados (**Data Mesh**), g
 
 ---
 
-## 📚 Item 3 - Exploração e Governança (Data Lake)
+## Item 3 - Exploração e Governança (Data Lake)
 
 Nesta etapa, focou-se na organização da **Landing Zone (Camada Bronze)** e na documentação dos ativos para garantir a democratização do acesso.
 
@@ -88,7 +88,7 @@ Registro de impedimentos encontrados durante a ingestão e as soluções de cont
 
 ---
 
-# Arquitetura de Processamento e Inteligência (Items 4, 5 & 6)
+## Arquitetura de Processamento e Inteligência (Items 4, 5 & 6)
 
 Para a execução das etapas de Qualidade de Dados, Enriquecimento com IA e Modelagem Dimensional, foi adotada uma arquitetura de **Computação Desacoplada (Decoupled Compute)**.
 
@@ -109,7 +109,7 @@ Para otimizar custos e latência durante o ciclo de desenvolvimento, foi criada 
 
 Para garantir a confiabilidade dos modelos de IA, implementou-se uma estratégia rigorosa de **Quality Gates** utilizando a biblioteca **Great Expectations (GX)**. O processo foi dividido em duas etapas: Diagnóstico (Raw) e Validação Final (Silver).
 
-### 🕵️‍♂️ Fase 1: Diagnóstico da Camada Bronze (Raw)
+### Fase 1: Diagnóstico da Camada Bronze (Raw)
 A primeira execução do GX sobre os dados brutos revelou problemas críticos que inviabilizariam o uso direto em Machine Learning:
 
 * **Duplicidade:** 437 IDs de imóveis duplicados.
@@ -120,7 +120,7 @@ A primeira execução do GX sobre os dados brutos revelou problemas críticos qu
 
 ---
 
-## 🛠️ Item 4.1 (Bônus) - Transformação Silver & CDM
+## Item 4.1 (Bônus) - Transformação Silver & CDM
 
 Para resolver os problemas detectados, foi desenvolvido o pipeline de transformação [`2_transform_silver.ipynb`](/nootbooks\02-transform_silver.ipynb). Além da limpeza, foi implementado um **Common Data Model (CDM)**, padronizando a nomenclatura das colunas para um padrão corporativo legível (Enterprise Naming Convention).
 
@@ -142,7 +142,7 @@ Adoção de prefixos semânticos para facilitar o Self-Service BI:
 
 ---
 
-### 🏆 Fase 3: Validação Final (Quality Gate)
+### Fase 3: Validação Final (Quality Gate)
 
 Após a transformação, o Great Expectations foi re-executado sobre a camada **Bronze**. O resultado comprova a eficácia do pipeline de engenharia:
 
@@ -216,3 +216,40 @@ Extrai atributos de negócio a partir do título criativo do anúncio.
 Os dados enriquecidos foram salvos separadamente na camada Gold para consumo do Data App:
 * `data/gold/sample_reviews_enriched.csv`
 * `data/gold/sample_listings_enriched.csv`
+
+## Item 6 - Modelagem de Dados (Data Warehouse)
+
+Para a construção da camada **Gold** no Google BigQuery, adotou-se a metodologia **Dimensional (Kimball)**, criando um modelo **Star Schema** (Esquema Estrela).
+
+Essa modelagem foi escolhida por ser otimizada para leitura em ferramentas de BI (Power BI/Streamlit) e facilitar consultas analíticas (OLAP), ao contrário do modelo normalizado (3NF) que prioriza a escrita (OLTP).
+
+### Estrutura do Schema
+
+O modelo é centrado no evento de avaliação ("Review"), cercado pelas dimensões de contexto:
+
+#### 1. Fato: `FACT_REVIEWS`
+Tabela transacional contendo métricas e chaves estrangeiras.
+* **Granularidade:** 1 linha por avaliação única.
+* **Métricas:** `TOM_DE_URGENCIA` (Boolean/Flag indicando críticas severas que exigem ação imediata).
+* **Dimensão Degenerada:** `SENTIMENTO` (Positivo/Neutro/Negativo).
+
+#### 2. Dimensão: `DIM_LISTINGS`
+Contém os atributos descritivos do imóvel, enriquecidos com Features de IA.
+* **Atributos:** `NM_ANUNCIO`, `VLR_DIARIA`, `CAT_VIBE_IA` (Luxo/Econômico...), `CAT_VISTA_IA` (Mar/Urbana...).
+* **Slowly Changing Dimension (SCD):** Tratada como Tipo 1 (Sobrescreve valor atual) para simplificação do case.
+
+#### 3. Dimensão: `DIM_NEIGHBOURHOODS` (GeoSpatial)
+Tabela espacial oriunda do processamento do arquivo `neighbourhoods.geojson`.
+* **Feature Especial:** Coluna do tipo `GEOGRAPHY` (Polígono) no BigQuery, permitindo queries espaciais (ex: `ST_CONTAINS`) para filtrar reviews dentro de zonas geográficas específicas no mapa.
+
+#### 4. Dimensão: `DIM_TEMPO`
+Calendário fiscal/civil para análises de sazonalidade.
+* **Atributos:** Ano, Mês, Dia da Semana, Flag de Feriado, Flag de Alta Temporada.
+
+---
+
+### Diagrama de Entidade-Relacionamento (DER)
+
+A figura abaixo representa a arquitetura física implementada:
+
+![Diagrama de Mermaid](/docs/images/mermaid_diagram.png)
