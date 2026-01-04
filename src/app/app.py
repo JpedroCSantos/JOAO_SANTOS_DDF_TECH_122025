@@ -1,5 +1,4 @@
 import os
-import jwt
 import time
 import pandas as pd
 import streamlit as st
@@ -26,11 +25,13 @@ except KeyError:
 def load_data():
     """Carrega dados dos arquivos CSV locais"""
     
-    BASE_DIR = Path(__file__).resolve().parents[2]
-    DATA_DIR = BASE_DIR / "data" / "gold"
-    path_listings = DATA_DIR / "DIM_LISTINGS.csv"
-    path_reviews = DATA_DIR / "FACT_REVIEWS.CSV"
+    # BASE_DIR = Path(__file__).resolve().parents[2]
+    # DATA_DIR = BASE_DIR / "data" / "gold"
+    # path_listings = DATA_DIR / "DIM_LISTINGS.csv"
+    # path_reviews = DATA_DIR / "FACT_REVIEWS.CSV"
 
+    path_listings = "data/gold/DIM_LISTINGS.csv"
+    path_reviews  = "data/gold/FACT_REVIEWS.csv"
     if not os.path.exists(path_listings) or not os.path.exists(path_reviews):
         return None, None
 
@@ -38,26 +39,6 @@ def load_data():
     df_rev = pd.read_csv(path_reviews)
     
     return df_main, df_rev
-
-# --- PEGA O URL DO DASHBOARD CRIADO NO METABASE ---
-@st.cache_data
-def load_metabase_dashboard():
-    METABASE_SITE_URL = "http://metabase-treinamentos.dadosfera.ai"
-    METABASE_SECRET_KEY = st.secrets["METABASE_SECRET_KEY"]
-
-    payload = {
-        "resource": {"dashboard": 233},
-        "params": {
-            
-        },
-        "exp": round(time.time()) + (60 * 10) # 10 minute expiration
-    }
-    token = jwt.encode(payload, METABASE_SECRET_KEY, algorithm="HS256")
-
-    iframeUrl = METABASE_SITE_URL + "/embed/dashboard/" + token + "#bordered=true&titled=true"
-
-    return iframeUrl
-
 
 df, df_reviews = load_data()
 if df is None:
