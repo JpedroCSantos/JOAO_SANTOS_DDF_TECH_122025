@@ -331,3 +331,169 @@ SELECT
     NR_LONGITUDE AS LONGITUDE, 
 FROM TB__OK6YZB__GOLD_LISTINGS_PL_INGEST_S3_AIRBNB_V2
 ```
+
+## Item 8 - Pipelines e Orquestração
+
+Embora a execução dos scripts tenha sido realizada nas etapas anteriores, este item documenta a orquestração lógica do fluxo de dados **(ELT/ETL)**. Devido a restrições de acesso ao módulo de *Transformação/Intelligence* da plataforma Dadosfera, optei por arquitetar o pipeline utilizando a stack nativa do **Google Cloud Platform (Vertex AI + BigQuery)**, demonstrando adaptabilidade e conhecimentos de Nuvem.
+
+### Arquitetura do Pipeline
+
+O pipeline foi desenhado para ser idempotente e sequencial, garantindo que os dados fluam da origem bruta até a camada analítica com qualidade e enriquecimento.
+
+```mermaid
+graph LR
+    A[📂 CSV Locais] -->|Upload| B(☁️ Cloud Storage - Raw)
+    B -->|Leitura| C{Vertex AI / Python}
+    C -->|Validação| D[Great Expectations]
+    C -->|Limpeza| E[Camada Silver]
+    E -->|Enriquecimento| F[OpenAI API]
+    F -->|Modelagem| G[BigQuery - Gold]
+    G -->|Consumo| H[Dashboard]
+```
+
+### Detalhamento das Tasks
+
+Abaixo, o fluxo de execução passo a passo (**Workflow**):
+
+---
+
+#### **Task 1: Ingestão (Data Ingestion)**
+
+**Ação:**  
+Upload dos arquivos brutos (`listings.csv`, `reviews.csv`) para o Bucket do **Google Cloud Storage** e **AWS S3**.
+
+**Script:**  
+- Upload via Console
+
+**Objetivo:**  
+Centralizar os dados na **Landing Zone (Raw)**, garantindo backup e disponibilidade para o ambiente de processamento.
+
+---
+
+#### **Task 2: Saneamento (Silver Layer)**
+
+**Ação:**  
+Leitura dos dados do Bucket e aplicação de regras de limpeza via **Pandas**.
+
+**Transformações:**
+- Remoção de colunas desnecessárias (PII ou irrelevantes para análise) para otimizar storage  
+- Tratamento de valores nulos e conversão de tipos (ex: `String → Float` em colunas de preço)
+
+**Data Quality:**  
+Execução da suite de testes do **Great Expectations** (ver Item 7).
+
+---
+
+#### **Task 3: Enriquecimento com IA (Feature Engineering)**
+
+**Ação:**  
+Criação de colunas calculadas semânticas que não existiam na base original.
+
+**Processo:**
+- Envio de micro-lotes de textos (Reviews / Títulos) para a **API da OpenAI**
+
+**Output:**  
+Geração das colunas:
+- `CAT_SENTIMENTO`
+- `CAT_VIBE`
+- `FLG_URGENCIA`
+
+**Impacto:**  
+Transformação de dados não estruturados em dados tabulares prontos para consumo via SQL.
+
+---
+
+#### **Task 4: Modelagem e Carga (Gold Layer)**
+
+**Ação:**  
+Aplicação das regras de negócio finais e persistência no **Data Warehouse**.
+
+**Transformações:**
+- Renomeação de colunas para o padrão **CDM (Common Data Model)**
+- Tradução de domínios (ex: `Entire home → Casa Inteira`)
+
+**Carga:**  
+Escrita no **BigQuery** utilizando a biblioteca `pandas-gbq`.
+
+---
+
+### Decisões de Arquitetura
+
+#### **1. Por que Pandas e não Apache Spark?**
+
+Uma decisão consciente de **FinOps (Engenharia de Custos)** foi tomada neste projeto.
+
+**Volume de Dados:**  
+O dataset do Airbnb Rio de Janeiro possui cerca de **300k a 500k registros** (*Small Data*).
+
+**Justificativa:**  
+O Pandas processa esse volume **em memória (In-Memory)** em poucos segundos, utilizando uma máquina **e2-standard-4** de baixo custo.
+
+**Trade-off:**  
+A utilização de um cluster Spark (Dataproc) traria:
+- Overhead de tempo de start-up  
+- Custo financeiro desnecessário para essa volumetria  
+
+O **Apache Spark** seria a escolha correta apenas se o volume escalasse para **Gigabytes ou Terabytes**.
+
+---
+
+#### **2. Adaptação à Plataforma**
+
+Como não foi possível utilizar o pipeline visual da **Dadosfera** (limitação de acesso), a mesma lógica de transformação foi replicada utilizando o **Vertex AI Workbench**.
+
+## Item 9 & Bonus - Data App & Soluções de GenAI
+
+Para consolidar toda a inteligência gerada nas camadas anteriores, foi desenvolvido um **Data App** interativo (construído em Streamlit). Esta aplicação não serve apenas para visualizar dados passados, mas atua como uma ferramenta prescritiva e generativa para dois perfis de usuário: o **Anfitrião (Host)** e o **Investidor**.
+
+O aplicativo foi dividido em três módulos estratégicos:
+
+### Módulo 1: Market Intelligence (Dashboard)
+*Foco: Visualização e Diagnóstico de Mercado.*
+
+Este módulo exibe os indicadores calculados na Camada Gold, permitindo uma visão macro e micro do turismo no Rio de Janeiro.
+* **Mapa de Calor:** Identificação de zonas de alta densidade de ofertas.
+* **Filtros Dinâmicos:** Segmentação por Bairro, Faixa de Preço e "Vibe" (Classificação da IA).
+* **Análise de Sentimento:** Gráficos que mostram o que os hóspedes estão elogiando ou criticando em tempo real.
+
+---
+
+### Módulo 2: O "Gerador de Anúncios Perfeitos" (GenAI)
+*Foco: Ferramenta para Anfitriões (Hosts).*
+
+Utilizando a API da OpenAI integrada ao Streamlit, criamos um assistente que resolve a "dor" de criar um anúncio atrativo e precificá-lo corretamente.
+
+#### Como funciona:
+1.  **Input do Usuário:** O host seleciona as características do imóvel via *checkboxes* (ex: "Vista Mar", "Wi-Fi Rápido", "Perto do Metrô") e define o bairro.
+2.  **Motor de Precificação (Analytics):** O app consulta a base Gold, filtra imóveis similares no mesmo bairro e calcula a mediana de preço (`VLR_DIARIA_BRL`), sugerindo um valor competitivo.
+3.  **Motor Criativo (LLM):** Um prompt engenheirado recebe as características e gera uma descrição persuasiva (Copywriting) baseada nas melhores práticas de SEO do Airbnb.
+
+> **Exemplo de Saída:**
+> * *"Preço Sugerido: R$ 450,00/noite (5% abaixo da média da região para atrair os primeiros hóspedes)."*
+> * *"Descrição Gerada: Acorde com a brisa do mar neste apartamento exclusivo..."*
+
+---
+
+### Módulo 3: O "Smart Investor" (Recomendação)
+*Foco: Ferramenta para Investidores Imobiliários.*
+
+Este módulo utiliza dados históricos para encontrar oportunidades de investimento (Arbitragem), cruzando o orçamento do usuário com a liquidez da região.
+
+#### Lógica de Recomendação:
+1.  **Input:** O usuário informa quanto deseja pagar na parcela do financiamento (ex: R$ 3.000/mês).
+2.  **Cálculo de Viabilidade:** O sistema estima a receita potencial (Diária Média x Taxa de Ocupação Estimada via volume de Reviews).
+3.  **Análise de "Blue Ocean":**
+    * O algoritmo identifica bairros com **Alta Demanda** (Muitos reviews recentes).
+    * Verifica a **Saturação de Oferta** (Ex: O bairro tem muita procura por "Luxo", mas 90% dos anúncios são "Econômicos"?).
+4.  **Sugestão:** O app recomenda onde comprar e qual perfil de imóvel montar.
+
+> **Cenário de Exemplo:**
+> *"Com uma parcela de R$ 3.000, sugerimos investir no bairro **Botafogo**. A região possui alta liquidez (ocupação constante). Notamos uma escassez de imóveis com perfil **'Home Office/Nomad'** (Internet rápida + Mesa), apesar da alta procura por este perfil na área."*
+
+---
+
+### Stack Tecnológica do App
+* **Frontend:** Streamlit (Python).
+* **Backend de Dados:** Google BigQuery (Consultas SQL otimizadas).
+* **Inteligência Artificial:** OpenAI API (`gpt-4o-mini`) para geração de texto e classificação.
+* **Geospatial:** Plotly/Folium para renderização de mapas interativos.

@@ -1,4 +1,4 @@
-SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,sentimento,topico_principal,sub_topico,tom_de_urgencia
+SK_REVIEW,SK_LISTING,NM_REVIEWER,DT_AVALIACAO,CAT_SENTIMENTO,CAT_TOPICO,CAT_SUB_TOPICO,FLG_URGENCIA
 117200674,248756,Paolo,2016-12-05,Positivo,Localização,Comodidades,False
 120900750,248756,Gabriel,2016-12-12,Positivo,Localização,Conforto,False
 135150507,248756,Patrick,2017-03-03,Positivo,Localização,Comodidades,False

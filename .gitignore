@@ -11,6 +11,11 @@ __pycache__/
 # data/input/
 # data/input/*
 
+# streamlit secrets
+src/app/.streamlit/secrets.toml
+src/app/.streamlit/*
+src/app/.streamlit/
+
 # Distribution / packaging
 .Python
 build/
