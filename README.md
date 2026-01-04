@@ -448,6 +448,12 @@ Como não foi possível utilizar o pipeline visual da **Dadosfera** (limitação
 
 Para consolidar toda a inteligência gerada nas camadas anteriores, foi desenvolvido um **Data App** interativo (construído em Streamlit). Esta aplicação não serve apenas para visualizar dados passados, mas atua como uma ferramenta prescritiva e generativa para dois perfis de usuário: o **Anfitrião (Host)** e o **Investidor**.
 
+### Acesso ao Projeto
+👉 [CLIQUE AQUI PARA ACESSAR O APP ONLINE](https://jpedrocsantos-joao-santos-ddf-tech-122025-srcappapp-gigy9d.streamlit.app/)
+
+![Data App](/docs/images/data_app.png)
+*(Figura: Tela Inicial (Dashboard) do data app)*
+
 O aplicativo foi dividido em três módulos estratégicos:
 
 ### Módulo 1: Market Intelligence (Dashboard)
