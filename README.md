@@ -442,6 +442,8 @@ O **Apache Spark** seria a escolha correta apenas se o volume escalasse para **G
 
 Como não foi possível utilizar o pipeline visual da **Dadosfera** (limitação de acesso), a mesma lógica de transformação foi replicada utilizando o **Vertex AI Workbench**.
 
+---
+
 ## Item 9 & Bonus - Data App & Soluções de GenAI
 
 Para consolidar toda a inteligência gerada nas camadas anteriores, foi desenvolvido um **Data App** interativo (construído em Streamlit). Esta aplicação não serve apenas para visualizar dados passados, mas atua como uma ferramenta prescritiva e generativa para dois perfis de usuário: o **Anfitrião (Host)** e o **Investidor**.
@@ -489,8 +491,6 @@ Este módulo utiliza dados históricos para encontrar oportunidades de investime
 
 > **Cenário de Exemplo:**
 > *"Com uma parcela de R$ 3.000, sugerimos investir no bairro **Botafogo**. A região possui alta liquidez (ocupação constante). Notamos uma escassez de imóveis com perfil **'Home Office/Nomad'** (Internet rápida + Mesa), apesar da alta procura por este perfil na área."*
-
----
 
 ### Stack Tecnológica do App
 * **Frontend:** Streamlit (Python).
