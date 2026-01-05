@@ -1,8 +1,8 @@
 # 🚀 Case Técnico Dadosfera: Modern Data Platform & AI
 
-![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluido-green)
 ![Python](https://img.shields.io/badge/Stack-Python_%7C_SQL-blue)
-![Cloud](https://img.shields.io/badge/Cloud-GCP_%7C_Neon_%7C_Dadosfera-orange)
+![Cloud](https://img.shields.io/badge/Cloud-GCP_%7C_AWS_%7C_Dadosfera-orange)
 
 > **Autor:** João Pedro Santos
 > **Processo:** Engenharia de Dados - Dadosfera
@@ -14,7 +14,7 @@
 Implementação ponta a ponta de uma Plataforma de Dados Moderna (Modern Data Stack) seguindo a arquitetura **Lakehouse**. O projeto simula um cenário real de engenharia de dados, cobrindo desde a ingestão de múltiplas fontes até a aplicação de Governança e Inteligência Artificial.
 
 ---
-## Item 0 - Planejamento e Ingestão
+## Item 0 - Planejamento e Gestão
 
 **Gestão Ágil:** O acompanhamento das tarefas segue a metodologia Kanban.
 📊 [**Acesse o Quadro do Projeto (Trello)**](https://trello.com/b/7aWCHtbz/dadosfera)
@@ -44,7 +44,7 @@ Originalmente planejado para Varejo (Olist), o projeto realizou um **Pivot Estra
     3.  **Dados Relacionais:** Tabelas de propriedades e calendário.
 
 ### Arquitetura "Hybrid-Cloud"
-A solução integra serviços best-of-breed para compor o Data Lake:
+A solução integra serviços para compor o Data Lake:
 * **Landing Zone:** Google Storage & AWS S3 (Armazenamento de arquivos brutos).
 * **Transactional Layer:** Neon PostgreSQL (Simulação de banco de produção).
 * **Platform Core:** Dadosfera (Ingestão, Catálogo e Processamento).
@@ -82,7 +82,7 @@ A documentação detalhada de cada coluna, tipagem e regras de negócio foi exte
 
 ## Arquitetura de Processamento e Inteligência (Items 4, 5 & 6)
 
-Para a execução das etapas de Qualidade de Dados, Enriquecimento com IA e Modelagem Dimensional, foi adotada uma arquitetura de **Computação Desacoplada (Decoupled Compute)**.
+Para a execução das etapas de Qualidade de Dados, Enriquecimento com IA e Modelagem Dimensional, foi adotada uma arquitetura de **Computação Desacoplada**.
 
 Esta decisão estratégica visa garantir a reprodutibilidade do ambiente científico e a agilidade no desenvolvimento, mantendo a compatibilidade total com a plataforma de destino (Dadosfera).
 
@@ -90,8 +90,8 @@ Esta decisão estratégica visa garantir a reprodutibilidade do ambiente cientí
 Devido a restrições de acesso ao módulo de computação nativo da plataforma durante a fase de avaliação, implementou-se o padrão **"Bring Your Own Compute" (BYOC)**:
 
 1.  **Extract (Cloud):** Os dados brutos residem na Landing Zone (GCP/Dadosfera).
-2.  **Transform & Quality (Local/Container):** O processamento pesado (Validação GX, NLP com GPT-4, Modelagem Star Schema) é executado em containers locais, simulando um *Worker Node* externo.
-3.  **Load (Cloud):** Os resultados processados (Camada Gold) são re-ingestados no Data Lake da Dadosfera para consumo via Dashboard.
+2.  **Transform & Quality (Local/Container):** O processamento (Validação e NLP com GPT-4) é executado em containers locais.
+3.  **Load (Cloud):** Os resultados processados (Camada Gold) são re-ingestados no Data Lake da Dadosfera para consumo.
 
 #### 2. Abstração de I/O (Data Mocking)
 Para otimizar custos e latência durante o ciclo de desenvolvimento, foi criada uma camada de abstração de leitura para os arquivos locais (`./data/raw/*.csv`) replicando a estrutura do GCP & AWS S3.
@@ -449,6 +449,8 @@ Como não foi possível utilizar o pipeline visual da **Dadosfera** (limitação
 Para consolidar toda a inteligência gerada nas camadas anteriores, foi desenvolvido um **Data App** interativo (construído em Streamlit). Esta aplicação não serve apenas para visualizar dados passados, mas atua como uma ferramenta prescritiva e generativa para dois perfis de usuário: o **Anfitrião (Host)** e o **Investidor**.
 
 ### Acesso ao Projeto
+[Ativo na Dadosfera](https://app.dadosfera.ai/pt-BR/catalog/data-assets/ba26eaae-2bb2-4694-ad9b-564a25795d9f)
+
 👉 [CLIQUE AQUI PARA ACESSAR O APP ONLINE](https://jpedrocsantos-joao-santos-ddf-tech-122025-srcappapp-gigy9d.streamlit.app/)
 
 ![Data App](/docs/images/data_app.png)
@@ -503,3 +505,120 @@ Este módulo utiliza dados históricos para encontrar oportunidades de investime
 * **Backend de Dados:** Google BigQuery (Consultas SQL otimizadas).
 * **Inteligência Artificial:** OpenAI API (`gpt-4o-mini`) para geração de texto e classificação.
 * **Geospatial:** Plotly/Folium para renderização de mapas interativos.
+
+---
+
+## Item 10 - Apresentação do Case
+
+### 1. Arquitetura Atual
+
+**Generator → Kinesis Stream → Firehose → S3 Bucket + Redis Cluster**
+
+Essa arquitetura atende bem ao transporte de eventos em tempo real, porém apresenta limitações importantes quando o objetivo passa a ser geração de valor analítico e inteligência artificial.
+
+* **Foco em Transporte, não em Valor:** Kinesis e Firehose são excelentes para ingestão de eventos, mas não resolvem:
+    * Modelagem analítica
+    * Qualidade de dados
+    * Enriquecimento semântico
+    
+    O S3 atua apenas como repositório passivo (Data Swamp se não houver governança).
+* **Redis como Camada Analítica:** Redis é um banco Key-Value em memória, ideal para:
+    * Cache
+    * Sessões
+    * Contadores simples
+    
+    Sendo **inadequado** para: Análises OLAP, Treinamento de modelos de IA, Exploração histórica, Cruzamento de dados complexos (joins, agregações), ou seja, Redis **não escala** como fundação de uma Plataforma de Dados
+* **Ausência de Governança e Inteligência:** Na arquitetura atual não temos:
+    * Catálogo de dados
+    * Lineage
+    * Camadas bem definidas (Bronze / Silver / Gold)
+    * Controle de qualidade automatizado
+    * Enriquecimento com IA de forma nativa
+
+Isso faz com que cada novo caso de uso exija desenvolvimento do zero, elevando custo e tempo de entrega.
+
+---
+### 2. Proposta: Substituição pela Plataforma Dadosfera
+
+O case desenvolvido demonstra que a Dadosfera pode substituir grande parte dessa arquitetura, oferecendo uma solução mais simples, governada e orientada a valor.
+
+#### Arquitetura Proposta com a Dadosfera
+
+```
+Fontes (Streaming ou Batch)
+        ↓
+Dadosfera – Ingestão
+        ↓
+Camada Bronze (Raw)
+        ↓
+Camada Silver (Qualidade + Padronização)
+        ↓
+Camada Gold (Analytics + IA)
+        ↓
+Consumo (BI, Data Apps, Modelos de IA)
+```
+
+---
+
+#### Mapeamento Direto: Atual vs Dadosfera
+
+| Arquitetura Atual        | Dadosfera                               |
+|-------------------------|------------------------------------------|
+| Kinesis / Firehose      | Pipelines de Ingestão Gerenciados        |
+| S3 Raw sem governança   | Bronze Layer catalogada                  |
+| Processamento ad-hoc    | Silver Layer com Quality Gates           |
+| Redis Cluster           | Gold Layer Analítica                     |
+| Código disperso         | Governança centralizada                 |
+| Sem NLP / IA nativa     | GenAI integrada ao pipeline              |
+
+---
+
+### 3. Por que a Dadosfera é Viável (e Superior)
+
+#### 1. Plataforma Analítica Completa
+
+A Dadosfera **não substitui apenas serviços**, ela substitui **complexidade operacional**: Ingestão, Catálogo, Qualidade, Processamento, Governança, Consumo. Tudo em um único fluxo coeso.
+
+
+#### 2. IA como Feature de Plataforma
+
+Diferente da arquitetura atual, onde IA exigiria: Extração manual, Processamento externo, Reingestão, Versionamento próprio.
+
+Na Dadosfera, a IA entra como **parte do pipeline**, gerando:
+
+- Sentimento
+- Tópicos
+- Classificações
+- Recomendações
+
+Tudo persistido como **dados estruturados prontos para negócio**.
+
+---
+
+### 4. Prova de Conceito: Do Dado ao Valor
+
+O case comprova, na prática, que a Dadosfera viabiliza:
+
+#### Experiência do Cliente
+- Modelos de IA para:
+  - Avaliação de sentimento
+  - Melhoria da jornada de compra
+  - Identificação de dores operacionais
+
+### Experiência do Negócio
+- Dashboards prontos
+- Insights acionáveis
+- Recomendações prescritivas (Smart Investor)
+
+
+Com base na análise da arquitetura atual e na prova de conceito desenvolvida neste case, é plenamente viável substituir a solução existente por uma arquitetura centralizada na **Plataforma Dadosfera**, mantendo — e ampliando — as capacidades analíticas, operacionais e de inteligência artificial.
+
+Essa substituição resulta em:
+
+- **Menor custo operacional**, com redução significativa da sobrecarga de infraestrutura  
+- **Menor complexidade arquitetural**, eliminando integrações frágeis e dependências desnecessárias  
+- **Redução do número de serviços**, concentrando ingestão, transformação, governança e consumo em uma única plataforma  
+- **Observabilidade e Governança nativas**, garantindo controle, rastreabilidade e segurança dos dados  
+- **Centralização das aplicações de dados**, acelerando o tempo entre dado e valor para o negócio  
+
+> **Conclusão:** a Dadosfera se posiciona como o caminho mais curto, seguro e escalável entre dados e geração de valor, servindo como base para uma nova Plataforma de Dados orientada a produtos e IA.
