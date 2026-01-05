@@ -540,8 +540,6 @@ Isso faz com que cada novo caso de uso exija desenvolvimento do zero, elevando c
 ---
 ### 2. Proposta: Substituição pela Plataforma Dadosfera
 
-O case desenvolvido demonstra que a Dadosfera pode substituir grande parte dessa arquitetura, oferecendo uma solução mais simples, governada e orientada a valor.
-
 #### Arquitetura Proposta com a Dadosfera
 
 ```
@@ -560,57 +558,6 @@ Consumo (BI, Data Apps, Modelos de IA)
 
 ---
 
-#### Mapeamento Direto: Atual vs Dadosfera
-
-| Arquitetura Atual        | Dadosfera                               |
-|-------------------------|------------------------------------------|
-| Kinesis / Firehose      | Pipelines de Ingestão Gerenciados        |
-| S3 Raw sem governança   | Bronze Layer catalogada                  |
-| Processamento ad-hoc    | Silver Layer com Quality Gates           |
-| Redis Cluster           | Gold Layer Analítica                     |
-| Código disperso         | Governança centralizada                 |
-| Sem NLP / IA nativa     | GenAI integrada ao pipeline              |
-
----
-
-### 3. Por que a Dadosfera é Viável (e Superior)
-
-#### 1. Plataforma Analítica Completa
-
-A Dadosfera **não substitui apenas serviços**, ela substitui **complexidade operacional**: Ingestão, Catálogo, Qualidade, Processamento, Governança, Consumo. Tudo em um único fluxo coeso.
-
-
-#### 2. IA como Feature de Plataforma
-
-Diferente da arquitetura atual, onde IA exigiria: Extração manual, Processamento externo, Reingestão, Versionamento próprio.
-
-Na Dadosfera, a IA entra como **parte do pipeline**, gerando:
-
-- Sentimento
-- Tópicos
-- Classificações
-- Recomendações
-
-Tudo persistido como **dados estruturados prontos para negócio**.
-
----
-
-### 4. Prova de Conceito: Do Dado ao Valor
-
-O case comprova, na prática, que a Dadosfera viabiliza:
-
-#### Experiência do Cliente
-- Modelos de IA para:
-  - Avaliação de sentimento
-  - Melhoria da jornada de compra
-  - Identificação de dores operacionais
-
-### Experiência do Negócio
-- Dashboards prontos
-- Insights acionáveis
-- Recomendações prescritivas (Smart Investor)
-
-
 Com base na análise da arquitetura atual e na prova de conceito desenvolvida neste case, é plenamente viável substituir a solução existente por uma arquitetura centralizada na **Plataforma Dadosfera**, mantendo — e ampliando — as capacidades analíticas, operacionais e de inteligência artificial.
 
 Essa substituição resulta em:
@@ -622,3 +569,15 @@ Essa substituição resulta em:
 - **Centralização das aplicações de dados**, acelerando o tempo entre dado e valor para o negócio  
 
 > **Conclusão:** a Dadosfera se posiciona como o caminho mais curto, seguro e escalável entre dados e geração de valor, servindo como base para uma nova Plataforma de Dados orientada a produtos e IA.
+
+#### Mapeamento Direto: Atual vs Dadosfera
+
+| Arquitetura Atual        | Dadosfera                               |
+|-------------------------|------------------------------------------|
+| Kinesis / Firehose      | Pipelines de Ingestão Gerenciados        |
+| S3 Raw sem governança   | Bronze Layer catalogada                  |
+| Processamento ad-hoc    | Silver Layer com Quality Gates           |
+| Redis Cluster           | Gold Layer Analítica                     |
+| Código disperso         | Governança centralizada                 |
+| Sem NLP / IA nativa     | GenAI integrada ao pipeline              |
+
